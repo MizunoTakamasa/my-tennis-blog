@@ -1,0 +1,46 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  image?: string;
+}
+const { href, title, image } = Astro.props;
+---
+
+<div class="rakuten-card">
+  <a href={href} target="_blank" rel="noopener">
+    {image && <img src={image} alt={title} />}
+    <div class="rakuten-info">
+      <span class="rakuten-title">{title}</span>
+      <span class="rakuten-cta">楽天市場で見る</span>
+    </div>
+  </a>
+</div>
+
+<style>
+.rakuten-card {
+  border: 1px solid #bf0000;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.rakuten-card a {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+.rakuten-card img {
+  width: 100px;
+  object-fit: contain;
+}
+.rakuten-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.rakuten-cta {
+  color: #bf0000;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+</style>

@@ -1,0 +1,83 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<html lang="ja">
+  <head>
+    <BaseHead
+      title="プライバシーポリシー"
+      description="当サイトのプライバシーポリシーについて"
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article class="privacy">
+        <h1>プライバシーポリシー</h1>
+
+        <section>
+          <h2>広告について</h2>
+          <p>当サイトでは、第三者配信の広告サービス（Googleアドセンス・Amazonアソシエイト・楽天アフィリエイト）を利用しています。広告配信事業者はCookieを使用して、ユーザーの興味に応じた広告を表示することがあります。詳細は<a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Googleのポリシーと規約</a>をご覧ください。</p>
+        </section>
+
+        <section>
+          <h2>アフィリエイトについて</h2>
+          <p>当サイトはAmazonアソシエイト・プログラムおよび楽天アフィリエイトプログラムに参加しています。記事内のリンクから商品を購入された場合、当サイトに紹介料が発生することがあります。</p>
+        </section>
+
+        <section>
+          <h2>アクセス解析について</h2>
+          <p>当サイトではGoogleアナリティクスによるアクセス解析を行っています。データは匿名で収集されており、個人を特定するものではありません。詳細は<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googleプライバシーポリシー</a>をご覧ください。</p>
+        </section>
+
+        <section>
+          <h2>免責事項</h2>
+          <p>当サイトの情報について正確性を期すよう努めておりますが、内容の完全性・正確性・安全性を保証するものではありません。当サイトの情報により生じた損害について、一切の責任を負いかねます。</p>
+        </section>
+
+        <section>
+          <h2>著作権について</h2>
+          <p>当サイトの文章・画像等の著作権は当サイト管理者に帰属します。無断転載・複製を禁じます。</p>
+        </section>
+
+        <section>
+          <h2>プライバシーポリシーの変更</h2>
+          <p>本ポリシーの内容は予告なく変更することがあります。変更後のポリシーは本ページに掲載した時点で効力を生じます。</p>
+        </section>
+
+        <p class="updated">制定日：2026年4月15日</p>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .privacy {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.8;
+  }
+  .privacy h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #eee;
+  }
+  .privacy h2 {
+    font-size: 1.2rem;
+    margin: 2rem 0 0.75rem;
+  }
+  .privacy a {
+    color: #1D9E75;
+    text-decoration: underline;
+  }
+  .updated {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #888;
+  }
+</style>
