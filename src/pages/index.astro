@@ -6,13 +6,419 @@ import Footer from '../components/Footer.astro';
 <html lang="ja">
   <head>
     <BaseHead title="テニス練習メモ" description="テニスの練習メモブログ" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        background: #0a0a0a;
+        color: #f0f0f0;
+        font-family: 'Noto Sans JP', sans-serif;
+        overflow-x: hidden;
+      }
+
+      /* ---- HERO ---- */
+      .hero {
+        position: relative;
+        min-height: 92vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 6rem 2rem 4rem;
+      }
+
+      .court-lines {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .court-lines::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, transparent 49.5%, rgba(255,255,255,0.05) 49.5%, rgba(255,255,255,0.05) 50.5%, transparent 50.5%),
+          linear-gradient(0deg, transparent 49.5%, rgba(255,255,255,0.05) 49.5%, rgba(255,255,255,0.05) 50.5%, transparent 50.5%);
+        background-size: 80px 80px;
+      }
+      .court-lines::after {
+        content: '';
+        position: absolute;
+        bottom: 0; left: 50%;
+        transform: translateX(-50%);
+        width: min(900px, 95vw);
+        height: 2px;
+        background: rgba(200,255,80,0.35);
+        box-shadow: 0 0 24px rgba(200,255,80,0.5);
+      }
+
+      /* サークル */
+      .accent-circle {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .circle-1 {
+        width: 520px; height: 520px;
+        top: -120px; right: -100px;
+        border: 2px solid rgba(200,255,80,0.12);
+        animation: rotateSlow 30s linear infinite;
+      }
+      .circle-2 {
+        width: 320px; height: 320px;
+        bottom: 40px; left: -80px;
+        border: 1px solid rgba(255,255,255,0.07);
+        animation: rotateSlow 20s linear infinite reverse;
+      }
+      .circle-3 {
+        width: 180px; height: 180px;
+        top: 30%; right: 12%;
+        background: rgba(200,255,80,0.04);
+        border: 1px solid rgba(200,255,80,0.18);
+      }
+
+      @keyframes rotateSlow {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+
+      /* ボール */
+      .tennis-ball {
+        position: absolute;
+        width: 64px; height: 64px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 35%, #d4f542, #a8cc1a);
+        box-shadow: 0 0 40px rgba(200,255,80,0.5), inset -4px -4px 12px rgba(0,0,0,0.2);
+        top: 18%; left: 8%;
+        z-index: 1;
+        animation: floatBall 4s ease-in-out infinite;
+      }
+      .tennis-ball::before {
+        content: '';
+        position: absolute;
+        top: 20%; left: 8%;
+        width: 84%; height: 60%;
+        border-top: 3px solid rgba(255,255,255,0.5);
+        border-radius: 50%;
+        transform: rotate(-30deg);
+      }
+      .tennis-ball-2 {
+        position: absolute;
+        width: 38px; height: 38px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 35%, #d4f542, #a8cc1a);
+        box-shadow: 0 0 20px rgba(200,255,80,0.4);
+        bottom: 22%; right: 10%;
+        z-index: 1;
+        animation: floatBall 5s ease-in-out 1.2s infinite;
+      }
+
+      @keyframes floatBall {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50%       { transform: translateY(-22px) rotate(180deg); }
+      }
+
+      /* ヒーローコンテンツ — 完全中央 */
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        max-width: 860px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .label {
+        display: inline-block;
+        font-size: 0.68rem;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        border: 1px solid rgba(200,255,80,0.4);
+        padding: 6px 20px;
+        border-radius: 99px;
+        margin-bottom: 2rem;
+        animation: fadeUp 0.7s ease both;
+      }
+
+      .hero-title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: clamp(4.5rem, 14vw, 10rem);
+        line-height: 0.9;
+        letter-spacing: 0.03em;
+        color: #f0f0f0;
+        text-align: center;
+        width: 100%;
+        animation: fadeUp 0.8s ease 0.12s both;
+      }
+      .hero-title .accent {
+        color: #c8ff50;
+        display: block;
+        text-shadow: 0 0 60px rgba(200,255,80,0.5), 0 0 120px rgba(200,255,80,0.2);
+      }
+
+      .hero-sub {
+        margin-top: 2rem;
+        font-size: 1rem;
+        color: rgba(240,240,240,0.55);
+        letter-spacing: 0.06em;
+        line-height: 1.9;
+        text-align: center;
+        animation: fadeUp 0.9s ease 0.22s both;
+      }
+
+      .hero-cta {
+        margin-top: 3rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        background: #c8ff50;
+        color: #0a0a0a;
+        font-weight: 900;
+        font-size: 0.9rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 16px 42px;
+        border-radius: 4px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        animation: fadeUp 1s ease 0.32s both;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-cta::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(255,255,255,0.25);
+        transform: translateX(-110%);
+        transition: transform 0.35s;
+      }
+      .hero-cta:hover::before { transform: translateX(0); }
+      .hero-cta:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 36px rgba(200,255,80,0.45);
+      }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(28px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      /* ---- STATS BAR ---- */
+      .stats-bar {
+        background: #111;
+        border-top: 1px solid rgba(200,255,80,0.2);
+        border-bottom: 1px solid rgba(200,255,80,0.2);
+        padding: 1.75rem 2rem;
+        display: flex;
+        justify-content: center;
+        gap: clamp(2rem, 7vw, 7rem);
+        flex-wrap: wrap;
+      }
+      .stat { text-align: center; }
+      .stat-num {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.6rem;
+        color: #c8ff50;
+        line-height: 1;
+      }
+      .stat-label {
+        font-size: 0.68rem;
+        letter-spacing: 0.2em;
+        color: rgba(240,240,240,0.4);
+        text-transform: uppercase;
+        margin-top: 5px;
+      }
+
+      /* ---- FEATURES ---- */
+      .features {
+        padding: 6rem 2rem;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .section-label {
+        font-size: 0.68rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      .section-title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: clamp(2.5rem, 6vw, 4rem);
+        line-height: 1.05;
+        margin-bottom: 3rem;
+        color: #f0f0f0;
+        text-align: center;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5px;
+        background: rgba(200,255,80,0.08);
+        border: 1.5px solid rgba(200,255,80,0.08);
+      }
+      .card {
+        background: #0e0e0e;
+        padding: 2.5rem 2rem;
+        position: relative;
+        overflow: hidden;
+        transition: background 0.3s;
+      }
+      .card:hover { background: #151515; }
+      .card::after {
+        content: '';
+        position: absolute;
+        bottom: 0; left: 0;
+        width: 0; height: 2px;
+        background: #c8ff50;
+        transition: width 0.4s;
+      }
+      .card:hover::after { width: 100%; }
+      .card-icon { font-size: 2rem; margin-bottom: 1.2rem; display: block; }
+      .card-title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 0.05em;
+        color: #f0f0f0;
+        margin-bottom: 0.75rem;
+      }
+      .card-text {
+        font-size: 0.875rem;
+        color: rgba(240,240,240,0.5);
+        line-height: 1.85;
+      }
+
+      /* ---- CTA ---- */
+      .cta-wrap {
+        padding: 0 2rem 6rem;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .cta-section {
+        background: linear-gradient(135deg, #c8ff50 0%, #8fcc00 100%);
+        border-radius: 8px;
+        padding: 4rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+        position: relative;
+        overflow: hidden;
+      }
+      .cta-section::before {
+        content: 'TENNIS';
+        position: absolute;
+        right: -20px; bottom: -30px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 9rem;
+        color: rgba(0,0,0,0.07);
+        line-height: 1;
+        pointer-events: none;
+      }
+      .cta-text h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: clamp(2rem, 5vw, 3rem);
+        color: #0a0a0a;
+        line-height: 1.1;
+      }
+      .cta-text p { color: rgba(0,0,0,0.55); margin-top: 0.5rem; font-size: 0.9rem; }
+      .cta-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: #0a0a0a;
+        color: #c8ff50;
+        font-weight: 900;
+        font-size: 0.85rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 16px 32px;
+        border-radius: 4px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        white-space: nowrap;
+      }
+      .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.35); }
+
+      main { min-height: 60vh; }
+    </style>
   </head>
   <body>
     <Header />
     <main>
-      <h1>テニス練習</h1>
-      <p>テニスの練習で気づいたことをまとめています。</p>
-      <a href="/blog">記事一覧を見る</a>
+
+      <section class="hero">
+        <div class="court-lines"></div>
+        <div class="accent-circle circle-1"></div>
+        <div class="accent-circle circle-2"></div>
+        <div class="accent-circle circle-3"></div>
+        <div class="tennis-ball"></div>
+        <div class="tennis-ball-2"></div>
+
+        <div class="hero-content">
+          <span class="label">Tennis Practice Notes</span>
+          <h1 class="hero-title">
+            テニス
+            <span class="accent">練習メモ</span>
+          </h1>
+          <p class="hero-sub">
+            コートで気づいたこと、体の感覚、改善のヒントを<br />
+            ひとつひとつ丁寧に記録していく。
+          </p>
+          <a href="/blog" class="hero-cta">記事一覧を見る　→</a>
+        </div>
+      </section>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-num">壁</div><div class="stat-label">を意識する</div></div>
+        <div class="stat"><div class="stat-num">体幹</div><div class="stat-label">で打つ</div></div>
+        <div class="stat"><div class="stat-num">捻転</div><div class="stat-label">を効かせる</div></div>
+        <div class="stat"><div class="stat-num">脱力</div><div class="stat-label">から爆発へ</div></div>
+      </div>
+
+      <section class="features">
+        <p class="section-label">About This Blog</p>
+        <h2 class="section-title">練習で気づいたことを<br />まとめています</h2>
+        <div class="cards">
+          <div class="card">
+            <span class="card-icon">🎾</span>
+            <h3 class="card-title">フォームの感覚</h3>
+            <p class="card-text">打つ瞬間の体の使い方、力の入れ方・抜き方のリアルな記録。理論より感覚を大切に。</p>
+          </div>
+          <div class="card">
+            <span class="card-icon">💡</span>
+            <h3 class="card-title">気づきのメモ</h3>
+            <p class="card-text">練習中にふと気づいた発見を忘れないうちに記録。小さな気づきが大きな改善につながる。</p>
+          </div>
+          <div class="card">
+            <span class="card-icon">📈</span>
+            <h3 class="card-title">改善の記録</h3>
+            <p class="card-text">課題と取り組みを継続的に追う。壁を意識する、体幹で打つ、捻転を効かせる。</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="cta-wrap">
+        <div class="cta-section">
+          <div class="cta-text">
+            <h2>記事を読んで<br />一緒に上達しよう</h2>
+            <p>コートで使えるヒントが見つかるかも。</p>
+          </div>
+          <a href="/blog" class="cta-btn">記事一覧へ →</a>
+        </div>
+      </div>
+
     </main>
     <Footer />
   </body>
