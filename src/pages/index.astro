@@ -8,306 +8,319 @@ import Footer from '../components/Footer.astro';
     <BaseHead title="テニス練習メモ" description="テニスの練習メモブログ" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet" />
-    <style>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <style is:global>
       *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
       body {
-        background: #0a0a0a;
-        color: #f0f0f0;
-        font-family: 'Noto Sans JP', sans-serif;
+        background: #0a0a0a !important;
+        color: #f0f0f0 !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
         overflow-x: hidden;
       }
 
-      /* ---- HERO ---- */
-      .hero {
+      /* ===== HERO ===== */
+      .t-hero {
         position: relative;
+        width: 100%;
         min-height: 92vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
         overflow: hidden;
-        padding: 6rem 2rem 4rem;
+        padding: 5rem 1rem 4rem;
       }
 
-      .court-lines {
+      /* グリッド背景 */
+      .t-grid {
         position: absolute;
         inset: 0;
-        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+        background-size: 60px 60px;
         z-index: 0;
       }
-      .court-lines::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background:
-          linear-gradient(90deg, transparent 49.5%, rgba(255,255,255,0.05) 49.5%, rgba(255,255,255,0.05) 50.5%, transparent 50.5%),
-          linear-gradient(0deg, transparent 49.5%, rgba(255,255,255,0.05) 49.5%, rgba(255,255,255,0.05) 50.5%, transparent 50.5%);
-        background-size: 80px 80px;
-      }
-      .court-lines::after {
-        content: '';
+
+      /* ネットライン */
+      .t-netline {
         position: absolute;
         bottom: 0; left: 50%;
         transform: translateX(-50%);
-        width: min(900px, 95vw);
+        width: 90%;
         height: 2px;
-        background: rgba(200,255,80,0.35);
-        box-shadow: 0 0 24px rgba(200,255,80,0.5);
+        background: #c8ff50;
+        box-shadow: 0 0 20px rgba(200,255,80,0.6);
+        z-index: 1;
       }
 
-      /* サークル */
-      .accent-circle {
+      /* 回転サークル */
+      .t-ring {
         position: absolute;
         border-radius: 50%;
         pointer-events: none;
         z-index: 0;
       }
-      .circle-1 {
-        width: 520px; height: 520px;
-        top: -120px; right: -100px;
-        border: 2px solid rgba(200,255,80,0.12);
-        animation: rotateSlow 30s linear infinite;
+      .t-ring-1 {
+        width: 500px; height: 500px;
+        top: -150px; right: -100px;
+        border: 1.5px solid rgba(200,255,80,0.15);
+        animation: tRing 25s linear infinite;
       }
-      .circle-2 {
-        width: 320px; height: 320px;
-        bottom: 40px; left: -80px;
-        border: 1px solid rgba(255,255,255,0.07);
-        animation: rotateSlow 20s linear infinite reverse;
+      .t-ring-2 {
+        width: 300px; height: 300px;
+        bottom: 20px; left: -80px;
+        border: 1px solid rgba(255,255,255,0.06);
+        animation: tRing 18s linear infinite reverse;
       }
-      .circle-3 {
-        width: 180px; height: 180px;
-        top: 30%; right: 12%;
-        background: rgba(200,255,80,0.04);
-        border: 1px solid rgba(200,255,80,0.18);
-      }
-
-      @keyframes rotateSlow {
+      @keyframes tRing {
         from { transform: rotate(0deg); }
         to   { transform: rotate(360deg); }
       }
 
-      /* ボール */
-      .tennis-ball {
+      /* テニスボール */
+      .t-ball {
         position: absolute;
-        width: 64px; height: 64px;
         border-radius: 50%;
-        background: radial-gradient(circle at 35% 35%, #d4f542, #a8cc1a);
-        box-shadow: 0 0 40px rgba(200,255,80,0.5), inset -4px -4px 12px rgba(0,0,0,0.2);
-        top: 18%; left: 8%;
-        z-index: 1;
-        animation: floatBall 4s ease-in-out infinite;
+        background: radial-gradient(circle at 35% 32%, #e2ff5a, #9dc918);
+        z-index: 2;
+        pointer-events: none;
       }
-      .tennis-ball::before {
+      .t-ball::after {
         content: '';
         position: absolute;
-        top: 20%; left: 8%;
-        width: 84%; height: 60%;
-        border-top: 3px solid rgba(255,255,255,0.5);
+        top: 18%; left: 6%;
+        width: 88%; height: 55%;
+        border-top: 2.5px solid rgba(255,255,255,0.55);
         border-radius: 50%;
-        transform: rotate(-30deg);
+        transform: rotate(-28deg);
       }
-      .tennis-ball-2 {
-        position: absolute;
-        width: 38px; height: 38px;
-        border-radius: 50%;
-        background: radial-gradient(circle at 35% 35%, #d4f542, #a8cc1a);
-        box-shadow: 0 0 20px rgba(200,255,80,0.4);
-        bottom: 22%; right: 10%;
-        z-index: 1;
-        animation: floatBall 5s ease-in-out 1.2s infinite;
+      .t-ball-1 {
+        width: 58px; height: 58px;
+        top: 15%; left: 6%;
+        box-shadow: 0 0 32px rgba(200,255,80,0.55);
+        animation: tFloat1 4s ease-in-out infinite;
+      }
+      .t-ball-2 {
+        width: 34px; height: 34px;
+        bottom: 18%; right: 8%;
+        box-shadow: 0 0 18px rgba(200,255,80,0.4);
+        animation: tFloat2 5.5s ease-in-out 0.8s infinite;
+      }
+      .t-ball-3 {
+        width: 20px; height: 20px;
+        top: 60%; right: 18%;
+        box-shadow: 0 0 10px rgba(200,255,80,0.3);
+        animation: tFloat1 7s ease-in-out 2s infinite;
       }
 
-      @keyframes floatBall {
-        0%, 100% { transform: translateY(0px) rotate(0deg); }
-        50%       { transform: translateY(-22px) rotate(180deg); }
+      @keyframes tFloat1 {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50%       { transform: translateY(-24px) rotate(200deg); }
+      }
+      @keyframes tFloat2 {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50%       { transform: translateY(-16px) rotate(-160deg); }
       }
 
-      /* ヒーローコンテンツ — 完全中央 */
-      .hero-content {
+      /* ===== ヒーローテキスト（完全中央） ===== */
+      .t-content {
         position: relative;
-        z-index: 2;
-        text-align: center;
-        max-width: 860px;
-        width: 100%;
+        z-index: 10;
         display: flex;
         flex-direction: column;
         align-items: center;
-      }
-
-      .label {
-        display: inline-block;
-        font-size: 0.68rem;
-        letter-spacing: 0.32em;
-        text-transform: uppercase;
-        color: #c8ff50;
-        border: 1px solid rgba(200,255,80,0.4);
-        padding: 6px 20px;
-        border-radius: 99px;
-        margin-bottom: 2rem;
-        animation: fadeUp 0.7s ease both;
-      }
-
-      .hero-title {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: clamp(4.5rem, 14vw, 10rem);
-        line-height: 0.9;
-        letter-spacing: 0.03em;
-        color: #f0f0f0;
+        justify-content: center;
         text-align: center;
         width: 100%;
-        animation: fadeUp 0.8s ease 0.12s both;
+        max-width: 800px;
+        margin: 0 auto;
       }
-      .hero-title .accent {
+
+      .t-badge {
+        display: inline-block;
+        font-size: 0.65rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        border: 1px solid rgba(200,255,80,0.45);
+        padding: 5px 18px;
+        border-radius: 99px;
+        margin-bottom: 2rem;
+        opacity: 0;
+        animation: tUp 0.6s ease 0.1s forwards;
+      }
+
+      .t-title {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 900;
+        font-size: clamp(3.5rem, 10vw, 7.5rem);
+        line-height: 1.0;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+        text-align: center;
+        width: 100%;
+        opacity: 0;
+        animation: tUp 0.7s ease 0.2s forwards;
+      }
+      .t-title .t-accent {
         color: #c8ff50;
         display: block;
-        text-shadow: 0 0 60px rgba(200,255,80,0.5), 0 0 120px rgba(200,255,80,0.2);
+        text-shadow:
+          0 0 40px rgba(200,255,80,0.6),
+          0 0 80px rgba(200,255,80,0.25);
       }
 
-      .hero-sub {
-        margin-top: 2rem;
-        font-size: 1rem;
-        color: rgba(240,240,240,0.55);
-        letter-spacing: 0.06em;
+      .t-desc {
+        margin-top: 1.75rem;
+        font-size: clamp(0.85rem, 2vw, 1rem);
+        color: rgba(240,240,240,0.5);
         line-height: 1.9;
+        letter-spacing: 0.05em;
         text-align: center;
-        animation: fadeUp 0.9s ease 0.22s both;
+        opacity: 0;
+        animation: tUp 0.7s ease 0.35s forwards;
       }
 
-      .hero-cta {
-        margin-top: 3rem;
+      .t-btn {
+        margin-top: 2.5rem;
         display: inline-flex;
         align-items: center;
-        gap: 12px;
+        gap: 10px;
         background: #c8ff50;
         color: #0a0a0a;
         font-weight: 900;
-        font-size: 0.9rem;
-        letter-spacing: 0.12em;
+        font-size: 0.85rem;
+        letter-spacing: 0.14em;
         text-transform: uppercase;
         text-decoration: none;
-        padding: 16px 42px;
-        border-radius: 4px;
-        transition: transform 0.2s, box-shadow 0.2s;
-        animation: fadeUp 1s ease 0.32s both;
+        padding: 15px 40px;
+        border-radius: 3px;
         position: relative;
         overflow: hidden;
+        opacity: 0;
+        animation: tUp 0.7s ease 0.5s forwards;
+        transition: transform 0.2s, box-shadow 0.2s;
       }
-      .hero-cta::before {
+      .t-btn::before {
         content: '';
         position: absolute;
         inset: 0;
-        background: rgba(255,255,255,0.25);
-        transform: translateX(-110%);
-        transition: transform 0.35s;
+        background: rgba(255,255,255,0.28);
+        transform: translateX(-110%) skewX(-15deg);
+        transition: transform 0.4s;
       }
-      .hero-cta:hover::before { transform: translateX(0); }
-      .hero-cta:hover {
+      .t-btn:hover::before { transform: translateX(110%) skewX(-15deg); }
+      .t-btn:hover {
         transform: translateY(-3px);
-        box-shadow: 0 10px 36px rgba(200,255,80,0.45);
+        box-shadow: 0 12px 40px rgba(200,255,80,0.45);
       }
 
-      @keyframes fadeUp {
-        from { opacity: 0; transform: translateY(28px); }
+      @keyframes tUp {
+        from { opacity: 0; transform: translateY(30px); }
         to   { opacity: 1; transform: translateY(0); }
       }
 
-      /* ---- STATS BAR ---- */
-      .stats-bar {
-        background: #111;
-        border-top: 1px solid rgba(200,255,80,0.2);
-        border-bottom: 1px solid rgba(200,255,80,0.2);
+      /* ===== STATS ===== */
+      .t-stats {
+        background: #0f0f0f;
+        border-top: 1px solid rgba(200,255,80,0.18);
+        border-bottom: 1px solid rgba(200,255,80,0.18);
         padding: 1.75rem 2rem;
         display: flex;
         justify-content: center;
-        gap: clamp(2rem, 7vw, 7rem);
+        align-items: center;
+        gap: clamp(2rem, 8vw, 8rem);
         flex-wrap: wrap;
       }
-      .stat { text-align: center; }
-      .stat-num {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 2.6rem;
+      .t-stat { text-align: center; }
+      .t-stat-n {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.4rem;
         color: #c8ff50;
         line-height: 1;
+        letter-spacing: 0.02em;
       }
-      .stat-label {
-        font-size: 0.68rem;
-        letter-spacing: 0.2em;
-        color: rgba(240,240,240,0.4);
+      .t-stat-l {
+        font-size: 0.65rem;
+        letter-spacing: 0.22em;
+        color: rgba(240,240,240,0.38);
         text-transform: uppercase;
         margin-top: 5px;
       }
 
-      /* ---- FEATURES ---- */
-      .features {
-        padding: 6rem 2rem;
-        max-width: 1100px;
+      /* ===== CARDS ===== */
+      .t-features {
+        padding: 5rem 2rem;
+        max-width: 1080px;
         margin: 0 auto;
+        text-align: center;
       }
-      .section-label {
-        font-size: 0.68rem;
+      .t-sec-badge {
+        font-size: 0.65rem;
         letter-spacing: 0.3em;
         text-transform: uppercase;
         color: #c8ff50;
-        margin-bottom: 1rem;
-        text-align: center;
+        margin-bottom: 0.75rem;
       }
-      .section-title {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: clamp(2.5rem, 6vw, 4rem);
-        line-height: 1.05;
+      .t-sec-title {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 900;
+        font-size: clamp(1.8rem, 5vw, 3rem);
+        line-height: 1.15;
         margin-bottom: 3rem;
         color: #f0f0f0;
-        text-align: center;
       }
-      .cards {
+      .t-cards {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1.5px;
-        background: rgba(200,255,80,0.08);
-        border: 1.5px solid rgba(200,255,80,0.08);
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1px;
+        background: rgba(200,255,80,0.1);
       }
-      .card {
-        background: #0e0e0e;
-        padding: 2.5rem 2rem;
+      .t-card {
+        background: #0d0d0d;
+        padding: 2.25rem 1.75rem;
+        text-align: left;
         position: relative;
         overflow: hidden;
-        transition: background 0.3s;
+        transition: background 0.25s;
       }
-      .card:hover { background: #151515; }
-      .card::after {
+      .t-card:hover { background: #131313; }
+      .t-card::after {
         content: '';
         position: absolute;
         bottom: 0; left: 0;
-        width: 0; height: 2px;
+        height: 2px; width: 0;
         background: #c8ff50;
         transition: width 0.4s;
       }
-      .card:hover::after { width: 100%; }
-      .card-icon { font-size: 2rem; margin-bottom: 1.2rem; display: block; }
-      .card-title {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 1.5rem;
-        letter-spacing: 0.05em;
+      .t-card:hover::after { width: 100%; }
+      .t-card-ico { font-size: 1.8rem; margin-bottom: 1rem; }
+      .t-card-ttl {
+        font-weight: 900;
+        font-size: 1.05rem;
         color: #f0f0f0;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.6rem;
+        letter-spacing: 0.03em;
       }
-      .card-text {
-        font-size: 0.875rem;
-        color: rgba(240,240,240,0.5);
+      .t-card-txt {
+        font-size: 0.85rem;
+        color: rgba(240,240,240,0.45);
         line-height: 1.85;
       }
 
-      /* ---- CTA ---- */
-      .cta-wrap {
-        padding: 0 2rem 6rem;
-        max-width: 1100px;
+      /* ===== CTA ===== */
+      .t-cta-wrap {
+        padding: 0 2rem 5rem;
+        max-width: 1080px;
         margin: 0 auto;
       }
-      .cta-section {
-        background: linear-gradient(135deg, #c8ff50 0%, #8fcc00 100%);
-        border-radius: 8px;
-        padding: 4rem 3rem;
+      .t-cta {
+        background: linear-gradient(130deg, #c8ff50 0%, #8dcc00 100%);
+        border-radius: 6px;
+        padding: 3.5rem 3rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -316,106 +329,110 @@ import Footer from '../components/Footer.astro';
         position: relative;
         overflow: hidden;
       }
-      .cta-section::before {
+      .t-cta::after {
         content: 'TENNIS';
         position: absolute;
-        right: -20px; bottom: -30px;
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 9rem;
+        right: -10px; bottom: -28px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 8rem;
+        font-weight: 700;
         color: rgba(0,0,0,0.07);
         line-height: 1;
         pointer-events: none;
+        letter-spacing: -0.02em;
       }
-      .cta-text h2 {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: clamp(2rem, 5vw, 3rem);
+      .t-cta-h {
+        font-weight: 900;
+        font-size: clamp(1.5rem, 4vw, 2.2rem);
         color: #0a0a0a;
-        line-height: 1.1;
+        line-height: 1.2;
       }
-      .cta-text p { color: rgba(0,0,0,0.55); margin-top: 0.5rem; font-size: 0.9rem; }
-      .cta-btn {
+      .t-cta-p { color: rgba(0,0,0,0.5); margin-top: 0.4rem; font-size: 0.88rem; }
+      .t-cta-btn {
         display: inline-flex;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
         background: #0a0a0a;
         color: #c8ff50;
         font-weight: 900;
-        font-size: 0.85rem;
-        letter-spacing: 0.12em;
+        font-size: 0.82rem;
+        letter-spacing: 0.13em;
         text-transform: uppercase;
         text-decoration: none;
-        padding: 16px 32px;
-        border-radius: 4px;
-        transition: transform 0.2s, box-shadow 0.2s;
+        padding: 14px 30px;
+        border-radius: 3px;
         white-space: nowrap;
+        transition: transform 0.2s, box-shadow 0.2s;
       }
-      .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.35); }
-
-      main { min-height: 60vh; }
+      .t-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
     </style>
-  </head>
-  <body>
+
     <Header />
     <main>
 
-      <section class="hero">
-        <div class="court-lines"></div>
-        <div class="accent-circle circle-1"></div>
-        <div class="accent-circle circle-2"></div>
-        <div class="accent-circle circle-3"></div>
-        <div class="tennis-ball"></div>
-        <div class="tennis-ball-2"></div>
+      <!-- HERO -->
+      <section class="t-hero">
+        <div class="t-grid"></div>
+        <div class="t-ring t-ring-1"></div>
+        <div class="t-ring t-ring-2"></div>
+        <div class="t-netline"></div>
+        <div class="t-ball t-ball-1"></div>
+        <div class="t-ball t-ball-2"></div>
+        <div class="t-ball t-ball-3"></div>
 
-        <div class="hero-content">
-          <span class="label">Tennis Practice Notes</span>
-          <h1 class="hero-title">
+        <div class="t-content">
+          <span class="t-badge">Tennis Practice Notes</span>
+          <h1 class="t-title">
             テニス
-            <span class="accent">練習メモ</span>
+            <span class="t-accent">練習メモ</span>
           </h1>
-          <p class="hero-sub">
+          <p class="t-desc">
             コートで気づいたこと、体の感覚、改善のヒントを<br />
             ひとつひとつ丁寧に記録していく。
           </p>
-          <a href="/blog" class="hero-cta">記事一覧を見る　→</a>
+          <a href="/blog" class="t-btn">記事一覧を見る &nbsp;→</a>
         </div>
       </section>
 
-      <div class="stats-bar">
-        <div class="stat"><div class="stat-num">壁</div><div class="stat-label">を意識する</div></div>
-        <div class="stat"><div class="stat-num">体幹</div><div class="stat-label">で打つ</div></div>
-        <div class="stat"><div class="stat-num">捻転</div><div class="stat-label">を効かせる</div></div>
-        <div class="stat"><div class="stat-num">脱力</div><div class="stat-label">から爆発へ</div></div>
+      <!-- STATS -->
+      <div class="t-stats">
+        <div class="t-stat"><div class="t-stat-n">壁</div><div class="t-stat-l">を意識する</div></div>
+        <div class="t-stat"><div class="t-stat-n">体幹</div><div class="t-stat-l">で打つ</div></div>
+        <div class="t-stat"><div class="t-stat-n">捻転</div><div class="t-stat-l">を効かせる</div></div>
+        <div class="t-stat"><div class="t-stat-n">脱力</div><div class="t-stat-l">から爆発へ</div></div>
       </div>
 
-      <section class="features">
-        <p class="section-label">About This Blog</p>
-        <h2 class="section-title">練習で気づいたことを<br />まとめています</h2>
-        <div class="cards">
-          <div class="card">
-            <span class="card-icon">🎾</span>
-            <h3 class="card-title">フォームの感覚</h3>
-            <p class="card-text">打つ瞬間の体の使い方、力の入れ方・抜き方のリアルな記録。理論より感覚を大切に。</p>
+      <!-- FEATURES -->
+      <section class="t-features">
+        <p class="t-sec-badge">About This Blog</p>
+        <h2 class="t-sec-title">練習で気づいたことを<br />まとめています</h2>
+        <div class="t-cards">
+          <div class="t-card">
+            <div class="t-card-ico">🎾</div>
+            <h3 class="t-card-ttl">フォームの感覚</h3>
+            <p class="t-card-txt">打つ瞬間の体の使い方、力の入れ方・抜き方のリアルな記録。理論より感覚を大切に。</p>
           </div>
-          <div class="card">
-            <span class="card-icon">💡</span>
-            <h3 class="card-title">気づきのメモ</h3>
-            <p class="card-text">練習中にふと気づいた発見を忘れないうちに記録。小さな気づきが大きな改善につながる。</p>
+          <div class="t-card">
+            <div class="t-card-ico">💡</div>
+            <h3 class="t-card-ttl">気づきのメモ</h3>
+            <p class="t-card-txt">練習中にふと気づいた発見を忘れないうちに記録。小さな気づきが大きな改善につながる。</p>
           </div>
-          <div class="card">
-            <span class="card-icon">📈</span>
-            <h3 class="card-title">改善の記録</h3>
-            <p class="card-text">課題と取り組みを継続的に追う。壁を意識する、体幹で打つ、捻転を効かせる。</p>
+          <div class="t-card">
+            <div class="t-card-ico">📈</div>
+            <h3 class="t-card-ttl">改善の記録</h3>
+            <p class="t-card-txt">壁を意識する、体幹で打つ、捻転を効かせる。課題と取り組みを継続的に追っていく。</p>
           </div>
         </div>
       </section>
 
-      <div class="cta-wrap">
-        <div class="cta-section">
-          <div class="cta-text">
-            <h2>記事を読んで<br />一緒に上達しよう</h2>
-            <p>コートで使えるヒントが見つかるかも。</p>
+      <!-- CTA -->
+      <div class="t-cta-wrap">
+        <div class="t-cta">
+          <div>
+            <p class="t-cta-h">記事を読んで<br />一緒に上達しよう</p>
+            <p class="t-cta-p">コートで使えるヒントが見つかるかも。</p>
           </div>
-          <a href="/blog" class="cta-btn">記事一覧へ →</a>
+          <a href="/blog" class="t-cta-btn">記事一覧へ &nbsp;→</a>
         </div>
       </div>
 
