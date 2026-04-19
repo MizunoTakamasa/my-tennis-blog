@@ -215,16 +215,123 @@ const posts = (await getCollection('blog')).sort(
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 220px;
-        font-size: 5rem;
+        min-height: 260px;
         position: relative;
         overflow: hidden;
       }
-      .bl-feat-img::after {
+      .bl-feat-img::before {
         content: '';
         position: absolute;
         inset: 0;
-        background: linear-gradient(135deg, rgba(200,255,80,0.07) 0%, transparent 60%);
+        background: linear-gradient(135deg, rgba(200,255,80,0.06) 0%, transparent 60%);
+      }
+
+      /* ラケット本体 */
+      .bl-racket {
+        position: relative;
+        width: 120px;
+        height: 160px;
+        animation: racketSwing 2.5s ease-in-out infinite;
+        transform-origin: bottom center;
+        z-index: 2;
+      }
+      @keyframes racketSwing {
+        0%   { transform: rotate(-30deg); }
+        40%  { transform: rotate(25deg); }
+        55%  { transform: rotate(20deg); }
+        100% { transform: rotate(-30deg); }
+      }
+
+      /* ラケットヘッド（楕円） */
+      .bl-racket-head {
+        width: 100px;
+        height: 120px;
+        border-radius: 50%;
+        border: 6px solid #c8ff50;
+        box-shadow: 0 0 20px rgba(200,255,80,0.4), inset 0 0 20px rgba(200,255,80,0.1);
+        position: relative;
+        margin: 0 auto;
+      }
+      /* ストリング横 */
+      .bl-racket-head::before {
+        content: '';
+        position: absolute;
+        top: 10%; left: 0; right: 0;
+        height: 80%;
+        background: repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 10px,
+          rgba(200,255,80,0.35) 10px,
+          rgba(200,255,80,0.35) 11px
+        );
+      }
+      /* ストリング縦 */
+      .bl-racket-head::after {
+        content: '';
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 10%; right: 10%;
+        background: repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 10px,
+          rgba(200,255,80,0.35) 10px,
+          rgba(200,255,80,0.35) 11px
+        );
+      }
+
+      /* グリップ */
+      .bl-racket-grip {
+        width: 8px;
+        height: 50px;
+        background: linear-gradient(to bottom, #888, #444);
+        border-radius: 4px;
+        margin: 0 auto;
+      }
+
+      /* ボール（ラケットに当たる動き） */
+      .bl-anim-ball {
+        position: absolute;
+        width: 32px; height: 32px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 32%, #e2ff5a, #9dc918);
+        box-shadow: 0 0 20px rgba(200,255,80,0.6);
+        z-index: 3;
+        animation: ballBounce 2.5s ease-in-out infinite;
+      }
+      .bl-anim-ball::after {
+        content: '';
+        position: absolute;
+        top: 18%; left: 6%;
+        width: 88%; height: 55%;
+        border-top: 2px solid rgba(255,255,255,0.5);
+        border-radius: 50%;
+        transform: rotate(-28deg);
+      }
+      @keyframes ballBounce {
+        0%   { transform: translate(60px, -20px); opacity: 0; }
+        25%  { transform: translate(10px, 10px); opacity: 1; }
+        45%  { transform: translate(-50px, -60px); opacity: 1; }
+        80%  { transform: translate(-120px, -20px); opacity: 0.5; }
+        100% { transform: translate(60px, -20px); opacity: 0; }
+      }
+
+      /* 衝撃エフェクト */
+      .bl-impact {
+        position: absolute;
+        width: 50px; height: 50px;
+        border-radius: 50%;
+        border: 2px solid rgba(200,255,80,0.6);
+        z-index: 2;
+        animation: impactRing 2.5s ease-in-out infinite;
+        opacity: 0;
+      }
+      @keyframes impactRing {
+        0%, 20%  { transform: scale(0.5); opacity: 0; }
+        30%      { transform: scale(1); opacity: 0.8; }
+        50%      { transform: scale(1.8); opacity: 0; }
+        100%     { transform: scale(0.5); opacity: 0; }
       }
 
       .bl-feat-body {
@@ -490,7 +597,14 @@ const posts = (await getCollection('blog')).sort(
           <div class="bl-featured">
             <p class="bl-section-head">Latest Article</p>
             <a href={`/blog/${posts[0].id}/`} class="bl-featured-card">
-              <div class="bl-feat-img">🎾</div>
+              <div class="bl-feat-img">
+                <div class="bl-anim-ball"></div>
+                <div class="bl-impact"></div>
+                <div class="bl-racket">
+                  <div class="bl-racket-head"></div>
+                  <div class="bl-racket-grip"></div>
+                </div>
+              </div>
               <div class="bl-feat-body">
                 <span class="bl-new-tag">New</span>
                 <h2 class="bl-feat-title">{posts[0].data.title}</h2>
