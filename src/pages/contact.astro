@@ -7,7 +7,7 @@ import Footer from '../components/Footer.astro';
 // ▼▼▼▼▼ ここを書き換えてください ▼▼▼▼▼
 // Google フォームの「埋め込み用URL（src=""の中身）」をここに貼り付けてください。
 // 取得方法はファイル末尾のコメントを参照。
-const GOOGLE_FORM_EMBED_URL = 'YOUR_GOOGLE_FORM_EMBED_URL';
+const GOOGLE_FORM_EMBED_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdA0aUQntogz7-AVw2ZcID4EeO9wM8tJKy8v6YKbvTUWq-cQw/viewform?embedded=true';
 // ▲▲▲▲▲ ここを書き換えてください ▲▲▲▲▲
 ---
 
@@ -58,7 +58,7 @@ const GOOGLE_FORM_EMBED_URL = 'YOUR_GOOGLE_FORM_EMBED_URL';
         </div>
 
         <div class="fd-formFrame">
-          {GOOGLE_FORM_EMBED_URL === 'https://docs.google.com/forms/d/e/1FAIpQLSdA0aUQntogz7-AVw2ZcID4EeO9wM8tJKy8v6YKbvTUWq-cQw/viewform?usp=publish-editor' ? (
+          {GOOGLE_FORM_EMBED_URL === 'YOUR_GOOGLE_FORM_EMBED_URL' ? (
             <div class="fd-formPlaceholder">
               <p>🔧 ここに Google フォームが表示されます。</p>
               <p class="small">
@@ -163,8 +163,8 @@ const GOOGLE_FORM_EMBED_URL = 'YOUR_GOOGLE_FORM_EMBED_URL';
          例: https://docs.google.com/forms/d/e/XXXXX/viewform?embedded=true
 
       5) このファイル上部の
-         const GOOGLE_FORM_EMBED_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdA0aUQntogz7-AVw2ZcID4EeO9wM8tJKy8v6YKbvTUWq-cQw/viewform?usp=publish-editor';
-         の 'https://docs.google.com/forms/d/e/1FAIpQLSdA0aUQntogz7-AVw2ZcID4EeO9wM8tJKy8v6YKbvTUWq-cQw/viewform?usp=publish-editor' の部分を、
+         const GOOGLE_FORM_EMBED_URL = 'YOUR_GOOGLE_FORM_EMBED_URL';
+         の 'YOUR_GOOGLE_FORM_EMBED_URL' の部分を、
          コピーしたURLに書き換えて保存してください。
 
       これで /contact ページにフォームが表示されます。
