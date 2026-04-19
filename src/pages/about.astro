@@ -1,63 +1,532 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage={AboutHeroImage}
->
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-	</p>
+<html lang="ja">
+  <head>
+    <BaseHead title="About" description="テニスブログ運営者について" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <style is:global>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
-	</p>
+      body {
+        background: #0a0a0a !important;
+        color: #d8d8d8 !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+        overflow-x: hidden;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
 
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
+      body > main, main {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
 
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
-	</p>
+      /* ===== HERO ===== */
+      .ab-hero {
+        position: relative;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 6rem 2rem 5rem;
+        border-bottom: 1px solid rgba(200,255,80,0.15);
+      }
 
-	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
-	</p>
-</Layout>
+      /* グリッド背景 */
+      .ab-grid {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+        background-size: 60px 60px;
+        z-index: 0;
+        pointer-events: none;
+      }
+
+      /* アクセントライン */
+      .ab-hero::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        width: 200px; height: 3px;
+        background: linear-gradient(90deg, #c8ff50, transparent);
+        z-index: 1;
+      }
+      .ab-hero::after {
+        content: '';
+        position: absolute;
+        bottom: 0; right: 0;
+        width: 140px; height: 3px;
+        background: linear-gradient(270deg, rgba(200,255,80,0.4), transparent);
+        z-index: 1;
+      }
+
+      /* 回転リング */
+      .ab-ring {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .ab-ring-1 {
+        width: 480px; height: 480px;
+        top: -160px; right: -100px;
+        border: 1.5px solid rgba(200,255,80,0.12);
+        animation: abRing 28s linear infinite;
+      }
+      .ab-ring-2 {
+        width: 260px; height: 260px;
+        bottom: -80px; left: -60px;
+        border: 1px solid rgba(255,255,255,0.05);
+        animation: abRing 20s linear infinite reverse;
+      }
+      @keyframes abRing {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+
+      /* ボール */
+      .ab-ball {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 32%, #e2ff5a, #9dc918);
+        pointer-events: none;
+        z-index: 1;
+      }
+      .ab-ball::after {
+        content: '';
+        position: absolute;
+        top: 18%; left: 6%;
+        width: 88%; height: 55%;
+        border-top: 2px solid rgba(255,255,255,0.5);
+        border-radius: 50%;
+        transform: rotate(-28deg);
+      }
+      .ab-ball-1 {
+        width: 50px; height: 50px;
+        top: 15%; left: 5%;
+        box-shadow: 0 0 28px rgba(200,255,80,0.5);
+        animation: abFloat 4s ease-in-out infinite;
+      }
+      .ab-ball-2 {
+        width: 28px; height: 28px;
+        bottom: 18%; right: 7%;
+        box-shadow: 0 0 16px rgba(200,255,80,0.4);
+        animation: abFloat 5.5s ease-in-out 1s infinite;
+      }
+      @keyframes abFloat {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50%       { transform: translateY(-20px) rotate(180deg); }
+      }
+
+      /* ヒーローコンテンツ */
+      .ab-hero-inner {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .ab-badge {
+        display: inline-block;
+        font-size: 0.62rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        border: 1px solid rgba(200,255,80,0.4);
+        padding: 5px 16px;
+        border-radius: 99px;
+        margin-bottom: 1.5rem;
+        opacity: 0;
+        animation: abUp 0.6s ease 0.1s forwards;
+      }
+
+      .ab-title {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 900;
+        font-size: clamp(3rem, 10vw, 6.5rem);
+        line-height: 0.95;
+        color: #fff;
+        opacity: 0;
+        animation: abUp 0.7s ease 0.2s forwards;
+      }
+      .ab-title span {
+        color: #c8ff50;
+        display: block;
+        text-shadow: 0 0 40px rgba(200,255,80,0.5);
+      }
+
+      .ab-subtitle {
+        margin-top: 1.5rem;
+        font-size: clamp(0.85rem, 2vw, 1rem);
+        color: rgba(240,240,240,0.45);
+        letter-spacing: 0.08em;
+        line-height: 1.8;
+        opacity: 0;
+        animation: abUp 0.7s ease 0.32s forwards;
+      }
+
+      @keyframes abUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      /* ===== STORY SECTION ===== */
+      .ab-story {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        padding: 5rem clamp(1.5rem, 10vw, 12rem);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        align-items: center;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+      }
+      @media (max-width: 768px) {
+        .ab-story { grid-template-columns: 1fr; gap: 2.5rem; }
+      }
+
+      .ab-story-label {
+        font-size: 0.62rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .ab-story-label::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: rgba(200,255,80,0.2);
+      }
+
+      .ab-story-title {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 900;
+        font-size: clamp(1.6rem, 4vw, 2.4rem);
+        color: #f0f0f0;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+      }
+
+      .ab-story-text {
+        font-size: 0.95rem;
+        color: rgba(220,220,220,0.7);
+        line-height: 2;
+      }
+      .ab-story-text + .ab-story-text {
+        margin-top: 1rem;
+      }
+
+      /* ビジュアル側（右カラム） */
+      .ab-visual {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        background: rgba(200,255,80,0.1);
+      }
+
+      .ab-stat-card {
+        background: #111;
+        padding: 1.75rem 2rem;
+        position: relative;
+        overflow: hidden;
+        transition: background 0.25s;
+      }
+      .ab-stat-card:hover { background: #161616; }
+      .ab-stat-card::before {
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        width: 3px;
+        background: #c8ff50;
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform 0.4s ease;
+      }
+      .ab-stat-card:hover::before { transform: scaleY(1); }
+
+      .ab-stat-num {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.8rem;
+        color: #c8ff50;
+        line-height: 1;
+        letter-spacing: 0.02em;
+      }
+      .ab-stat-label {
+        font-size: 0.8rem;
+        color: rgba(240,240,240,0.45);
+        margin-top: 0.4rem;
+        letter-spacing: 0.05em;
+      }
+
+      /* ===== JOURNEY TIMELINE ===== */
+      .ab-journey {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        padding: 5rem clamp(1.5rem, 10vw, 12rem);
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+      }
+
+      .ab-journey-head {
+        text-align: center;
+        margin-bottom: 3.5rem;
+      }
+      .ab-journey-head p {
+        font-size: 0.62rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        margin-bottom: 0.75rem;
+      }
+      .ab-journey-head h2 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 900;
+        font-size: clamp(1.6rem, 4vw, 2.4rem);
+        color: #f0f0f0;
+      }
+
+      .ab-timeline {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        max-width: 680px;
+        margin: 0 auto;
+        position: relative;
+      }
+      .ab-timeline::before {
+        content: '';
+        position: absolute;
+        left: 18px; top: 0; bottom: 0;
+        width: 1px;
+        background: rgba(200,255,80,0.15);
+      }
+
+      .ab-tl-item {
+        display: flex;
+        gap: 2rem;
+        padding: 1.5rem 0;
+        position: relative;
+        opacity: 0;
+        transform: translateX(-20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+      .ab-tl-item.visible {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      .ab-tl-dot {
+        width: 37px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 4px;
+      }
+      .ab-tl-dot::before {
+        content: '';
+        width: 10px; height: 10px;
+        border-radius: 50%;
+        background: #c8ff50;
+        box-shadow: 0 0 10px rgba(200,255,80,0.5);
+        margin-left: 13px;
+      }
+
+      .ab-tl-body h3 {
+        font-weight: 700;
+        font-size: 1rem;
+        color: #f0f0f0;
+        margin-bottom: 0.4rem;
+      }
+      .ab-tl-body p {
+        font-size: 0.85rem;
+        color: rgba(220,220,220,0.55);
+        line-height: 1.8;
+      }
+
+      /* ===== CTA ===== */
+      .ab-cta {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        background: linear-gradient(130deg, #c8ff50 0%, #8dcc00 100%);
+        padding: 3.5rem clamp(2rem, 8vw, 8rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .ab-cta::after {
+        content: 'TENNIS';
+        position: absolute;
+        right: -10px; bottom: -28px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 8rem;
+        font-weight: 700;
+        color: rgba(0,0,0,0.07);
+        line-height: 1;
+        pointer-events: none;
+      }
+      .ab-cta h2 {
+        font-weight: 900;
+        font-size: clamp(1.5rem, 4vw, 2.2rem);
+        color: #0a0a0a;
+        line-height: 1.2;
+      }
+      .ab-cta p {
+        color: rgba(0,0,0,0.5);
+        font-size: 0.88rem;
+      }
+      .ab-cta-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #0a0a0a;
+        color: #c8ff50;
+        font-weight: 900;
+        font-size: 0.82rem;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 14px 32px;
+        border-radius: 3px;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .ab-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+    </style>
+
+    <Header />
+    <main>
+
+      <!-- HERO -->
+      <div class="ab-hero">
+        <div class="ab-grid"></div>
+        <div class="ab-ring ab-ring-1"></div>
+        <div class="ab-ring ab-ring-2"></div>
+        <div class="ab-ball ab-ball-1"></div>
+        <div class="ab-ball ab-ball-2"></div>
+        <div class="ab-hero-inner">
+          <span class="ab-badge">About This Blog</span>
+          <h1 class="ab-title">
+            テニスで
+            <span>本質に迫る</span>
+          </h1>
+          <p class="ab-subtitle">社会人テニスプレーヤーの、リアルな成長記録。</p>
+        </div>
+      </div>
+
+      <!-- STORY -->
+      <div class="ab-story">
+        <div>
+          <p class="ab-story-label">My Story</p>
+          <h2 class="ab-story-title">社会人から始めた<br />テニスとの歩み</h2>
+          <p class="ab-story-text">
+            テニスは社会人になってから始めました。テニスクラブに入ったり、サークルに入ったりして楽しんでいましたが、なかなかうまくなりませんでした。
+          </p>
+          <p class="ab-story-text">
+            今回、レッスンを受けてテニスの本質に迫ろうとしています。その様子を見られるまで続ける予定でいます。是非、お楽しみください。
+          </p>
+        </div>
+        <div class="ab-visual">
+          <div class="ab-stat-card">
+            <div class="ab-stat-num">社会人</div>
+            <div class="ab-stat-label">からテニスをスタート</div>
+          </div>
+          <div class="ab-stat-card">
+            <div class="ab-stat-num">クラブ</div>
+            <div class="ab-stat-label">＆サークルで経験を積む</div>
+          </div>
+          <div class="ab-stat-card">
+            <div class="ab-stat-num">レッスン</div>
+            <div class="ab-stat-label">で本質に迫る挑戦中</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TIMELINE -->
+      <div class="ab-journey">
+        <div class="ab-journey-head">
+          <p>Journey</p>
+          <h2>テニスとの歩み</h2>
+        </div>
+        <div class="ab-timeline">
+          <div class="ab-tl-item">
+            <div class="ab-tl-dot"></div>
+            <div class="ab-tl-body">
+              <h3>テニスクラブ・サークルへ参加</h3>
+              <p>社会人になりテニスを始める。クラブやサークルで週末のテニスを楽しむ。楽しいが、なかなか上達しない壁を感じる。</p>
+            </div>
+          </div>
+          <div class="ab-tl-item">
+            <div class="ab-tl-dot"></div>
+            <div class="ab-tl-body">
+              <h3>レッスン開始・本質を探る</h3>
+              <p>「なぜうまくならないのか」を真剣に考え、レッスンに通い始める。下半身主導、体幹、捻転……テニスの本質に迫る旅が始まる。</p>
+            </div>
+          </div>
+          <div class="ab-tl-item">
+            <div class="ab-tl-dot"></div>
+            <div class="ab-tl-body">
+              <h3>このブログを開始</h3>
+              <p>練習で気づいたこと、感覚、改善の記録をブログとして公開。上達する姿が見られるまで、続けていく予定。</p>
+            </div>
+          </div>
+          <div class="ab-tl-item">
+            <div class="ab-tl-dot"></div>
+            <div class="ab-tl-body">
+              <h3>目指すもの</h3>
+              <p>「うまくなった」と感じられる瞬間まで。ゴールはまだ先だが、一球一球の気づきを積み重ねていく。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="ab-cta">
+        <h2>記事を読んで<br />一緒に上達しよう</h2>
+        <p>コートで使えるヒントが見つかるかも。</p>
+        <a href="/blog" class="ab-cta-btn">記事一覧を見る &nbsp;→</a>
+      </div>
+
+    </main>
+    <Footer />
+
+    <script>
+      // タイムラインのスクロールアニメーション
+      const items = document.querySelectorAll('.ab-tl-item');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.classList.add('visible');
+            }, i * 150);
+          }
+        });
+      }, { threshold: 0.2 });
+      items.forEach(item => observer.observe(item));
+    </script>
+  </body>
+</html>
