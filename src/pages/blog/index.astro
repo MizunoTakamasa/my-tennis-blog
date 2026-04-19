@@ -54,8 +54,7 @@ const posts = (await getCollection('blog')).sort(
         border-bottom: 1px solid rgba(200,255,80,0.18);
       }
 
-      /* グリッド背景 */
-      .bl-grid {
+      .bl-grid-bg {
         position: absolute;
         inset: 0;
         background-image:
@@ -66,7 +65,6 @@ const posts = (await getCollection('blog')).sort(
         pointer-events: none;
       }
 
-      /* 回転リング */
       .bl-ring {
         position: absolute;
         border-radius: 50%;
@@ -90,7 +88,6 @@ const posts = (await getCollection('blog')).sort(
         to   { transform: rotate(360deg); }
       }
 
-      /* ボール */
       .bl-ball {
         position: absolute;
         border-radius: 50%;
@@ -155,10 +152,7 @@ const posts = (await getCollection('blog')).sort(
         opacity: 0;
         animation: blUp 0.7s ease 0.2s forwards;
       }
-      .bl-title span {
-        color: #c8ff50;
-        text-shadow: 0 0 40px rgba(200,255,80,0.5);
-      }
+      .bl-title span { color: #c8ff50; text-shadow: 0 0 40px rgba(200,255,80,0.5); }
 
       .bl-count {
         margin-top: 1rem;
@@ -174,7 +168,7 @@ const posts = (await getCollection('blog')).sort(
         to   { opacity: 1; transform: translateY(0); }
       }
 
-      /* ===== FEATURED（最新記事） ===== */
+      /* ===== FEATURED ===== */
       .bl-featured {
         width: 100vw;
         margin-left: calc(50% - 50vw);
@@ -182,7 +176,7 @@ const posts = (await getCollection('blog')).sort(
         border-bottom: 1px solid rgba(255,255,255,0.06);
       }
 
-      .bl-featured-label {
+      .bl-section-head {
         font-size: 0.62rem;
         letter-spacing: 0.3em;
         text-transform: uppercase;
@@ -192,7 +186,7 @@ const posts = (await getCollection('blog')).sort(
         align-items: center;
         gap: 10px;
       }
-      .bl-featured-label::after {
+      .bl-section-head::after {
         content: '';
         flex: 1;
         height: 1px;
@@ -203,22 +197,21 @@ const posts = (await getCollection('blog')).sort(
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 0;
-        background: #111;
-        border: 1px solid rgba(200,255,80,0.15);
+        background: #141414;
+        border: 1px solid rgba(200,255,80,0.2);
         border-radius: 4px;
         overflow: hidden;
         text-decoration: none;
-        transition: border-color 0.3s;
+        transition: border-color 0.3s, background 0.3s;
       }
-      .bl-featured-card:hover {
-        border-color: rgba(200,255,80,0.5);
-      }
+      .bl-featured-card:hover { border-color: rgba(200,255,80,0.55); background: #181818; }
+
       @media (max-width: 640px) {
         .bl-featured-card { grid-template-columns: 1fr; }
       }
 
-      .bl-featured-img {
-        background: #1a1a1a;
+      .bl-feat-img {
+        background: #1c1c1c;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -227,14 +220,14 @@ const posts = (await getCollection('blog')).sort(
         position: relative;
         overflow: hidden;
       }
-      .bl-featured-img::after {
+      .bl-feat-img::after {
         content: '';
         position: absolute;
         inset: 0;
-        background: linear-gradient(135deg, rgba(200,255,80,0.08) 0%, transparent 60%);
+        background: linear-gradient(135deg, rgba(200,255,80,0.07) 0%, transparent 60%);
       }
 
-      .bl-featured-body {
+      .bl-feat-body {
         padding: 2.5rem 2rem;
         display: flex;
         flex-direction: column;
@@ -246,7 +239,7 @@ const posts = (await getCollection('blog')).sort(
         display: inline-block;
         background: #c8ff50;
         color: #0a0a0a;
-        font-size: 0.6rem;
+        font-size: 0.58rem;
         font-weight: 900;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -255,111 +248,125 @@ const posts = (await getCollection('blog')).sort(
         width: fit-content;
       }
 
-      .bl-featured-title {
+      .bl-feat-title {
         font-weight: 900;
         font-size: clamp(1.2rem, 3vw, 1.75rem);
         color: #f0f0f0;
         line-height: 1.4;
         transition: color 0.2s;
       }
-      .bl-featured-card:hover .bl-featured-title {
-        color: #c8ff50;
-      }
+      .bl-featured-card:hover .bl-feat-title { color: #c8ff50; }
 
-      .bl-featured-desc {
+      .bl-feat-desc {
         font-size: 0.85rem;
-        color: rgba(240,240,240,0.45);
+        color: rgba(240,240,240,0.42);
         line-height: 1.8;
       }
 
-      .bl-featured-date {
-        font-size: 0.72rem;
-        color: rgba(240,240,240,0.3);
+      .bl-feat-date {
+        font-size: 0.7rem;
+        color: rgba(240,240,240,0.28);
         letter-spacing: 0.1em;
       }
 
-      .bl-featured-arrow {
+      .bl-feat-arrow {
         display: inline-flex;
         align-items: center;
         gap: 8px;
         font-size: 0.78rem;
         font-weight: 700;
         color: #c8ff50;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
-        margin-top: 0.5rem;
       }
 
-      /* ===== 記事グリッド ===== */
+      /* ===== ALL ARTICLES グリッド ===== */
       .bl-list-section {
         width: 100vw;
         margin-left: calc(50% - 50vw);
         padding: 3rem clamp(1.5rem, 6vw, 6rem);
+        background: #0a0a0a;
       }
 
-      .bl-section-label {
+      .bl-section-head-gray {
         font-size: 0.62rem;
         letter-spacing: 0.3em;
         text-transform: uppercase;
-        color: rgba(240,240,240,0.35);
+        color: rgba(240,240,240,0.3);
         margin-bottom: 1.5rem;
         display: flex;
         align-items: center;
         gap: 10px;
       }
-      .bl-section-label::after {
+      .bl-section-head-gray::after {
         content: '';
         flex: 1;
         height: 1px;
-        background: rgba(255,255,255,0.06);
+        background: rgba(255,255,255,0.08);
       }
 
+      /* カードを border で区切る（backgroundのgapを使わない） */
       .bl-grid-list {
+        list-style: none;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 1px;
-        background: rgba(255,255,255,0.05);
-        list-style: none;
+        gap: 0;
+        border: 1px solid rgba(200,255,80,0.12);
       }
 
       .bl-item {
-        background: #0d0d0d;
-        transition: background 0.25s;
+        background: #111;
+        border: 1px solid rgba(200,255,80,0.08);
         position: relative;
         overflow: hidden;
+        transition: background 0.25s;
       }
-      .bl-item:hover { background: #131313; }
-      .bl-item::after {
+      .bl-item:hover { background: #181818; }
+
+      /* ホバーで底辺に黄緑ライン */
+      .bl-item::before {
         content: '';
         position: absolute;
         bottom: 0; left: 0;
         height: 2px; width: 0;
         background: #c8ff50;
         transition: width 0.4s;
+        z-index: 1;
       }
-      .bl-item:hover::after { width: 100%; }
+      .bl-item:hover::before { width: 100%; }
+
+      /* 左上の光彩アクセント */
+      .bl-item::after {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        width: 60px; height: 60px;
+        background: radial-gradient(circle at 0 0, rgba(200,255,80,0.08) 0%, transparent 70%);
+        pointer-events: none;
+      }
 
       .bl-item a {
         display: flex;
         flex-direction: column;
-        gap: 0.75rem;
-        padding: 1.75rem 1.5rem;
+        gap: 0.8rem;
+        padding: 1.75rem 1.5rem 1.5rem;
         text-decoration: none;
         height: 100%;
+        min-height: 160px;
       }
 
       .bl-item-num {
         font-family: 'Oswald', sans-serif;
-        font-size: 0.75rem;
-        color: rgba(200,255,80,0.4);
-        letter-spacing: 0.1em;
+        font-size: 0.7rem;
+        color: rgba(200,255,80,0.45);
+        letter-spacing: 0.12em;
       }
 
       .bl-item-title {
         font-weight: 700;
-        font-size: 1rem;
-        color: #f0f0f0;
-        line-height: 1.5;
+        font-size: 0.98rem;
+        color: #e8e8e8;
+        line-height: 1.55;
         flex: 1;
         transition: color 0.2s;
       }
@@ -367,7 +374,7 @@ const posts = (await getCollection('blog')).sort(
 
       .bl-item-desc {
         font-size: 0.78rem;
-        color: rgba(240,240,240,0.38);
+        color: rgba(240,240,240,0.35);
         line-height: 1.75;
         display: -webkit-box;
         -webkit-line-clamp: 2;
@@ -379,32 +386,24 @@ const posts = (await getCollection('blog')).sort(
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 0.5rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid rgba(255,255,255,0.06);
       }
 
       .bl-item-date {
-        font-size: 0.68rem;
-        color: rgba(240,240,240,0.28);
+        font-size: 0.67rem;
+        color: rgba(240,240,240,0.25);
         letter-spacing: 0.08em;
       }
 
       .bl-item-arrow {
-        font-size: 0.75rem;
-        color: rgba(200,255,80,0.5);
+        font-size: 0.8rem;
+        color: rgba(200,255,80,0.45);
         transition: color 0.2s, transform 0.2s;
       }
       .bl-item:hover .bl-item-arrow {
         color: #c8ff50;
-        transform: translateX(4px);
-      }
-
-      /* ===== EMPTY ===== */
-      .bl-empty {
-        text-align: center;
-        padding: 5rem 2rem;
-        color: rgba(240,240,240,0.3);
-        font-size: 0.9rem;
-        letter-spacing: 0.1em;
+        transform: translateX(5px);
       }
 
       /* ===== FOOTER CTA ===== */
@@ -438,11 +437,7 @@ const posts = (await getCollection('blog')).sort(
         color: #0a0a0a;
         line-height: 1.2;
       }
-      .bl-footer-cta p {
-        color: rgba(0,0,0,0.5);
-        font-size: 0.85rem;
-        margin-top: 0.3rem;
-      }
+      .bl-footer-cta p { color: rgba(0,0,0,0.5); font-size: 0.85rem; margin-top: 0.3rem; }
       .bl-top-btn {
         display: inline-flex;
         align-items: center;
@@ -460,6 +455,14 @@ const posts = (await getCollection('blog')).sort(
         transition: transform 0.2s, box-shadow 0.2s;
       }
       .bl-top-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+
+      .bl-empty {
+        text-align: center;
+        padding: 5rem 2rem;
+        color: rgba(240,240,240,0.3);
+        font-size: 0.9rem;
+        letter-spacing: 0.1em;
+      }
     </style>
 
     <Header />
@@ -467,7 +470,7 @@ const posts = (await getCollection('blog')).sort(
 
       <!-- PAGE HEADER -->
       <div class="bl-hero">
-        <div class="bl-grid"></div>
+        <div class="bl-grid-bg"></div>
         <div class="bl-ring bl-ring-1"></div>
         <div class="bl-ring bl-ring-2"></div>
         <div class="bl-ball bl-ball-1"></div>
@@ -485,27 +488,27 @@ const posts = (await getCollection('blog')).sort(
         <>
           <!-- FEATURED：最新記事 -->
           <div class="bl-featured">
-            <p class="bl-featured-label">Latest Article</p>
+            <p class="bl-section-head">Latest Article</p>
             <a href={`/blog/${posts[0].id}/`} class="bl-featured-card">
-              <div class="bl-featured-img">🎾</div>
-              <div class="bl-featured-body">
+              <div class="bl-feat-img">🎾</div>
+              <div class="bl-feat-body">
                 <span class="bl-new-tag">New</span>
-                <h2 class="bl-featured-title">{posts[0].data.title}</h2>
+                <h2 class="bl-feat-title">{posts[0].data.title}</h2>
                 {posts[0].data.description && (
-                  <p class="bl-featured-desc">{posts[0].data.description}</p>
+                  <p class="bl-feat-desc">{posts[0].data.description}</p>
                 )}
-                <p class="bl-featured-date">
+                <p class="bl-feat-date">
                   <FormattedDate date={posts[0].data.pubDate} />
                 </p>
-                <span class="bl-featured-arrow">記事を読む →</span>
+                <span class="bl-feat-arrow">記事を読む →</span>
               </div>
             </a>
           </div>
 
-          <!-- 記事グリッド -->
+          <!-- ALL ARTICLES -->
           {posts.length > 1 && (
             <div class="bl-list-section">
-              <p class="bl-section-label">All Articles</p>
+              <p class="bl-section-head-gray">All Articles</p>
               <ul class="bl-grid-list">
                 {posts.slice(1).map((post, i) => (
                   <li class="bl-item">
