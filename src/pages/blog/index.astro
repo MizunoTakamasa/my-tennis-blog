@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
@@ -8,104 +7,539 @@ import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
 const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+<html lang="ja">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <style is:global>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        background: #0a0a0a !important;
+        color: #f0f0f0 !important;
+        font-family: 'Noto Sans JP', sans-serif !important;
+        overflow-x: hidden;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      body > main, main {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      /* ===== PAGE HEADER ===== */
+      .bl-hero {
+        position: relative;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        padding: 5rem 2rem 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        border-bottom: 1px solid rgba(200,255,80,0.18);
+      }
+
+      /* グリッド背景 */
+      .bl-grid {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+        background-size: 60px 60px;
+        z-index: 0;
+        pointer-events: none;
+      }
+
+      /* 回転リング */
+      .bl-ring {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .bl-ring-1 {
+        width: 360px; height: 360px;
+        top: -120px; right: -80px;
+        border: 1.5px solid rgba(200,255,80,0.12);
+        animation: blRing 25s linear infinite;
+      }
+      .bl-ring-2 {
+        width: 220px; height: 220px;
+        bottom: -60px; left: -60px;
+        border: 1px solid rgba(255,255,255,0.05);
+        animation: blRing 18s linear infinite reverse;
+      }
+      @keyframes blRing {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+
+      /* ボール */
+      .bl-ball {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 32%, #e2ff5a, #9dc918);
+        pointer-events: none;
+        z-index: 1;
+      }
+      .bl-ball::after {
+        content: '';
+        position: absolute;
+        top: 18%; left: 6%;
+        width: 88%; height: 55%;
+        border-top: 2px solid rgba(255,255,255,0.5);
+        border-radius: 50%;
+        transform: rotate(-28deg);
+      }
+      .bl-ball-1 {
+        width: 44px; height: 44px;
+        top: 20%; left: 5%;
+        box-shadow: 0 0 24px rgba(200,255,80,0.5);
+        animation: blFloat 4s ease-in-out infinite;
+      }
+      .bl-ball-2 {
+        width: 24px; height: 24px;
+        bottom: 20%; right: 7%;
+        box-shadow: 0 0 14px rgba(200,255,80,0.4);
+        animation: blFloat 5.5s ease-in-out 1s infinite;
+      }
+      @keyframes blFloat {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50%       { transform: translateY(-18px) rotate(180deg); }
+      }
+
+      .bl-hero-inner {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .bl-badge {
+        display: inline-block;
+        font-size: 0.62rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        border: 1px solid rgba(200,255,80,0.4);
+        padding: 5px 16px;
+        border-radius: 99px;
+        margin-bottom: 1.25rem;
+        opacity: 0;
+        animation: blUp 0.6s ease 0.1s forwards;
+      }
+
+      .bl-title {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 900;
+        font-size: clamp(2.5rem, 8vw, 5rem);
+        line-height: 1.0;
+        color: #fff;
+        opacity: 0;
+        animation: blUp 0.7s ease 0.2s forwards;
+      }
+      .bl-title span {
+        color: #c8ff50;
+        text-shadow: 0 0 40px rgba(200,255,80,0.5);
+      }
+
+      .bl-count {
+        margin-top: 1rem;
+        font-size: 0.82rem;
+        color: rgba(240,240,240,0.4);
+        letter-spacing: 0.15em;
+        opacity: 0;
+        animation: blUp 0.7s ease 0.32s forwards;
+      }
+
+      @keyframes blUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      /* ===== FEATURED（最新記事） ===== */
+      .bl-featured {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        padding: 3rem clamp(1.5rem, 6vw, 6rem);
+        border-bottom: 1px solid rgba(255,255,255,0.06);
+      }
+
+      .bl-featured-label {
+        font-size: 0.62rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #c8ff50;
+        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .bl-featured-label::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: rgba(200,255,80,0.2);
+      }
+
+      .bl-featured-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        background: #111;
+        border: 1px solid rgba(200,255,80,0.15);
+        border-radius: 4px;
+        overflow: hidden;
+        text-decoration: none;
+        transition: border-color 0.3s;
+      }
+      .bl-featured-card:hover {
+        border-color: rgba(200,255,80,0.5);
+      }
+      @media (max-width: 640px) {
+        .bl-featured-card { grid-template-columns: 1fr; }
+      }
+
+      .bl-featured-img {
+        background: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 220px;
+        font-size: 5rem;
+        position: relative;
+        overflow: hidden;
+      }
+      .bl-featured-img::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, rgba(200,255,80,0.08) 0%, transparent 60%);
+      }
+
+      .bl-featured-body {
+        padding: 2.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+      }
+
+      .bl-new-tag {
+        display: inline-block;
+        background: #c8ff50;
+        color: #0a0a0a;
+        font-size: 0.6rem;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        padding: 3px 10px;
+        border-radius: 2px;
+        width: fit-content;
+      }
+
+      .bl-featured-title {
+        font-weight: 900;
+        font-size: clamp(1.2rem, 3vw, 1.75rem);
+        color: #f0f0f0;
+        line-height: 1.4;
+        transition: color 0.2s;
+      }
+      .bl-featured-card:hover .bl-featured-title {
+        color: #c8ff50;
+      }
+
+      .bl-featured-desc {
+        font-size: 0.85rem;
+        color: rgba(240,240,240,0.45);
+        line-height: 1.8;
+      }
+
+      .bl-featured-date {
+        font-size: 0.72rem;
+        color: rgba(240,240,240,0.3);
+        letter-spacing: 0.1em;
+      }
+
+      .bl-featured-arrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: #c8ff50;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+      }
+
+      /* ===== 記事グリッド ===== */
+      .bl-list-section {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        padding: 3rem clamp(1.5rem, 6vw, 6rem);
+      }
+
+      .bl-section-label {
+        font-size: 0.62rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: rgba(240,240,240,0.35);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .bl-section-label::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: rgba(255,255,255,0.06);
+      }
+
+      .bl-grid-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1px;
+        background: rgba(255,255,255,0.05);
+        list-style: none;
+      }
+
+      .bl-item {
+        background: #0d0d0d;
+        transition: background 0.25s;
+        position: relative;
+        overflow: hidden;
+      }
+      .bl-item:hover { background: #131313; }
+      .bl-item::after {
+        content: '';
+        position: absolute;
+        bottom: 0; left: 0;
+        height: 2px; width: 0;
+        background: #c8ff50;
+        transition: width 0.4s;
+      }
+      .bl-item:hover::after { width: 100%; }
+
+      .bl-item a {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 1.75rem 1.5rem;
+        text-decoration: none;
+        height: 100%;
+      }
+
+      .bl-item-num {
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.75rem;
+        color: rgba(200,255,80,0.4);
+        letter-spacing: 0.1em;
+      }
+
+      .bl-item-title {
+        font-weight: 700;
+        font-size: 1rem;
+        color: #f0f0f0;
+        line-height: 1.5;
+        flex: 1;
+        transition: color 0.2s;
+      }
+      .bl-item:hover .bl-item-title { color: #c8ff50; }
+
+      .bl-item-desc {
+        font-size: 0.78rem;
+        color: rgba(240,240,240,0.38);
+        line-height: 1.75;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .bl-item-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+      }
+
+      .bl-item-date {
+        font-size: 0.68rem;
+        color: rgba(240,240,240,0.28);
+        letter-spacing: 0.08em;
+      }
+
+      .bl-item-arrow {
+        font-size: 0.75rem;
+        color: rgba(200,255,80,0.5);
+        transition: color 0.2s, transform 0.2s;
+      }
+      .bl-item:hover .bl-item-arrow {
+        color: #c8ff50;
+        transform: translateX(4px);
+      }
+
+      /* ===== EMPTY ===== */
+      .bl-empty {
+        text-align: center;
+        padding: 5rem 2rem;
+        color: rgba(240,240,240,0.3);
+        font-size: 0.9rem;
+        letter-spacing: 0.1em;
+      }
+
+      /* ===== FOOTER CTA ===== */
+      .bl-footer-cta {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        background: linear-gradient(130deg, #c8ff50 0%, #8dcc00 100%);
+        padding: 3rem clamp(1.5rem, 6vw, 6rem);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+        position: relative;
+        overflow: hidden;
+      }
+      .bl-footer-cta::after {
+        content: 'NOTES';
+        position: absolute;
+        right: -10px; bottom: -25px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 7rem;
+        font-weight: 700;
+        color: rgba(0,0,0,0.07);
+        line-height: 1;
+        pointer-events: none;
+      }
+      .bl-footer-cta h3 {
+        font-weight: 900;
+        font-size: clamp(1.3rem, 3vw, 1.8rem);
+        color: #0a0a0a;
+        line-height: 1.2;
+      }
+      .bl-footer-cta p {
+        color: rgba(0,0,0,0.5);
+        font-size: 0.85rem;
+        margin-top: 0.3rem;
+      }
+      .bl-top-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #0a0a0a;
+        color: #c8ff50;
+        font-weight: 900;
+        font-size: 0.8rem;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 13px 28px;
+        border-radius: 3px;
+        white-space: nowrap;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .bl-top-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+    </style>
+
+    <Header />
+    <main>
+
+      <!-- PAGE HEADER -->
+      <div class="bl-hero">
+        <div class="bl-grid"></div>
+        <div class="bl-ring bl-ring-1"></div>
+        <div class="bl-ring bl-ring-2"></div>
+        <div class="bl-ball bl-ball-1"></div>
+        <div class="bl-ball bl-ball-2"></div>
+        <div class="bl-hero-inner">
+          <span class="bl-badge">Tennis Practice Notes</span>
+          <h1 class="bl-title">練習<span>記録</span></h1>
+          <p class="bl-count">{posts.length} 件の記事</p>
+        </div>
+      </div>
+
+      {posts.length === 0 ? (
+        <div class="bl-empty">まだ記事がありません</div>
+      ) : (
+        <>
+          <!-- FEATURED：最新記事 -->
+          <div class="bl-featured">
+            <p class="bl-featured-label">Latest Article</p>
+            <a href={`/blog/${posts[0].id}/`} class="bl-featured-card">
+              <div class="bl-featured-img">🎾</div>
+              <div class="bl-featured-body">
+                <span class="bl-new-tag">New</span>
+                <h2 class="bl-featured-title">{posts[0].data.title}</h2>
+                {posts[0].data.description && (
+                  <p class="bl-featured-desc">{posts[0].data.description}</p>
+                )}
+                <p class="bl-featured-date">
+                  <FormattedDate date={posts[0].data.pubDate} />
+                </p>
+                <span class="bl-featured-arrow">記事を読む →</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- 記事グリッド -->
+          {posts.length > 1 && (
+            <div class="bl-list-section">
+              <p class="bl-section-label">All Articles</p>
+              <ul class="bl-grid-list">
+                {posts.slice(1).map((post, i) => (
+                  <li class="bl-item">
+                    <a href={`/blog/${post.id}/`}>
+                      <span class="bl-item-num">#{String(i + 2).padStart(2, '0')}</span>
+                      <h3 class="bl-item-title">{post.data.title}</h3>
+                      {post.data.description && (
+                        <p class="bl-item-desc">{post.data.description}</p>
+                      )}
+                      <div class="bl-item-footer">
+                        <span class="bl-item-date">
+                          <FormattedDate date={post.data.pubDate} />
+                        </span>
+                        <span class="bl-item-arrow">→</span>
+                      </div>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </>
+      )}
+
+      <!-- FOOTER CTA -->
+      <div class="bl-footer-cta">
+        <div>
+          <h3>コートで試してみよう</h3>
+          <p>気づきを積み重ねて、一歩ずつ上達していく。</p>
+        </div>
+        <a href="/" class="bl-top-btn">トップへ戻る →</a>
+      </div>
+
+    </main>
+    <Footer />
+  </body>
 </html>
