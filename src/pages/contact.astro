@@ -1,0 +1,173 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+// Header はこのページでもデザイン専用のものを使うため読み込みません。
+// Footer は他ページとの統一感のため、共通のものを使います。
+
+// ▼▼▼▼▼ ここを書き換えてください ▼▼▼▼▼
+// Google フォームの「埋め込み用URL（src=""の中身）」をここに貼り付けてください。
+// 取得方法はファイル末尾のコメントを参照。
+const GOOGLE_FORM_EMBED_URL = 'YOUR_GOOGLE_FORM_EMBED_URL';
+// ▲▲▲▲▲ ここを書き換えてください ▲▲▲▲▲
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <BaseHead
+      title="お問い合わせ ｜ FAIRWAY DIARY"
+      description="FAIRWAY DIARY へのお問い合わせフォーム。取材・掲載・ご感想などお気軽にどうぞ。"
+    />
+  </head>
+  <body>
+    <!-- ============ NAV ============ -->
+    <nav class="fd-nav">
+      <div class="fd-brand"><span class="fd-dot"></span>FAIRWAY DIARY</div>
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/blog">REPORT</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact" class="fd-navCurrent">CONTACT</a></li>
+      </ul>
+      <a href="/contact" class="fd-cta">INQUIRY</a>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <header class="fd-contactHero">
+      <div class="fd-contactHeroGrid" aria-hidden="true"></div>
+      <div class="fd-contactHeroScan" aria-hidden="true"></div>
+      <div class="fd-contactHeroInner">
+        <span class="fd-badge"><span class="live"></span>CONTACT / 24H OPEN</span>
+        <h1 class="fd-contactTitle">
+          <span class="word1">GET IN</span><br />
+          <span class="word2">TOUCH.</span>
+        </h1>
+        <p class="fd-contactSub">
+          取材・掲載・ご感想・その他のお問い合わせは、下記フォームからお送りください。内容を確認のうえ、こちらからご連絡いたします。
+        </p>
+      </div>
+    </header>
+
+    <!-- ============ FORM ============ -->
+    <section class="fd-formSection">
+      <div class="fd-formWrap">
+        <div class="fd-formHeader">
+          <span class="fd-formTag">INQUIRY FORM</span>
+          <h2>お問い合わせフォーム</h2>
+          <p>* は入力必須の項目です。お返事までに数日いただく場合があります。</p>
+        </div>
+
+        <div class="fd-formFrame">
+          {GOOGLE_FORM_EMBED_URL === 'https://docs.google.com/forms/d/e/1FAIpQLSdA0aUQntogz7-AVw2ZcID4EeO9wM8tJKy8v6YKbvTUWq-cQw/viewform?usp=publish-editor' ? (
+            <div class="fd-formPlaceholder">
+              <p>🔧 ここに Google フォームが表示されます。</p>
+              <p class="small">
+                このファイル上部の <code>GOOGLE_FORM_EMBED_URL</code> を、ご自身の Google フォームの埋め込みURLに書き換えてください。
+              </p>
+            </div>
+          ) : (
+            <iframe
+              src={GOOGLE_FORM_EMBED_URL}
+              width="100%"
+              height="1200"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              loading="lazy"
+              title="お問い合わせフォーム"
+            >
+              読み込んでいます…
+            </iframe>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <Footer />
+
+    <style is:global>
+      :root {
+        --fd-bg: #0a0f0a;
+        --fd-ink: #ffffff;
+        --fd-lime: #c4ff3d;
+        --fd-lime2: #b3ff00;
+        --fd-green: #0f3d2e;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;padding:0}
+      body{background:var(--fd-bg);color:var(--fd-ink);font-family:"Helvetica Neue","Arial","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;-webkit-font-smoothing:antialiased}
+      a{color:inherit;text-decoration:none}
+
+      /* ===== NAV ===== */
+      .fd-nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:18px 32px;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0));color:#fff}
+      .fd-brand{font-weight:900;letter-spacing:.22em;font-size:14px;display:flex;align-items:center;gap:10px}
+      .fd-dot{width:8px;height:8px;border-radius:50%;background:var(--fd-lime);box-shadow:0 0 10px var(--fd-lime)}
+      .fd-nav ul{display:flex;gap:28px;list-style:none;font-size:13px;letter-spacing:.18em;margin:0;padding:0}
+      .fd-nav ul a{opacity:.85;transition:opacity .2s}
+      .fd-nav ul a:hover{opacity:1}
+      .fd-navCurrent{color:var(--fd-lime);opacity:1 !important}
+      .fd-cta{border:1px solid var(--fd-lime);color:var(--fd-lime);padding:10px 18px;border-radius:999px;font-weight:700;letter-spacing:.18em;font-size:12px;transition:.2s}
+      .fd-cta:hover{background:var(--fd-lime);color:#0a0f0a}
+      @media (max-width:760px){.fd-nav ul{display:none}}
+
+      /* ===== HERO ===== */
+      .fd-contactHero{position:relative;min-height:55vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(1200px 600px at 30% 20%,#1a5c44 0%,#0a0f0a 60%);padding:120px 24px 64px}
+      .fd-contactHeroGrid{position:absolute;inset:0;background-image:linear-gradient(rgba(196,255,61,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(196,255,61,.08) 1px,transparent 1px);background-size:48px 48px;animation:fdGrid 12s linear infinite;pointer-events:none}
+      @keyframes fdGrid{from{background-position:0 0,0 0}to{background-position:48px 48px,48px 48px}}
+      .fd-contactHeroScan{position:absolute;inset:0;background:repeating-linear-gradient(180deg,rgba(255,255,255,.03) 0 2px,transparent 2px 4px);pointer-events:none;mix-blend-mode:overlay}
+      .fd-contactHeroInner{position:relative;z-index:2;max-width:1100px;width:100%;text-align:center}
+      .fd-badge{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--fd-lime);color:var(--fd-lime);padding:8px 16px;border-radius:999px;font-size:11px;letter-spacing:.22em;font-weight:700}
+      .fd-badge .live{width:8px;height:8px;border-radius:50%;background:#ff3b3b;animation:fdPulse 1.3s ease-in-out infinite}
+      @keyframes fdPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.8)}}
+      .fd-contactTitle{font-family:"Bebas Neue","Impact",sans-serif;font-size:clamp(64px,12vw,180px);line-height:.88;letter-spacing:-0.01em;margin:16px 0;font-weight:900}
+      .fd-contactTitle .word1{display:inline-block;color:#fff}
+      .fd-contactTitle .word2{display:inline-block;background:linear-gradient(90deg,var(--fd-lime),var(--fd-lime2));-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 40px rgba(196,255,61,.25)}
+      .fd-contactSub{max-width:680px;margin:16px auto 0;font-size:15px;line-height:1.9;color:rgba(255,255,255,.8)}
+
+      /* ===== FORM ===== */
+      .fd-formSection{background:#0a0f0a;padding:80px 24px 120px;position:relative}
+      .fd-formWrap{max-width:860px;margin:0 auto}
+      .fd-formHeader{text-align:center;margin-bottom:40px}
+      .fd-formTag{display:inline-block;border:1px solid var(--fd-lime);color:var(--fd-lime);padding:6px 14px;border-radius:999px;font-size:10px;letter-spacing:.22em;font-weight:700;margin-bottom:16px}
+      .fd-formHeader h2{font-size:clamp(28px,4vw,42px);letter-spacing:.05em;margin:0 0 12px;font-weight:900}
+      .fd-formHeader p{color:rgba(255,255,255,.6);font-size:13px;margin:0}
+      .fd-formFrame{background:linear-gradient(180deg,#0f1810,#0a0f0a);border:1px solid rgba(196,255,61,.25);border-radius:20px;padding:24px;box-shadow:0 0 40px rgba(196,255,61,.08),inset 0 0 0 1px rgba(255,255,255,.02);overflow:hidden}
+      .fd-formFrame iframe{display:block;width:100%;background:#fff;border-radius:12px;min-height:900px}
+      .fd-formPlaceholder{padding:80px 24px;text-align:center;border:2px dashed rgba(196,255,61,.4);border-radius:12px;background:rgba(196,255,61,.03)}
+      .fd-formPlaceholder p{margin:8px 0;color:#fff;font-size:18px;letter-spacing:.04em}
+      .fd-formPlaceholder .small{font-size:13px;color:rgba(255,255,255,.6);line-height:1.8}
+      .fd-formPlaceholder code{background:rgba(196,255,61,.15);color:var(--fd-lime);padding:2px 8px;border-radius:4px;font-family:"Consolas","Monaco",monospace;font-size:12px}
+
+      @media (max-width:760px){
+        .fd-contactHero{min-height:45vh;padding:100px 16px 48px}
+        .fd-formSection{padding:48px 16px 80px}
+        .fd-formFrame{padding:12px}
+      }
+    </style>
+
+    {/*
+      ========== Google フォームの設置手順 ==========
+
+      1) Google フォームで問い合わせフォームを作る
+         https://forms.google.com/ にアクセスして、
+         「+ 空白」から新規フォームを作成します。
+         「氏名」「メールアドレス」「お問い合わせ内容」などを追加してください。
+
+      2) 右上の「送信」ボタンを押す
+
+      3) 「< >」（埋め込み）アイコンを選ぶ
+
+      4) 表示された HTML のうち、
+         <iframe src="ここの部分だけ" ...></iframe>
+         の「src="" の中身」だけをコピーします。
+         例: https://docs.google.com/forms/d/e/XXXXX/viewform?embedded=true
+
+      5) このファイル上部の
+         const GOOGLE_FORM_EMBED_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdA0aUQntogz7-AVw2ZcID4EeO9wM8tJKy8v6YKbvTUWq-cQw/viewform?usp=publish-editor';
+         の 'https://docs.google.com/forms/d/e/1FAIpQLSdA0aUQntogz7-AVw2ZcID4EeO9wM8tJKy8v6YKbvTUWq-cQw/viewform?usp=publish-editor' の部分を、
+         コピーしたURLに書き換えて保存してください。
+
+      これで /contact ページにフォームが表示されます。
+    */}
+  </body>
+</html>
