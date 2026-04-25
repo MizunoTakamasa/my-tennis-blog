@@ -1,0 +1,100 @@
+<svg viewBox="0 0 600 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="t2Arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
+    </marker>
+    <marker id="t2Force" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f39c12"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">サーブの体重移動：右足 → 左踵 → 胸を張ってヘッドへ</text>
+
+  <!-- Court ground -->
+  <line x1="40" y1="395" x2="560" y2="395" stroke="#5dade2" stroke-width="3"/>
+
+  <!-- ===== Position 1: Trophy / Loaded on right foot ===== -->
+  <g>
+    <circle cx="110" cy="135" r="18" fill="#fff" stroke="#333" stroke-width="2"/>
+    <!-- Torso slightly leaning back -->
+    <path d="M 95 153 Q 88 220 95 285 Q 115 290 132 285 Q 138 220 128 153 Z" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    <!-- Tossing arm up -->
+    <line x1="100" y1="165" x2="80" y2="80" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="78" cy="72" r="6" fill="#d4ff00" stroke="#7d9a02" stroke-width="1"/>
+    <!-- Racket arm bent up (trophy) -->
+    <path d="M 130 165 Q 165 140 175 100" stroke="#333" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <line x1="175" y1="100" x2="160" y2="50" stroke="#777" stroke-width="3"/>
+    <ellipse cx="158" cy="46" rx="12" ry="8" fill="none" stroke="#444" stroke-width="2"/>
+    <!-- Legs - right foot loaded -->
+    <rect x="92" y="285" width="14" height="105" fill="#aaa" stroke="#888" rx="3"/>
+    <rect x="120" y="285" width="14" height="105" fill="#f9d7d3" stroke="#c0392b" stroke-width="1.5" rx="3"/>
+    <!-- Right foot (loaded - red) -->
+    <ellipse cx="127" cy="392" rx="22" ry="7" fill="#e74c3c" stroke="#a93226" stroke-width="2"/>
+    <!-- Left foot (light) -->
+    <ellipse cx="99" cy="392" rx="20" ry="6" fill="#ddd" stroke="#888"/>
+    <text x="115" y="420" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold">①右足に乗せる</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <line x1="190" y1="220" x2="240" y2="220" stroke="#3498db" stroke-width="3" marker-end="url(#t2Arrow)"/>
+
+  <!-- ===== Position 2: Weight onto left heel + chest puffs ===== -->
+  <g>
+    <circle cx="320" cy="125" r="18" fill="#fff" stroke="#333" stroke-width="2"/>
+    <!-- Torso - chest puffed (arched back) -->
+    <path d="M 302 143 Q 290 215 302 280 Q 325 285 345 280 Q 358 215 340 143 Z" fill="#fdebd0" stroke="#d68910" stroke-width="2"/>
+    <!-- Toss arm coming down -->
+    <line x1="305" y1="160" x2="290" y2="100" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+    <!-- Racket arm cocked back -->
+    <path d="M 340 160 Q 380 130 395 80" stroke="#333" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <line x1="395" y1="80" x2="385" y2="35" stroke="#777" stroke-width="3"/>
+    <ellipse cx="383" cy="32" rx="12" ry="8" fill="none" stroke="#444" stroke-width="2"/>
+    <!-- Chest emphasis label -->
+    <text x="245" y="200" font-size="12" fill="#d68910" font-weight="bold">胸を張る</text>
+    <line x1="280" y1="200" x2="305" y2="220" stroke="#d68910" stroke-width="1.5" marker-end="url(#t2Force)"/>
+
+    <!-- Legs - shifting to left -->
+    <rect x="298" y="280" width="14" height="110" fill="#f9d7d3" stroke="#c0392b" stroke-width="1.5" rx="3"/>
+    <rect x="328" y="280" width="14" height="110" fill="#aaa" stroke="#888" rx="3"/>
+    <!-- Left foot heel emphasis -->
+    <ellipse cx="305" cy="392" rx="24" ry="7" fill="#e74c3c" stroke="#a93226" stroke-width="2"/>
+    <circle cx="320" cy="392" r="7" fill="#fff" stroke="#a93226" stroke-width="1.5"/>
+    <text x="322" y="395" font-size="9" fill="#a93226" font-weight="bold">踵</text>
+    <ellipse cx="335" cy="392" rx="18" ry="6" fill="#ddd" stroke="#888"/>
+
+    <!-- Force chain arrow from heel up -->
+    <path d="M 320 388 Q 315 320 320 250 Q 340 170 380 80" stroke="#f39c12" stroke-width="3" fill="none" stroke-dasharray="5,3" marker-end="url(#t2Force)"/>
+
+    <text x="320" y="420" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold">②左踵を踏む＋胸を張る</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <line x1="430" y1="220" x2="475" y2="220" stroke="#3498db" stroke-width="3" marker-end="url(#t2Arrow)"/>
+
+  <!-- ===== Position 3: Impact - racket head extended high ===== -->
+  <g>
+    <circle cx="525" cy="120" r="18" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+    <!-- Torso fully extended -->
+    <path d="M 510 138 Q 503 215 510 285 Q 530 290 545 285 Q 552 215 540 138 Z" fill="#d5f5e3" stroke="#27ae60" stroke-width="2"/>
+    <!-- Both arms up at impact -->
+    <line x1="515" y1="148" x2="500" y2="80" stroke="#27ae60" stroke-width="5" stroke-linecap="round"/>
+    <line x1="540" y1="148" x2="558" y2="55" stroke="#27ae60" stroke-width="5" stroke-linecap="round"/>
+    <!-- Racket high up -->
+    <line x1="558" y1="55" x2="555" y2="20" stroke="#777" stroke-width="3"/>
+    <ellipse cx="554" cy="16" rx="14" ry="9" fill="none" stroke="#444" stroke-width="2.5"/>
+    <!-- Ball at impact -->
+    <circle cx="554" cy="16" r="5" fill="#d4ff00" stroke="#7d9a02" stroke-width="1"/>
+
+    <!-- Speed lines on racket -->
+    <line x1="540" y1="20" x2="525" y2="15" stroke="#3498db" stroke-width="2" stroke-linecap="round"/>
+    <line x1="540" y1="30" x2="520" y2="32" stroke="#3498db" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Legs straightened, fully extended up -->
+    <rect x="508" y="285" width="14" height="105" fill="#666" rx="3"/>
+    <rect x="535" y="285" width="14" height="105" fill="#666" rx="3"/>
+    <ellipse cx="515" cy="392" rx="20" ry="6" fill="#888"/>
+    <ellipse cx="542" cy="392" rx="20" ry="6" fill="#888"/>
+
+    <text x="528" y="420" text-anchor="middle" font-size="12" fill="#27ae60" font-weight="bold">③ヘッドが走る</text>
+  </g>
+</svg>

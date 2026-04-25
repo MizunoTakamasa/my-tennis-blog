@@ -1,0 +1,87 @@
+<svg viewBox="0 0 600 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="t4Up" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#27ae60"/>
+    </marker>
+    <marker id="t4Down" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#e74c3c"/>
+    </marker>
+    <marker id="t4Spin" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
+    </marker>
+    <marker id="t4Path" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f39c12"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">体の上下動 → 安定したトップスピン</text>
+
+  <!-- Court line -->
+  <line x1="40" y1="395" x2="560" y2="395" stroke="#5dade2" stroke-width="3"/>
+
+  <!-- ===== Left: Player sinking down (low position) ===== -->
+  <g>
+    <text x="120" y="425" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold">①沈む（低い）</text>
+    <!-- Head -->
+    <circle cx="120" cy="170" r="18" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+    <!-- Torso -->
+    <path d="M 105 188 Q 98 235 105 280 Q 122 285 138 280 Q 145 235 135 188 Z" fill="#fadbd8" stroke="#c0392b" stroke-width="2"/>
+    <!-- Arm low (racket below ball level) -->
+    <path d="M 138 200 Q 175 240 195 280" stroke="#c0392b" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Racket low -->
+    <line x1="195" y1="280" x2="220" y2="305" stroke="#777" stroke-width="3"/>
+    <ellipse cx="225" cy="310" rx="13" ry="8" fill="none" stroke="#444" stroke-width="2"/>
+    <!-- Bent legs -->
+    <path d="M 103 280 L 92 340 L 110 392 L 120 392 L 115 340 Z" fill="#666"/>
+    <path d="M 140 280 L 152 340 L 134 392 L 124 392 L 128 340 Z" fill="#666"/>
+    <ellipse cx="113" cy="395" rx="22" ry="6" fill="#555"/>
+    <ellipse cx="129" cy="395" rx="22" ry="6" fill="#555"/>
+
+    <!-- Reference line for low head position -->
+    <line x1="80" y1="152" x2="170" y2="152" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="175" y="156" font-size="10" fill="#c0392b">低い</text>
+  </g>
+
+  <!-- Up arrow between -->
+  <line x1="245" y1="280" x2="245" y2="180" stroke="#27ae60" stroke-width="4" marker-end="url(#t4Up)"/>
+  <text x="252" y="225" font-size="13" fill="#27ae60" font-weight="bold">伸び上がる</text>
+
+  <!-- ===== Right: Player rising up (high position, ball contact) ===== -->
+  <g>
+    <text x="380" y="425" text-anchor="middle" font-size="12" fill="#27ae60" font-weight="bold">②伸び上がる（高い）</text>
+    <!-- Head higher -->
+    <circle cx="380" cy="120" r="18" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+    <!-- Torso -->
+    <path d="M 365 138 Q 358 215 365 280 Q 380 285 395 280 Q 402 215 395 138 Z" fill="#d5f5e3" stroke="#27ae60" stroke-width="2"/>
+    <!-- Arm extended higher (racket meeting ball) -->
+    <path d="M 395 155 Q 440 145 480 160" stroke="#27ae60" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Racket at impact -->
+    <line x1="480" y1="160" x2="510" y2="155" stroke="#777" stroke-width="3"/>
+    <ellipse cx="518" cy="153" rx="13" ry="9" fill="none" stroke="#444" stroke-width="2"/>
+    <!-- Ball at contact -->
+    <circle cx="525" cy="153" r="8" fill="#d4ff00" stroke="#7d9a02" stroke-width="1.5"/>
+    <!-- Straighter legs -->
+    <rect x="362" y="280" width="14" height="110" fill="#666" rx="3"/>
+    <rect x="386" y="280" width="14" height="110" fill="#666" rx="3"/>
+    <ellipse cx="370" cy="392" rx="22" ry="6" fill="#555"/>
+    <ellipse cx="395" cy="392" rx="22" ry="6" fill="#555"/>
+
+    <!-- Reference line for high head position -->
+    <line x1="345" y1="102" x2="430" y2="102" stroke="#27ae60" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="435" y="106" font-size="10" fill="#27ae60">高い</text>
+  </g>
+
+  <!-- Racket path: low to high (showing the swing path that creates topspin) -->
+  <path d="M 220 305 Q 350 230 510 155" stroke="#f39c12" stroke-width="3" fill="none" stroke-dasharray="6,3" marker-end="url(#t4Path)"/>
+  <text x="290" y="270" font-size="12" fill="#d68910" font-weight="bold">下→上のスウィング軌道</text>
+
+  <!-- Spin indicator (rotating ball) -->
+  <g transform="translate(540, 100)">
+    <circle r="15" fill="none" stroke="#3498db" stroke-width="1.5"/>
+    <path d="M -10 -8 A 13 13 0 0 1 10 -8" stroke="#3498db" stroke-width="2" fill="none" marker-end="url(#t4Spin)"/>
+    <text y="35" text-anchor="middle" font-size="11" fill="#3498db" font-weight="bold">トップスピン</text>
+  </g>
+
+  <!-- Bottom takeaway -->
+  <text x="300" y="65" text-anchor="middle" font-size="12" fill="#555">体の上下動が、ボールに自然な縦回転（トップスピン）を生む</text>
+</svg>

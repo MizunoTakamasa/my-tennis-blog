@@ -1,0 +1,79 @@
+<svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="t3Arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
+    </marker>
+    <marker id="t3Jump" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#9b59b6"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">サーブ後 → スプリットステップへの流れ</text>
+
+  <!-- Court ground -->
+  <line x1="40" y1="370" x2="560" y2="370" stroke="#5dade2" stroke-width="3"/>
+
+  <!-- ===== Position 1: Serve impact ===== -->
+  <g>
+    <text x="100" y="395" text-anchor="middle" font-size="13" fill="#555" font-weight="bold">①サーブ・インパクト</text>
+    <circle cx="100" cy="125" r="18" fill="#fff" stroke="#333" stroke-width="2"/>
+    <path d="M 85 143 Q 78 215 85 280 Q 105 285 122 280 Q 130 215 117 143 Z" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    <line x1="93" y1="155" x2="78" y2="80" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+    <line x1="118" y1="155" x2="135" y2="55" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+    <line x1="135" y1="55" x2="132" y2="20" stroke="#777" stroke-width="3"/>
+    <ellipse cx="131" cy="16" rx="13" ry="9" fill="none" stroke="#444" stroke-width="2"/>
+    <circle cx="131" cy="16" r="5" fill="#d4ff00" stroke="#7d9a02" stroke-width="1"/>
+    <rect x="83" y="280" width="14" height="85" fill="#666" rx="3"/>
+    <rect x="110" y="280" width="14" height="85" fill="#666" rx="3"/>
+  </g>
+
+  <!-- Trajectory of body forward -->
+  <path d="M 150 200 Q 220 150 290 200" stroke="#3498db" stroke-width="2.5" fill="none" stroke-dasharray="6,4" marker-end="url(#t3Arrow)"/>
+  <text x="220" y="145" text-anchor="middle" font-size="12" fill="#3498db">前へ踏み込む</text>
+
+  <!-- ===== Position 2: Landing on left foot ===== -->
+  <g>
+    <text x="320" y="395" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">②左足で着地</text>
+    <circle cx="320" cy="135" r="18" fill="#fff" stroke="#333" stroke-width="2"/>
+    <path d="M 305 153 Q 298 220 305 285 Q 322 290 340 285 Q 350 220 337 153 Z" fill="#fdebd0" stroke="#d68910" stroke-width="2"/>
+    <line x1="307" y1="170" x2="290" y2="220" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+    <line x1="338" y1="170" x2="360" y2="220" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+    <!-- Racket coming down -->
+    <line x1="365" y1="220" x2="385" y2="245" stroke="#777" stroke-width="3"/>
+    <ellipse cx="388" cy="248" rx="11" ry="7" fill="none" stroke="#444" stroke-width="2"/>
+    <!-- Left leg landing -->
+    <rect x="303" y="285" width="14" height="80" fill="#f9d7d3" stroke="#c0392b" stroke-width="1.5" rx="3"/>
+    <ellipse cx="310" cy="367" rx="22" ry="7" fill="#e74c3c" stroke="#a93226" stroke-width="2"/>
+    <!-- Right leg trailing/lifted -->
+    <path d="M 327 285 L 360 320 L 365 320 L 335 290" fill="#aaa" stroke="#888"/>
+  </g>
+
+  <!-- Jump arrow for split step -->
+  <path d="M 410 250 Q 440 200 470 250" stroke="#9b59b6" stroke-width="2.5" fill="none" marker-end="url(#t3Jump)"/>
+  <text x="440" y="190" text-anchor="middle" font-size="12" fill="#9b59b6" font-weight="bold">スプリット</text>
+
+  <!-- ===== Position 3: Split step (ready position with both feet apart, slight jump) ===== -->
+  <g>
+    <text x="510" y="395" text-anchor="middle" font-size="13" fill="#9b59b6" font-weight="bold">③スプリットステップ</text>
+    <circle cx="510" cy="135" r="18" fill="#fff" stroke="#9b59b6" stroke-width="2"/>
+    <path d="M 495 153 Q 488 220 495 285 Q 510 290 525 285 Q 532 220 525 153 Z" fill="#ebdef0" stroke="#9b59b6" stroke-width="2"/>
+    <!-- Both arms in ready position -->
+    <line x1="495" y1="170" x2="475" y2="240" stroke="#9b59b6" stroke-width="5" stroke-linecap="round"/>
+    <line x1="525" y1="170" x2="545" y2="240" stroke="#9b59b6" stroke-width="5" stroke-linecap="round"/>
+    <!-- Racket held in front -->
+    <line x1="540" y1="240" x2="565" y2="225" stroke="#777" stroke-width="3"/>
+    <ellipse cx="569" cy="222" rx="11" ry="7" fill="none" stroke="#444" stroke-width="2"/>
+
+    <!-- Both feet apart, knees bent -->
+    <path d="M 493 285 L 478 360 L 495 360 L 503 290 Z" fill="#9b59b6"/>
+    <path d="M 525 285 L 542 360 L 525 360 L 517 290 Z" fill="#9b59b6"/>
+    <ellipse cx="486" cy="365" rx="20" ry="6" fill="#9b59b6"/>
+    <ellipse cx="534" cy="365" rx="20" ry="6" fill="#9b59b6"/>
+
+    <!-- Small upward jump arrows under feet -->
+    <line x1="486" y1="380" x2="486" y2="390" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="534" y1="380" x2="534" y2="390" stroke="#9b59b6" stroke-width="2"/>
+  </g>
+
+  <text x="300" y="60" text-anchor="middle" font-size="12" fill="#555">サーブを「単発」で終わらせず、次の構えまで一連の流れに</text>
+</svg>
