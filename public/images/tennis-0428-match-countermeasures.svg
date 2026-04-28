@@ -1,0 +1,117 @@
+<svg viewBox="0 0 820 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="cmArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1e8449"/>
+    </marker>
+    <marker id="cmArrR" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#d68910"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">試合のギクシャクを抜け出す｜4つの対策</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">体ではなく「内側のスイッチ」を切り替える</text>
+
+  <!-- ============ Panel 1 (top-left): 呼吸 ============ -->
+  <rect x="20" y="78" width="385" height="30" fill="#3498db" rx="4"/>
+  <text x="212" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①呼吸を整える（ふぅ）</text>
+
+  <rect x="20" y="115" width="385" height="155" fill="#ebf5fb" rx="4"/>
+
+  <!-- Person breathing -->
+  <circle cx="100" cy="170" r="20" fill="#fff" stroke="#3498db" stroke-width="2"/>
+  <circle cx="93" cy="167" r="1.6" fill="#333"/>
+  <circle cx="107" cy="167" r="1.6" fill="#333"/>
+  <ellipse cx="100" cy="178" rx="5" ry="3.5" fill="#3498db"/>
+  <path d="M 88 195 Q 80 230 92 240 L 108 240 Q 120 230 112 195 Z" fill="#d6eaf8" stroke="#3498db" stroke-width="2"/>
+
+  <!-- Breath arrows -->
+  <line x1="130" y1="178" x2="200" y2="178" stroke="#3498db" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#cmArr)"/>
+  <text x="165" y="170" text-anchor="middle" font-size="12" fill="#3498db" font-weight="bold">ふぅ</text>
+  <text x="165" y="195" text-anchor="middle" font-size="9" fill="#2874a6">息を「吐く」</text>
+
+  <!-- Tips -->
+  <text x="240" y="145" font-size="11" fill="#2874a6" font-weight="bold">・4秒吸って 6秒吐く</text>
+  <text x="240" y="167" font-size="11" fill="#2874a6" font-weight="bold">・ポイント間に長く吐く</text>
+  <text x="240" y="189" font-size="11" fill="#2874a6" font-weight="bold">・吐く方を意識</text>
+  <text x="240" y="211" font-size="11" fill="#2874a6" font-weight="bold">・止めない（息止め厳禁）</text>
+  <text x="240" y="240" font-size="10" fill="#566573" font-style="italic">息が浅くなる＝交感神経全開</text>
+  <text x="240" y="254" font-size="10" fill="#566573" font-style="italic">吐けば自然に副交感へ戻る</text>
+
+  <!-- ============ Panel 2 (top-right): ルーティン ============ -->
+  <rect x="415" y="78" width="385" height="30" fill="#1e8449" rx="4"/>
+  <text x="607" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②ルーティンを作る</text>
+
+  <rect x="415" y="115" width="385" height="155" fill="#eafaf1" rx="4"/>
+
+  <!-- Circular loop showing routine repetition -->
+  <circle cx="500" cy="195" r="48" fill="none" stroke="#1e8449" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="500" y="158" text-anchor="middle" font-size="9" fill="#1e8449" font-weight="bold">ボール突き</text>
+  <text x="540" y="200" text-anchor="middle" font-size="9" fill="#1e8449" font-weight="bold">息を吐く</text>
+  <text x="500" y="240" text-anchor="middle" font-size="9" fill="#1e8449" font-weight="bold">ラケット握り直す</text>
+  <text x="460" y="200" text-anchor="middle" font-size="9" fill="#1e8449" font-weight="bold">構える</text>
+  <!-- Arrow on circle -->
+  <path d="M 540 175 A 48 48 0 0 1 540 215" stroke="#1e8449" stroke-width="2" fill="none" marker-end="url(#cmArr)"/>
+
+  <!-- Tips -->
+  <text x="585" y="145" font-size="11" fill="#1e8449" font-weight="bold">・サーブ前のボール突き</text>
+  <text x="585" y="167" font-size="11" fill="#1e8449" font-weight="bold">・レシーブ前のステップ</text>
+  <text x="585" y="189" font-size="11" fill="#1e8449" font-weight="bold">・同じ順序・同じ回数</text>
+  <text x="585" y="211" font-size="11" fill="#1e8449" font-weight="bold">・毎ポイントやる</text>
+  <text x="585" y="240" font-size="10" fill="#566573" font-style="italic">毎回同じ動きをすると</text>
+  <text x="585" y="254" font-size="10" fill="#566573" font-style="italic">体が「いつもの状態」に戻る</text>
+
+  <!-- ============ Panel 3 (bottom-left): プロセス意識 ============ -->
+  <rect x="20" y="285" width="385" height="30" fill="#d68910" rx="4"/>
+  <text x="212" y="305" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③意識を「結果」から「過程」へ</text>
+
+  <rect x="20" y="322" width="385" height="155" fill="#fdf6ec" rx="4"/>
+
+  <!-- BAD: result-focused (X) -->
+  <rect x="40" y="340" width="155" height="50" fill="#fadbd8" stroke="#c0392b" stroke-width="1.5" rx="4"/>
+  <text x="117" y="358" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">✗ 結果に向いた意識</text>
+  <text x="117" y="375" text-anchor="middle" font-size="9" fill="#a93226">「ミスしたらどうしよう」</text>
+
+  <!-- Arrow down -->
+  <line x1="117" y1="395" x2="117" y2="415" stroke="#d68910" stroke-width="2" marker-end="url(#cmArrR)"/>
+
+  <!-- GOOD: process-focused (O) -->
+  <rect x="40" y="420" width="155" height="50" fill="#fdf6ec" stroke="#1e8449" stroke-width="1.5" rx="4"/>
+  <text x="117" y="438" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="bold">○ 動作に向いた意識</text>
+  <text x="117" y="455" text-anchor="middle" font-size="9" fill="#0e6251">「次の一球、踵を踏む」</text>
+
+  <!-- Tips on right -->
+  <text x="220" y="345" font-size="11" fill="#9c640c" font-weight="bold">・スコアを忘れる</text>
+  <text x="220" y="367" font-size="11" fill="#9c640c" font-weight="bold">・相手より自分の動作</text>
+  <text x="220" y="389" font-size="11" fill="#9c640c" font-weight="bold">・過去のミスは置く</text>
+  <text x="220" y="411" font-size="11" fill="#9c640c" font-weight="bold">・「いま」だけを見る</text>
+  <text x="220" y="438" font-size="10" fill="#566573" font-style="italic">結果は意識で変えられない</text>
+  <text x="220" y="452" font-size="10" fill="#566573" font-style="italic">動作は意識で変えられる</text>
+
+  <!-- ============ Panel 4 (bottom-right): キーワード ============ -->
+  <rect x="415" y="285" width="385" height="30" fill="#8e44ad" rx="4"/>
+  <text x="607" y="305" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">④キーワード（1単語）に絞る</text>
+
+  <rect x="415" y="322" width="385" height="155" fill="#f5eef8" rx="4"/>
+
+  <!-- Big keyword examples -->
+  <rect x="435" y="340" width="100" height="40" fill="#fff" stroke="#8e44ad" stroke-width="2" rx="6"/>
+  <text x="485" y="365" text-anchor="middle" font-size="14" fill="#8e44ad" font-weight="bold">踵</text>
+
+  <rect x="545" y="340" width="100" height="40" fill="#fff" stroke="#8e44ad" stroke-width="2" rx="6"/>
+  <text x="595" y="365" text-anchor="middle" font-size="14" fill="#8e44ad" font-weight="bold">フォロー</text>
+
+  <rect x="655" y="340" width="130" height="40" fill="#fff" stroke="#8e44ad" stroke-width="2" rx="6"/>
+  <text x="720" y="365" text-anchor="middle" font-size="14" fill="#8e44ad" font-weight="bold">ふぅ</text>
+
+  <rect x="435" y="390" width="160" height="35" fill="#fff" stroke="#8e44ad" stroke-width="2" rx="6"/>
+  <text x="515" y="412" text-anchor="middle" font-size="13" fill="#8e44ad" font-weight="bold">体の力で振る</text>
+
+  <rect x="605" y="390" width="180" height="35" fill="#fff" stroke="#8e44ad" stroke-width="2" rx="6"/>
+  <text x="695" y="412" text-anchor="middle" font-size="13" fill="#8e44ad" font-weight="bold">小さなバックスイング</text>
+
+  <!-- Explanation -->
+  <text x="607" y="445" text-anchor="middle" font-size="10" fill="#6c3483" font-weight="bold">緊張すると思考が散らかる → 1単語で集中点を絞る</text>
+  <text x="607" y="462" text-anchor="middle" font-size="10" fill="#6c3483" font-style="italic">自分のテーマを1つだけ。たくさん思い出さない。</text>
+
+  <text x="410" y="495" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 順番に試すより、自分に効くやつを見つけて、毎ポイント繰り返す</text>
+</svg>

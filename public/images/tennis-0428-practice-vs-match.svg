@@ -1,0 +1,154 @@
+<svg viewBox="0 0 820 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="pmArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#444"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">練習はスムーズなのに、試合でギクシャクするのはなぜ？</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">同じ体・同じ技術。違うのは「中で起きていること」</text>
+
+  <line x1="410" y1="68" x2="410" y2="478" stroke="#cfd8dc" stroke-width="1"/>
+
+  <!-- ============= LEFT: 練習 ============= -->
+  <rect x="20" y="78" width="380" height="30" fill="#1e8449" rx="4"/>
+  <text x="210" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">練習中｜スムーズ・流れる動き</text>
+
+  <!-- Background tint -->
+  <rect x="20" y="115" width="380" height="345" fill="#eafaf1" rx="4"/>
+
+  <!-- Smooth flow lines around player (movement is fluid) -->
+  <g stroke="#27ae60" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M 70 200 Q 130 180 190 220 Q 250 260 320 230"/>
+    <path d="M 60 270 Q 130 250 200 290 Q 270 320 340 290"/>
+    <path d="M 70 340 Q 140 320 210 360 Q 280 380 340 350"/>
+  </g>
+
+  <!-- Player figure (relaxed) -->
+  <!-- Head with slight smile -->
+  <circle cx="210" cy="170" r="18" fill="#fff" stroke="#1e8449" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="204" cy="167" r="1.6" fill="#333"/>
+  <circle cx="216" cy="167" r="1.6" fill="#333"/>
+  <!-- Smile -->
+  <path d="M 202 175 Q 210 180 218 175" stroke="#1e8449" stroke-width="1.5" fill="none"/>
+
+  <!-- Relaxed shoulders / body (soft curves) -->
+  <path d="M 192 192 Q 180 240 188 300 L 232 300 Q 240 240 228 192 Z" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+
+  <!-- Arms hanging down naturally -->
+  <line x1="195" y1="210" x2="172" y2="270" stroke="#1e8449" stroke-width="5" stroke-linecap="round"/>
+  <line x1="195" y1="210" x2="172" y2="270" stroke="#f5cba7" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="225" y1="210" x2="252" y2="275" stroke="#1e8449" stroke-width="5" stroke-linecap="round"/>
+  <line x1="225" y1="210" x2="252" y2="275" stroke="#f5cba7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Racket held loosely -->
+  <line x1="252" y1="275" x2="280" y2="260" stroke="#444" stroke-width="2"/>
+  <ellipse cx="288" cy="256" rx="9" ry="11" fill="#fff" stroke="#1e8449" stroke-width="1.5"/>
+
+  <!-- Legs (knees soft) -->
+  <line x1="200" y1="300" x2="195" y2="370" stroke="#1e8449" stroke-width="6" stroke-linecap="round"/>
+  <line x1="220" y1="300" x2="225" y2="370" stroke="#1e8449" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="195" cy="375" rx="14" ry="4" fill="#1e8449"/>
+  <ellipse cx="225" cy="375" rx="14" ry="4" fill="#1e8449"/>
+
+  <!-- Single calm thought bubble -->
+  <ellipse cx="105" cy="160" rx="55" ry="22" fill="#fff" stroke="#1e8449" stroke-width="1.5"/>
+  <text x="105" y="158" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">次の一球</text>
+  <text x="105" y="172" text-anchor="middle" font-size="9" fill="#1e8449">フォロースルー</text>
+  <circle cx="148" cy="178" r="4" fill="#fff" stroke="#1e8449" stroke-width="1.2"/>
+  <circle cx="158" cy="183" r="2.5" fill="#fff" stroke="#1e8449" stroke-width="1"/>
+
+  <!-- "ふー" breathing -->
+  <text x="305" y="170" font-size="16" fill="#27ae60" font-weight="bold">ふー</text>
+  <path d="M 305 175 Q 320 178 335 175" stroke="#27ae60" stroke-width="1.5" fill="none"/>
+
+  <!-- Indicators -->
+  <rect x="40" y="395" width="160" height="55" fill="#fff" stroke="#1e8449" stroke-width="1.5" rx="4"/>
+  <text x="120" y="412" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="bold">体の状態</text>
+  <text x="120" y="428" text-anchor="middle" font-size="10" fill="#0e6251">力みなし・呼吸スムーズ</text>
+  <text x="120" y="442" text-anchor="middle" font-size="10" fill="#0e6251">主動筋だけが働く</text>
+
+  <rect x="220" y="395" width="160" height="55" fill="#fff" stroke="#1e8449" stroke-width="1.5" rx="4"/>
+  <text x="300" y="412" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="bold">頭の中</text>
+  <text x="300" y="428" text-anchor="middle" font-size="10" fill="#0e6251">動作に集中（プロセス）</text>
+  <text x="300" y="442" text-anchor="middle" font-size="10" fill="#0e6251">結果を気にしない</text>
+
+  <!-- ============= RIGHT: 試合 ============= -->
+  <rect x="420" y="78" width="380" height="30" fill="#c0392b" rx="4"/>
+  <text x="610" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">試合中｜ギクシャク・力みの動き</text>
+
+  <!-- Background tint -->
+  <rect x="420" y="115" width="380" height="345" fill="#fdedec" rx="4"/>
+
+  <!-- Jagged/spiky lines around player (tension) -->
+  <g stroke="#c0392b" stroke-width="1.5" fill="none" opacity="0.7">
+    <polyline points="470,200 485,190 500,205 515,190 530,205 545,190 560,205"/>
+    <polyline points="660,200 675,190 690,205 705,190 720,205 735,190 750,205"/>
+    <polyline points="470,360 485,348 500,360 515,348 530,360 545,348 560,360"/>
+  </g>
+
+  <!-- Player figure (tense) - slightly hunched, shoulders raised -->
+  <!-- Head -->
+  <circle cx="610" cy="170" r="18" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+  <!-- Worried eyes -->
+  <circle cx="603" cy="167" r="2.5" fill="#333"/>
+  <circle cx="617" cy="167" r="2.5" fill="#333"/>
+  <!-- Worried frown -->
+  <path d="M 602 178 Q 610 173 618 178" stroke="#c0392b" stroke-width="1.5" fill="none"/>
+  <!-- Sweat drop -->
+  <path d="M 632 158 Q 636 168 640 158 Q 638 152 636 156 Q 634 152 632 158 Z" fill="#3498db" stroke="#2874a6" stroke-width="0.8"/>
+
+  <!-- Tense shoulders / body (raised, tight) -->
+  <path d="M 590 192 Q 583 240 588 300 L 632 300 Q 637 240 630 192 Z" fill="#fadbd8" stroke="#c0392b" stroke-width="2"/>
+  <!-- Tension lines on body -->
+  <line x1="600" y1="220" x2="620" y2="220" stroke="#c0392b" stroke-width="1" opacity="0.5"/>
+  <line x1="598" y1="240" x2="622" y2="240" stroke="#c0392b" stroke-width="1" opacity="0.5"/>
+
+  <!-- Arms gripping tight (raised, tense) -->
+  <line x1="595" y1="200" x2="568" y2="245" stroke="#c0392b" stroke-width="6" stroke-linecap="round"/>
+  <line x1="595" y1="200" x2="568" y2="245" stroke="#f5cba7" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="625" y1="200" x2="654" y2="245" stroke="#c0392b" stroke-width="6" stroke-linecap="round"/>
+  <line x1="625" y1="200" x2="654" y2="245" stroke="#f5cba7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Both hands gripping racket tightly -->
+  <line x1="654" y1="245" x2="685" y2="225" stroke="#444" stroke-width="3"/>
+  <ellipse cx="694" cy="220" rx="9" ry="11" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+  <!-- Tight grip indicator (small circles around hand) -->
+  <circle cx="652" cy="245" r="9" fill="none" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="2,1.5"/>
+
+  <!-- Legs (stiff) -->
+  <line x1="600" y1="300" x2="598" y2="370" stroke="#c0392b" stroke-width="6" stroke-linecap="round"/>
+  <line x1="620" y1="300" x2="622" y2="370" stroke="#c0392b" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="598" cy="375" rx="14" ry="4" fill="#c0392b"/>
+  <ellipse cx="622" cy="375" rx="14" ry="4" fill="#c0392b"/>
+
+  <!-- Multiple cluttered thought bubbles -->
+  <ellipse cx="475" cy="145" rx="50" ry="18" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="475" y="149" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">ミスしたら…</text>
+
+  <ellipse cx="500" cy="185" rx="40" ry="16" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="500" y="189" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">0-30…</text>
+
+  <ellipse cx="755" cy="160" rx="48" ry="18" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="755" y="164" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">サーブ怖い</text>
+
+  <ellipse cx="745" cy="200" rx="50" ry="16" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="745" y="204" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">ダブル怖い</text>
+
+  <!-- Held breath -->
+  <text x="540" y="170" font-size="14" fill="#a93226" font-weight="bold">息止め</text>
+
+  <!-- Indicators -->
+  <rect x="440" y="395" width="160" height="55" fill="#fff" stroke="#c0392b" stroke-width="1.5" rx="4"/>
+  <text x="520" y="412" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">体の状態</text>
+  <text x="520" y="428" text-anchor="middle" font-size="10" fill="#a93226">力み・浅い呼吸</text>
+  <text x="520" y="442" text-anchor="middle" font-size="10" fill="#a93226">拮抗筋まで同時に収縮</text>
+
+  <rect x="620" y="395" width="160" height="55" fill="#fff" stroke="#c0392b" stroke-width="1.5" rx="4"/>
+  <text x="700" y="412" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">頭の中</text>
+  <text x="700" y="428" text-anchor="middle" font-size="10" fill="#a93226">結果に集中（点・順位）</text>
+  <text x="700" y="442" text-anchor="middle" font-size="10" fill="#a93226">過剰意識・思考が多い</text>
+
+  <text x="410" y="492" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 体力でも技術でもない。「意識の向き先」と「呼吸」が変わると、動きも変わる</text>
+</svg>
