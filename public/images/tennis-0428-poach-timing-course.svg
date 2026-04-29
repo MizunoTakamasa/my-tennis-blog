@@ -1,0 +1,150 @@
+<svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="ptArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+    <marker id="ptArrG" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1e8449"/>
+    </marker>
+    <marker id="ptArrB" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#2874a6"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">ポーチの「タイミング」と「コース」</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">いつ動く？どこに打つ？を整理する</text>
+
+  <!-- ============ Top half: TIMING (3 panels) ============ -->
+  <text x="20" y="80" font-size="15" fill="#222" font-weight="bold">▶ いつ動き出す？</text>
+
+  <!-- Panel A: 早い -->
+  <rect x="20" y="92" width="255" height="30" fill="#c0392b" rx="4"/>
+  <text x="147" y="112" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">A. 早すぎる ✗</text>
+  <rect x="20" y="125" width="255" height="125" fill="#fadbd8"/>
+
+  <!-- Opponent figure -->
+  <circle cx="100" cy="155" r="10" fill="#7f8c8d" stroke="#34495e" stroke-width="1.5"/>
+  <line x1="100" y1="165" x2="100" y2="185" stroke="#34495e" stroke-width="2.5"/>
+  <line x1="100" y1="170" x2="115" y2="178" stroke="#34495e" stroke-width="2"/>
+  <text x="100" y="200" text-anchor="middle" font-size="9" fill="#34495e">相手</text>
+
+  <text x="100" y="218" text-anchor="middle" font-size="9" fill="#922b21">まだ打ってない</text>
+
+  <!-- You moving early -->
+  <circle cx="180" cy="180" r="11" fill="#e74c3c" stroke="#922b21" stroke-width="1.5"/>
+  <text x="180" y="184" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">自分</text>
+  <line x1="195" y1="180" x2="240" y2="180" stroke="#c0392b" stroke-width="2" marker-end="url(#ptArr)"/>
+
+  <text x="147" y="240" text-anchor="middle" font-size="10" fill="#922b21" font-weight="bold">→ 動きを読まれて逆を突かれる</text>
+
+  <!-- Panel B: ピッタリ -->
+  <rect x="280" y="92" width="255" height="30" fill="#1e8449" rx="4"/>
+  <text x="407" y="112" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">B. ジャストタイミング ◎</text>
+  <rect x="280" y="125" width="255" height="125" fill="#eafaf1"/>
+
+  <!-- Opponent hitting -->
+  <circle cx="360" cy="155" r="10" fill="#7f8c8d" stroke="#34495e" stroke-width="1.5"/>
+  <line x1="360" y1="165" x2="360" y2="185" stroke="#34495e" stroke-width="2.5"/>
+  <line x1="360" y1="170" x2="378" y2="160" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="360" y="200" text-anchor="middle" font-size="9" fill="#34495e">相手</text>
+
+  <text x="360" y="218" text-anchor="middle" font-size="9" fill="#0e6251" font-weight="bold">打つ瞬間に動く</text>
+
+  <!-- Lightning bolt -->
+  <path d="M 380 142 L 395 132 L 388 145 L 400 138 L 385 158" stroke="#f39c12" stroke-width="2" fill="#f39c12"/>
+
+  <!-- You moving -->
+  <circle cx="440" cy="180" r="11" fill="#e74c3c" stroke="#922b21" stroke-width="1.5"/>
+  <text x="440" y="184" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">自分</text>
+  <line x1="455" y1="180" x2="500" y2="180" stroke="#1e8449" stroke-width="2.5" marker-end="url(#ptArrG)"/>
+
+  <text x="407" y="240" text-anchor="middle" font-size="10" fill="#0e6251" font-weight="bold">→ 相手は反応できない</text>
+
+  <!-- Panel C: 遅い -->
+  <rect x="540" y="92" width="260" height="30" fill="#7f8c8d" rx="4"/>
+  <text x="670" y="112" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">C. 遅すぎる △</text>
+  <rect x="540" y="125" width="260" height="125" fill="#eaeded"/>
+
+  <!-- Opponent hit complete, ball already past -->
+  <circle cx="615" cy="155" r="10" fill="#7f8c8d" stroke="#34495e" stroke-width="1.5"/>
+  <line x1="615" y1="165" x2="615" y2="185" stroke="#34495e" stroke-width="2.5"/>
+  <text x="615" y="200" text-anchor="middle" font-size="9" fill="#34495e">相手</text>
+
+  <text x="615" y="218" text-anchor="middle" font-size="9" fill="#566573">打ち終わった後</text>
+
+  <!-- Ball already gone -->
+  <circle cx="710" cy="160" r="4" fill="#f39c12"/>
+  <line x1="650" y1="160" x2="700" y2="160" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- You moving late -->
+  <circle cx="700" cy="195" r="11" fill="#e74c3c" stroke="#922b21" stroke-width="1.5"/>
+  <text x="700" y="199" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">自分</text>
+
+  <text x="670" y="240" text-anchor="middle" font-size="10" fill="#566573" font-weight="bold">→ 球が抜けてからじゃ間に合わない</text>
+
+  <!-- ============ Bottom half: COURSE ============ -->
+  <text x="20" y="285" font-size="15" fill="#222" font-weight="bold">▶ どこに決める？（3つの定石）</text>
+
+  <!-- Mini court for course illustration -->
+  <rect x="20" y="295" width="500" height="200" fill="#5dade2" stroke="#1b4f72" stroke-width="2"/>
+
+  <!-- Net -->
+  <line x1="20" y1="395" x2="520" y2="395" stroke="#fff" stroke-width="2.5"/>
+  <text x="10" y="400" text-anchor="end" font-size="9" fill="#1b4f72" font-weight="bold">ネット</text>
+
+  <!-- Service lines -->
+  <line x1="20" y1="345" x2="520" y2="345" stroke="#fff" stroke-width="1.5"/>
+  <line x1="20" y1="445" x2="520" y2="445" stroke="#fff" stroke-width="1.5"/>
+  <line x1="270" y1="345" x2="270" y2="445" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Singles sidelines -->
+  <line x1="60" y1="295" x2="60" y2="495" stroke="#fff" stroke-width="1.5"/>
+  <line x1="480" y1="295" x2="480" y2="495" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Opponents side (top) -->
+  <!-- Net player (we hit AT them: feet) -->
+  <circle cx="380" cy="335" r="10" fill="#7f8c8d" stroke="#34495e" stroke-width="1.5"/>
+  <text x="380" y="320" text-anchor="middle" font-size="8" fill="#34495e">敵前衛</text>
+
+  <!-- Back player (away from them) -->
+  <circle cx="180" cy="320" r="10" fill="#7f8c8d" stroke="#34495e" stroke-width="1.5"/>
+  <text x="180" y="305" text-anchor="middle" font-size="8" fill="#34495e">敵後衛</text>
+
+  <!-- Our player (poacher) at net -->
+  <circle cx="280" cy="415" r="11" fill="#e74c3c" stroke="#922b21" stroke-width="1.5"/>
+  <text x="280" y="419" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">自分</text>
+
+  <!-- Course 1: Center (between opponents) - GREEN -->
+  <line x1="275" y1="405" x2="285" y2="370" stroke="#1e8449" stroke-width="3" marker-end="url(#ptArrG)"/>
+  <text x="285" y="385" text-anchor="start" font-size="10" fill="#1e8449" font-weight="bold">①センター</text>
+
+  <!-- Course 2: At opponent's feet - ORANGE -->
+  <line x1="295" y1="408" x2="370" y2="345" stroke="#d68910" stroke-width="3" marker-end="url(#ptArr)"/>
+  <text x="375" y="338" text-anchor="start" font-size="10" fill="#d68910" font-weight="bold">②敵前衛の足元</text>
+
+  <!-- Course 3: Cross to opponent's open side - BLUE -->
+  <line x1="265" y1="408" x2="100" y2="335" stroke="#2874a6" stroke-width="3" marker-end="url(#ptArrB)"/>
+  <text x="100" y="320" text-anchor="middle" font-size="10" fill="#2874a6" font-weight="bold">③敵の開いた逆サイド</text>
+
+  <!-- ============ Right side panel: course explanation ============ -->
+  <rect x="540" y="295" width="260" height="200" fill="#f4f6f6" stroke="#566573" stroke-width="1.5" rx="4"/>
+  <text x="670" y="318" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">コースの選び方</text>
+  <line x1="555" y1="328" x2="785" y2="328" stroke="#566573" stroke-width="1"/>
+
+  <circle cx="565" cy="348" r="6" fill="#1e8449"/>
+  <text x="578" y="352" font-size="11" fill="#1e8449" font-weight="bold">①センター</text>
+  <text x="578" y="367" font-size="9" fill="#222">2人の真ん中。お見合い狙い。</text>
+  <text x="578" y="380" font-size="9" fill="#566573" font-style="italic">迷ったらコレ。一番安全</text>
+
+  <circle cx="565" cy="403" r="6" fill="#d68910"/>
+  <text x="578" y="407" font-size="11" fill="#d68910" font-weight="bold">②敵前衛の足元</text>
+  <text x="578" y="422" font-size="9" fill="#222">前衛が反応できない近距離。</text>
+  <text x="578" y="435" font-size="9" fill="#566573" font-style="italic">エースになりやすい</text>
+
+  <circle cx="565" cy="458" r="6" fill="#2874a6"/>
+  <text x="578" y="462" font-size="11" fill="#2874a6" font-weight="bold">③逆サイド</text>
+  <text x="578" y="477" font-size="9" fill="#222">敵後衛が動けない遠い場所</text>
+  <text x="578" y="490" font-size="9" fill="#566573" font-style="italic">難易度高・カウンターに注意</text>
+
+  <text x="410" y="514" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 強く打たなくていい。「コースが決まれば」勝てる</text>
+</svg>
