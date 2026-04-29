@@ -1,0 +1,162 @@
+<svg viewBox="0 0 820 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="imArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">テニス向けインターバルメニュー｜4種類</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">タバタ・走り・縄跳び・コートドリル</text>
+
+  <!-- ============ Panel 1 (top-left): Tabata ============ -->
+  <rect x="20" y="78" width="385" height="30" fill="#c0392b" rx="4"/>
+  <text x="212" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①タバタ式｜4分で限界まで</text>
+
+  <rect x="20" y="115" width="385" height="170" fill="#fadbd8" rx="4"/>
+
+  <!-- Tabata structure: 20s work / 10s rest x 8 -->
+  <text x="212" y="138" text-anchor="middle" font-size="11" fill="#922b21" font-weight="bold">20秒全力 → 10秒休憩 × 8セット</text>
+
+  <!-- Visual: 8 cycles -->
+  <g>
+    <!-- Block 1 -->
+    <rect x="40" y="155" width="36" height="24" fill="#c0392b"/>
+    <rect x="76" y="155" width="18" height="24" fill="#aab7b8"/>
+    <!-- Block 2 -->
+    <rect x="94" y="155" width="36" height="24" fill="#c0392b"/>
+    <rect x="130" y="155" width="18" height="24" fill="#aab7b8"/>
+    <!-- Block 3 -->
+    <rect x="148" y="155" width="36" height="24" fill="#c0392b"/>
+    <rect x="184" y="155" width="18" height="24" fill="#aab7b8"/>
+    <!-- Block 4 -->
+    <rect x="202" y="155" width="36" height="24" fill="#c0392b"/>
+    <rect x="238" y="155" width="18" height="24" fill="#aab7b8"/>
+    <!-- Block 5 -->
+    <rect x="256" y="155" width="36" height="24" fill="#c0392b"/>
+    <rect x="292" y="155" width="18" height="24" fill="#aab7b8"/>
+    <!-- Block 6 -->
+    <rect x="310" y="155" width="36" height="24" fill="#c0392b"/>
+    <rect x="346" y="155" width="18" height="24" fill="#aab7b8"/>
+    <!-- Block 7 (cut for space) -->
+    <text x="370" y="172" font-size="10" fill="#922b21">×8</text>
+  </g>
+
+  <text x="58" y="194" text-anchor="middle" font-size="8" fill="#c0392b" font-weight="bold">全力</text>
+  <text x="85" y="194" text-anchor="middle" font-size="8" fill="#566573">休</text>
+
+  <!-- Menu options -->
+  <text x="40" y="220" font-size="11" fill="#922b21" font-weight="bold">メニュー例</text>
+  <text x="40" y="238" font-size="10" fill="#922b21">・バーピー（全身）</text>
+  <text x="40" y="254" font-size="10" fill="#922b21">・もも上げ</text>
+  <text x="40" y="270" font-size="10" fill="#922b21">・スクワットジャンプ</text>
+
+  <text x="220" y="220" font-size="11" fill="#922b21" font-weight="bold">所要時間</text>
+  <text x="220" y="238" font-size="10" fill="#922b21">準備込み 10分</text>
+
+  <text x="220" y="260" font-size="11" fill="#922b21" font-weight="bold">頻度</text>
+  <text x="220" y="278" font-size="10" fill="#922b21">週2回</text>
+
+  <!-- ============ Panel 2 (top-right): 走るインターバル ============ -->
+  <rect x="415" y="78" width="385" height="30" fill="#1e8449" rx="4"/>
+  <text x="607" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②走るインターバル｜公園・河川敷</text>
+
+  <rect x="415" y="115" width="385" height="170" fill="#eafaf1" rx="4"/>
+
+  <text x="607" y="138" text-anchor="middle" font-size="11" fill="#0e6251" font-weight="bold">100m全力ダッシュ → 100m歩く × 8〜10本</text>
+
+  <!-- Visual: track loop -->
+  <g>
+    <!-- Track outline -->
+    <path d="M 470 175 Q 460 175 460 195 Q 460 215 470 215 L 700 215 Q 710 215 710 195 Q 710 175 700 175 Z"
+          fill="none" stroke="#1e8449" stroke-width="2" stroke-dasharray="3,2"/>
+
+    <!-- Sprint segment (top, red) -->
+    <line x1="470" y1="175" x2="700" y2="175" stroke="#c0392b" stroke-width="3"/>
+    <text x="585" y="168" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">100m全力</text>
+
+    <!-- Walk segment (bottom, blue) -->
+    <line x1="700" y1="215" x2="470" y2="215" stroke="#3498db" stroke-width="3"/>
+    <text x="585" y="232" text-anchor="middle" font-size="9" fill="#3498db" font-weight="bold">100m歩く（休憩）</text>
+
+    <!-- Runner -->
+    <circle cx="540" cy="175" r="6" fill="#1e8449" stroke="#0e6251" stroke-width="1.5"/>
+    <line x1="555" y1="175" x2="580" y2="175" stroke="#c0392b" stroke-width="2" marker-end="url(#imArr)"/>
+  </g>
+
+  <!-- Tips -->
+  <text x="435" y="262" font-size="11" fill="#0e6251" font-weight="bold">ポイント</text>
+  <text x="435" y="278" font-size="10" fill="#0e6251">・全力＝70〜80%でOK（無理しない）</text>
+  <text x="600" y="262" font-size="11" fill="#0e6251" font-weight="bold">所要：20分</text>
+  <text x="600" y="278" font-size="10" fill="#0e6251">頻度：週2回</text>
+
+  <!-- ============ Panel 3 (bottom-left): 縄跳び ============ -->
+  <rect x="20" y="297" width="385" height="30" fill="#3498db" rx="4"/>
+  <text x="212" y="317" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③縄跳びインターバル｜家でも公園でも</text>
+
+  <rect x="20" y="334" width="385" height="170" fill="#ebf5fb" rx="4"/>
+
+  <text x="212" y="357" text-anchor="middle" font-size="11" fill="#2874a6" font-weight="bold">30秒全力 → 30秒休憩 × 10セット</text>
+
+  <!-- Person with rope -->
+  <g>
+    <circle cx="120" cy="395" r="11" fill="#fff" stroke="#2874a6" stroke-width="2"/>
+    <line x1="120" y1="406" x2="120" y2="445" stroke="#2874a6" stroke-width="3"/>
+    <line x1="120" y1="420" x2="100" y2="430" stroke="#2874a6" stroke-width="2"/>
+    <line x1="120" y1="420" x2="140" y2="430" stroke="#2874a6" stroke-width="2"/>
+    <line x1="120" y1="445" x2="113" y2="465" stroke="#2874a6" stroke-width="3"/>
+    <line x1="120" y1="445" x2="127" y2="465" stroke="#2874a6" stroke-width="3"/>
+
+    <!-- Rope arc -->
+    <path d="M 100 430 Q 120 380 140 430" stroke="#2874a6" stroke-width="1.5" fill="none"/>
+    <path d="M 100 430 Q 120 480 140 430" stroke="#2874a6" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+
+    <!-- Motion lines -->
+    <line x1="80" y1="395" x2="92" y2="395" stroke="#2874a6" stroke-width="1"/>
+    <line x1="148" y1="395" x2="160" y2="395" stroke="#2874a6" stroke-width="1"/>
+  </g>
+
+  <!-- Variations -->
+  <text x="200" y="385" font-size="11" fill="#2874a6" font-weight="bold">技を混ぜる</text>
+  <text x="200" y="403" font-size="10" fill="#2874a6">・両足跳び（基本）</text>
+  <text x="200" y="419" font-size="10" fill="#2874a6">・片足跳び</text>
+  <text x="200" y="435" font-size="10" fill="#2874a6">・サイド・サイド</text>
+  <text x="200" y="451" font-size="10" fill="#2874a6">・二重跳び（強度UP）</text>
+
+  <text x="200" y="478" font-size="11" fill="#2874a6" font-weight="bold">所要：10分</text>
+  <text x="200" y="494" font-size="10" fill="#2874a6">頻度：週2〜3回</text>
+
+  <!-- ============ Panel 4 (bottom-right): コートドリル ============ -->
+  <rect x="415" y="297" width="385" height="30" fill="#d68910" rx="4"/>
+  <text x="607" y="317" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">④コートドリル｜本番に近い形</text>
+
+  <rect x="415" y="334" width="385" height="170" fill="#fdf6ec" rx="4"/>
+
+  <text x="607" y="357" text-anchor="middle" font-size="11" fill="#9c640c" font-weight="bold">サイドライン往復ダッシュ × 5本</text>
+
+  <!-- Mini court -->
+  <g>
+    <rect x="450" y="380" width="200" height="80" fill="#5dade2" stroke="#1b4f72" stroke-width="1.5"/>
+    <line x1="550" y1="380" x2="550" y2="460" stroke="#fff" stroke-width="1.5"/>
+
+    <!-- Player at start (left) -->
+    <circle cx="465" cy="420" r="7" fill="#d68910" stroke="#9c640c" stroke-width="1.5"/>
+
+    <!-- Path: zigzag across court -->
+    <path d="M 472 420 L 545 420 L 555 420 L 635 420" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#imArr)" fill="none"/>
+
+    <!-- Sidelines labels -->
+    <text x="460" y="375" text-anchor="middle" font-size="8" fill="#9c640c">スタート</text>
+    <text x="640" y="375" text-anchor="middle" font-size="8" fill="#9c640c">ゴール</text>
+  </g>
+
+  <!-- Tips -->
+  <text x="670" y="395" font-size="11" fill="#9c640c" font-weight="bold">バリエーション</text>
+  <text x="670" y="413" font-size="9" fill="#9c640c">・サイドステップで往復</text>
+  <text x="670" y="429" font-size="9" fill="#9c640c">・前後ダッシュ</text>
+  <text x="670" y="445" font-size="9" fill="#9c640c">・"X"パターン</text>
+
+  <text x="450" y="485" font-size="10" fill="#9c640c">休憩：30秒（ポイント間と同じ）</text>
+  <text x="450" y="498" font-size="10" fill="#9c640c" font-weight="bold">所要：15分／頻度：練習前に1回</text>
+
+  <text x="410" y="525" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 1日1メニューでOK。週合計2〜3回が目安</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="壁打ちにおけるインターバル練習の好循環サイクル図">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill:#222; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 17px; font-weight:600; fill:#fff; }
+      .step { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill:#fff; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; fill:#555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill:#666; font-style: italic; }
+    </style>
+    <marker id="arr-cycle" markerWidth="14" markerHeight="14" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 9 4, 0 8" fill="#3498db"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="520" fill="#fafafa"/>
+  <text x="400" y="45" class="ttl" text-anchor="middle">壁打ち＝インターバルトレーニングの好循環</text>
+
+  <!-- center label -->
+  <circle cx="400" cy="270" r="78" fill="#fff" stroke="#3498db" stroke-width="3" stroke-dasharray="4,4"/>
+  <text x="400" y="262" class="ttl" text-anchor="middle" font-size="18" fill="#3498db">壁打ち</text>
+  <text x="400" y="290" class="note" text-anchor="middle">＝瞬発＋回復の繰り返し</text>
+
+  <!-- Four nodes positioned around the center -->
+  <!-- Top: 打つ -->
+  <circle cx="400" cy="120" r="56" fill="#27ae60"/>
+  <text x="400" y="115" class="lbl" text-anchor="middle">① 打つ</text>
+  <text x="400" y="138" class="step" text-anchor="middle">体で打つ意識</text>
+
+  <!-- Right: 戻る -->
+  <circle cx="630" cy="270" r="56" fill="#e67e22"/>
+  <text x="630" y="265" class="lbl" text-anchor="middle">② 戻る</text>
+  <text x="630" y="288" class="step" text-anchor="middle">ホームへ全力で</text>
+
+  <!-- Bottom: 構える -->
+  <circle cx="400" cy="420" r="56" fill="#9b59b6"/>
+  <text x="400" y="415" class="lbl" text-anchor="middle">③ 構える</text>
+  <text x="400" y="438" class="step" text-anchor="middle">スプリットステップ</text>
+
+  <!-- Left: 走る -->
+  <circle cx="170" cy="270" r="56" fill="#e74c3c"/>
+  <text x="170" y="265" class="lbl" text-anchor="middle">④ 走る</text>
+  <text x="170" y="288" class="step" text-anchor="middle">早めに追いつく</text>
+
+  <!-- Curved arrows between nodes (clockwise) -->
+  <path d="M 456 120 Q 590 140 615 215" fill="none" stroke="#3498db" stroke-width="3" marker-end="url(#arr-cycle)"/>
+  <path d="M 615 325 Q 580 410 460 415" fill="none" stroke="#3498db" stroke-width="3" marker-end="url(#arr-cycle)"/>
+  <path d="M 343 420 Q 220 410 187 325" fill="none" stroke="#3498db" stroke-width="3" marker-end="url(#arr-cycle)"/>
+  <path d="M 187 215 Q 220 130 343 120" fill="none" stroke="#3498db" stroke-width="3" marker-end="url(#arr-cycle)"/>
+
+  <!-- Insights -->
+  <text x="400" y="490" class="cap" text-anchor="middle">図2：壁打ちは「打つ→走る→構える」の連続。脚が止まると、次のショットでフォームが崩れる。</text>
+</svg>

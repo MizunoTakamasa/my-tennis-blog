@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="腕だけで打つスイングと体全体で打つスイングの比較イラスト">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 16px; }
+      .sub { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; fill:#666; }
+    </style>
+    <marker id="arr-red" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#e74c3c"/>
+    </marker>
+    <marker id="arr-green" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#27ae60"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#3498db"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="520" fill="#fafafa"/>
+  <line x1="400" y1="60" x2="400" y2="470" stroke="#ddd" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- LEFT: arm-only -->
+  <text x="200" y="45" class="ttl" text-anchor="middle" fill="#e74c3c">× 腕だけスイング</text>
+  <!-- head -->
+  <circle cx="200" cy="135" r="22" fill="#fff" stroke="#333" stroke-width="3"/>
+  <!-- body straight -->
+  <line x1="200" y1="157" x2="200" y2="290" stroke="#333" stroke-width="3"/>
+  <!-- left arm relaxed -->
+  <line x1="200" y1="190" x2="165" y2="240" stroke="#333" stroke-width="3"/>
+  <!-- right arm swinging -->
+  <line x1="200" y1="190" x2="255" y2="170" stroke="#e74c3c" stroke-width="4"/>
+  <line x1="255" y1="170" x2="295" y2="125" stroke="#e74c3c" stroke-width="4"/>
+  <ellipse cx="300" cy="115" rx="13" ry="20" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+  <line x1="295" y1="130" x2="305" y2="100" stroke="#e74c3c" stroke-width="1.5"/>
+  <!-- legs static -->
+  <line x1="200" y1="290" x2="180" y2="395" stroke="#333" stroke-width="3"/>
+  <line x1="200" y1="290" x2="220" y2="395" stroke="#333" stroke-width="3"/>
+  <!-- arm motion arc -->
+  <path d="M 235 200 Q 280 145 305 110" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arr-red)"/>
+  <!-- ground -->
+  <line x1="100" y1="400" x2="300" y2="400" stroke="#999" stroke-width="2"/>
+
+  <text x="200" y="440" class="lbl" text-anchor="middle">体幹・脚は止まったまま</text>
+  <text x="200" y="463" class="sub" text-anchor="middle">「当てる」のが精一杯になりがち</text>
+
+  <!-- RIGHT: whole body -->
+  <text x="600" y="45" class="ttl" text-anchor="middle" fill="#27ae60">○ 体で打つスイング</text>
+  <!-- head -->
+  <circle cx="600" cy="135" r="22" fill="#fff" stroke="#333" stroke-width="3"/>
+  <!-- body twisted (slight angle) -->
+  <line x1="600" y1="157" x2="612" y2="290" stroke="#27ae60" stroke-width="3"/>
+  <!-- left arm -->
+  <line x1="601" y1="190" x2="565" y2="245" stroke="#27ae60" stroke-width="3"/>
+  <!-- right arm full swing -->
+  <line x1="601" y1="190" x2="660" y2="175" stroke="#27ae60" stroke-width="4"/>
+  <line x1="660" y1="175" x2="700" y2="125" stroke="#27ae60" stroke-width="4"/>
+  <ellipse cx="705" cy="115" rx="13" ry="20" fill="none" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="700" y1="130" x2="710" y2="100" stroke="#27ae60" stroke-width="1.5"/>
+  <!-- legs - back leg pushing -->
+  <line x1="612" y1="290" x2="580" y2="395" stroke="#27ae60" stroke-width="3"/>
+  <line x1="612" y1="290" x2="650" y2="395" stroke="#27ae60" stroke-width="3"/>
+  <!-- ground -->
+  <line x1="500" y1="400" x2="710" y2="400" stroke="#999" stroke-width="2"/>
+  <!-- ground-up arrow (kinetic chain) -->
+  <path d="M 580 392 C 575 350 605 310 612 270" fill="none" stroke="#3498db" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arr-blue)"/>
+  <text x="540" y="350" class="sub" fill="#3498db">地面の力</text>
+  <!-- rotation arc -->
+  <path d="M 555 235 Q 605 195 660 215" fill="none" stroke="#27ae60" stroke-width="2.5" marker-end="url(#arr-green)"/>
+  <text x="595" y="195" class="sub" fill="#27ae60">体幹の回旋</text>
+
+  <text x="600" y="440" class="lbl" text-anchor="middle">脚 → 体幹 → 腕 → ラケットへ伝わる</text>
+  <text x="600" y="463" class="sub" text-anchor="middle">同じ力でも、ボールの重さが変わる</text>
+
+  <!-- caption -->
+  <text x="400" y="500" class="sub" text-anchor="middle" font-style="italic">図1：腕だけで打つスイングと、体全体を使うスイングの違い</text>
+</svg>

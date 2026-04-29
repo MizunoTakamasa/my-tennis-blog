@@ -1,0 +1,96 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="サーブの運動連鎖：地面の力が左踵から脚・体幹・腕・ラケットへ伝わる流れの図解">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill:#222; }
+      .step { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight:600; fill:#fff; }
+      .stepBig { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 18px; font-weight:700; fill:#fff; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; fill:#333; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill:#666; font-style: italic; }
+    </style>
+    <marker id="arr-up" markerWidth="14" markerHeight="14" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 9 4, 0 8" fill="#e67e22"/>
+    </marker>
+    <linearGradient id="powerGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="50%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#e74c3c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="#fafafa"/>
+  <text x="400" y="40" class="ttl" text-anchor="middle">サーブの運動連鎖（キネティックチェーン）</text>
+
+  <!-- Stick figure in trophy pose, slightly tilted -->
+  <!-- Racket above head -->
+  <ellipse cx="430" cy="90" rx="22" ry="32" fill="none" stroke="#e74c3c" stroke-width="3"/>
+  <line x1="430" y1="120" x2="430" y2="150" stroke="#e74c3c" stroke-width="3"/>
+  <!-- right arm up to racket -->
+  <line x1="395" y1="220" x2="430" y2="150" stroke="#27ae60" stroke-width="4"/>
+  <line x1="395" y1="220" x2="385" y2="170" stroke="#27ae60" stroke-width="4"/>
+  <!-- shoulder/torso (arched back) -->
+  <path d="M 385 170 Q 360 200 365 240 Q 370 280 380 320" fill="none" stroke="#27ae60" stroke-width="4"/>
+  <!-- head -->
+  <circle cx="375" cy="155" r="20" fill="#fff" stroke="#333" stroke-width="3"/>
+  <!-- left arm tossing (already released, slightly up) -->
+  <line x1="385" y1="195" x2="345" y2="135" stroke="#27ae60" stroke-width="3"/>
+  <!-- ball (toss) -->
+  <circle cx="340" cy="115" r="7" fill="#f1c40f" stroke="#333" stroke-width="1"/>
+  <!-- pelvis -->
+  <line x1="380" y1="320" x2="395" y2="320" stroke="#27ae60" stroke-width="4"/>
+  <!-- back leg (right, planted) -->
+  <line x1="395" y1="320" x2="430" y2="430" stroke="#27ae60" stroke-width="4"/>
+  <!-- front leg (left) - heel pressing down -->
+  <line x1="380" y1="320" x2="365" y2="430" stroke="#27ae60" stroke-width="4"/>
+  <!-- left heel emphasis -->
+  <ellipse cx="362" cy="438" rx="14" ry="7" fill="#3498db" stroke="#3498db" stroke-width="2"/>
+  <text x="362" y="465" class="note" text-anchor="middle" fill="#3498db" font-weight="700">左踵で踏む</text>
+
+  <!-- ground -->
+  <line x1="220" y1="445" x2="500" y2="445" stroke="#666" stroke-width="2"/>
+
+  <!-- Power gradient arrow on the side -->
+  <rect x="560" y="80" width="44" height="370" fill="url(#powerGrad)" rx="22" opacity="0.85"/>
+  <polygon points="560,80 604,80 582,55" fill="#e74c3c"/>
+
+  <!-- Step labels along the chain -->
+  <!-- Step 1: ground -->
+  <rect x="620" y="410" width="160" height="40" rx="8" fill="#3498db"/>
+  <text x="700" y="436" class="step" text-anchor="middle">① 地面 → 左踵</text>
+  <line x1="555" y1="430" x2="615" y2="430" stroke="#3498db" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Step 2: legs -->
+  <rect x="620" y="335" width="160" height="40" rx="8" fill="#1abc9c"/>
+  <text x="700" y="361" class="step" text-anchor="middle">② 脚の伸展</text>
+  <line x1="555" y1="355" x2="615" y2="355" stroke="#1abc9c" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Step 3: hip/core -->
+  <rect x="620" y="260" width="160" height="40" rx="8" fill="#27ae60"/>
+  <text x="700" y="286" class="step" text-anchor="middle">③ 腰・体幹の回旋</text>
+  <line x1="555" y1="280" x2="615" y2="280" stroke="#27ae60" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Step 4: chest -->
+  <rect x="620" y="185" width="160" height="40" rx="8" fill="#f39c12"/>
+  <text x="700" y="211" class="step" text-anchor="middle">④ 胸を反らせる</text>
+  <line x1="555" y1="205" x2="615" y2="205" stroke="#f39c12" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Step 5: shoulder/arm -->
+  <rect x="620" y="110" width="160" height="40" rx="8" fill="#e67e22"/>
+  <text x="700" y="136" class="step" text-anchor="middle">⑤ 肩・腕の振り出し</text>
+  <line x1="555" y1="130" x2="615" y2="130" stroke="#e67e22" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Step 6: racket -->
+  <rect x="620" y="35" width="160" height="40" rx="8" fill="#e74c3c"/>
+  <text x="700" y="61" class="stepBig" text-anchor="middle">⑥ ラケットヘッド</text>
+
+  <!-- Left side annotation -->
+  <text x="100" y="160" class="note">胸を反らせて</text>
+  <text x="100" y="180" class="note">トロフィーポーズ</text>
+  <path d="M 195 175 Q 280 175 350 175" fill="none" stroke="#999" stroke-width="1.5" marker-end="url(#arr-up)"/>
+
+  <text x="100" y="290" class="note">体幹はムチのように</text>
+  <text x="100" y="310" class="note">しなって戻る</text>
+  <path d="M 200 305 Q 290 305 360 290" fill="none" stroke="#999" stroke-width="1.5" marker-end="url(#arr-up)"/>
+
+  <!-- caption -->
+  <text x="400" y="540" class="cap" text-anchor="middle">図3：地面の反力が①〜⑥の順に積み上がり、最後にラケットヘッドのスピードへ変換される</text>
+</svg>
