@@ -317,6 +317,50 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         filter: brightness(0.9) saturate(0.9);
       }
 
+      /* ===== テーブル ===== */
+      .ap-prose table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 2rem 0;
+        font-size: 0.95rem;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(200,255,80,0.18);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .ap-prose thead {
+        background: rgba(200,255,80,0.08);
+      }
+      .ap-prose th {
+        padding: 0.85rem 1rem;
+        text-align: left;
+        font-weight: 700;
+        color: #c8ff50;
+        border-bottom: 1px solid rgba(200,255,80,0.25);
+        letter-spacing: 0.04em;
+      }
+      .ap-prose td {
+        padding: 0.85rem 1rem;
+        border-bottom: 1px solid rgba(200,255,80,0.08);
+        color: rgba(220,220,220,0.85);
+        vertical-align: top;
+      }
+      .ap-prose tbody tr:last-child td {
+        border-bottom: none;
+      }
+      .ap-prose tbody tr:hover {
+        background: rgba(200,255,80,0.03);
+      }
+      @media (max-width: 600px) {
+        .ap-prose table {
+          font-size: 0.88rem;
+        }
+        .ap-prose th,
+        .ap-prose td {
+          padding: 0.6rem 0.7rem;
+        }
+      }
+
       /* ===== 区切り線（記事下） ===== */
       .ap-footer-line {
         width: 100vw;
