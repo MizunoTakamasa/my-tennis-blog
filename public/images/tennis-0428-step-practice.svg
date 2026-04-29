@@ -1,0 +1,172 @@
+<svg viewBox="0 0 820 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="prArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+    <marker id="prArrB" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#2874a6"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">ステップ練習メニュー｜一人でできる4つのドリル</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">ラダー・シャドー・コーン・階段ダッシュ</text>
+
+  <!-- ============ Panel 1 (top-left): ラダードリル ============ -->
+  <rect x="20" y="78" width="385" height="30" fill="#1e8449" rx="4"/>
+  <text x="212" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①ラダードリル｜足さばきの基礎</text>
+
+  <rect x="20" y="115" width="385" height="155" fill="#eafaf1" rx="4"/>
+
+  <!-- Ladder rungs -->
+  <g stroke="#1e8449" stroke-width="2" fill="none">
+    <rect x="50" y="170" width="55" height="50"/>
+    <rect x="105" y="170" width="55" height="50"/>
+    <rect x="160" y="170" width="55" height="50"/>
+    <rect x="215" y="170" width="55" height="50"/>
+    <rect x="270" y="170" width="55" height="50"/>
+  </g>
+
+  <!-- Foot prints inside ladder -->
+  <ellipse cx="65" cy="195" rx="6" ry="9" fill="#1e8449"/>
+  <ellipse cx="90" cy="195" rx="6" ry="9" fill="#1e8449"/>
+  <ellipse cx="120" cy="195" rx="6" ry="9" fill="#27ae60"/>
+  <ellipse cx="145" cy="195" rx="6" ry="9" fill="#27ae60"/>
+  <ellipse cx="175" cy="195" rx="6" ry="9" fill="#1e8449"/>
+  <ellipse cx="200" cy="195" rx="6" ry="9" fill="#1e8449"/>
+  <ellipse cx="230" cy="195" rx="6" ry="9" fill="#27ae60"/>
+  <ellipse cx="255" cy="195" rx="6" ry="9" fill="#27ae60"/>
+  <ellipse cx="285" cy="195" rx="6" ry="9" fill="#1e8449"/>
+  <ellipse cx="310" cy="195" rx="6" ry="9" fill="#1e8449"/>
+
+  <!-- Direction arrow -->
+  <line x1="60" y1="148" x2="320" y2="148" stroke="#c0392b" stroke-width="2" marker-end="url(#prArr)"/>
+  <text x="190" y="142" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">細かく速く</text>
+
+  <text x="190" y="246" text-anchor="middle" font-size="10" fill="#0e6251" font-weight="bold">マスごとに2歩ずつ・できるだけ速く</text>
+
+  <!-- Tips -->
+  <text x="345" y="135" font-size="11" fill="#0e6251" font-weight="bold">所要：5〜10分</text>
+  <text x="345" y="155" font-size="10" fill="#0e6251">・両足2歩</text>
+  <text x="345" y="172" font-size="10" fill="#0e6251">・片足ケンケン</text>
+  <text x="345" y="189" font-size="10" fill="#0e6251">・サイドステップ</text>
+  <text x="345" y="206" font-size="10" fill="#0e6251">・イン-イン-アウト</text>
+  <text x="345" y="232" font-size="9" fill="#566573" font-style="italic">→ 細かい足運び</text>
+  <text x="345" y="246" font-size="9" fill="#566573" font-style="italic">→ 接地時間が短くなる</text>
+
+  <!-- ============ Panel 2 (top-right): シャドードリル ============ -->
+  <rect x="415" y="78" width="385" height="30" fill="#3498db" rx="4"/>
+  <text x="607" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②シャドードリル｜素振り＋移動</text>
+
+  <rect x="415" y="115" width="385" height="155" fill="#ebf5fb" rx="4"/>
+
+  <!-- 3 player positions showing movement -->
+  <g>
+    <!-- Position 1: forehand side -->
+    <circle cx="460" cy="170" r="10" fill="#fff" stroke="#2874a6" stroke-width="1.5"/>
+    <line x1="460" y1="180" x2="460" y2="215" stroke="#2874a6" stroke-width="3"/>
+    <line x1="460" y1="195" x2="475" y2="190" stroke="#2874a6" stroke-width="2"/>
+    <ellipse cx="481" cy="186" rx="5" ry="6" fill="none" stroke="#2874a6" stroke-width="1.5"/>
+    <line x1="460" y1="215" x2="455" y2="240" stroke="#2874a6" stroke-width="2.5"/>
+    <line x1="460" y1="215" x2="465" y2="240" stroke="#2874a6" stroke-width="2.5"/>
+    <text x="460" y="258" text-anchor="middle" font-size="9" fill="#2874a6" font-weight="bold">フォア</text>
+  </g>
+
+  <line x1="495" y1="200" x2="540" y2="200" stroke="#c0392b" stroke-width="2" stroke-dasharray="3,2" marker-end="url(#prArr)"/>
+
+  <g>
+    <!-- Position 2: split -->
+    <circle cx="565" cy="170" r="10" fill="#fff" stroke="#2874a6" stroke-width="1.5"/>
+    <line x1="565" y1="180" x2="565" y2="215" stroke="#2874a6" stroke-width="3"/>
+    <line x1="565" y1="195" x2="555" y2="205" stroke="#2874a6" stroke-width="2"/>
+    <line x1="565" y1="195" x2="575" y2="205" stroke="#2874a6" stroke-width="2"/>
+    <line x1="565" y1="215" x2="555" y2="240" stroke="#2874a6" stroke-width="2.5"/>
+    <line x1="565" y1="215" x2="575" y2="240" stroke="#2874a6" stroke-width="2.5"/>
+    <text x="565" y="258" text-anchor="middle" font-size="9" fill="#2874a6" font-weight="bold">スプリット</text>
+  </g>
+
+  <line x1="590" y1="200" x2="635" y2="200" stroke="#c0392b" stroke-width="2" stroke-dasharray="3,2" marker-end="url(#prArr)"/>
+
+  <g>
+    <!-- Position 3: backhand side -->
+    <circle cx="660" cy="170" r="10" fill="#fff" stroke="#2874a6" stroke-width="1.5"/>
+    <line x1="660" y1="180" x2="660" y2="215" stroke="#2874a6" stroke-width="3"/>
+    <line x1="660" y1="195" x2="645" y2="190" stroke="#2874a6" stroke-width="2"/>
+    <ellipse cx="639" cy="186" rx="5" ry="6" fill="none" stroke="#2874a6" stroke-width="1.5"/>
+    <line x1="660" y1="215" x2="655" y2="240" stroke="#2874a6" stroke-width="2.5"/>
+    <line x1="660" y1="215" x2="665" y2="240" stroke="#2874a6" stroke-width="2.5"/>
+    <text x="660" y="258" text-anchor="middle" font-size="9" fill="#2874a6" font-weight="bold">バック</text>
+  </g>
+
+  <text x="710" y="135" font-size="11" fill="#2874a6" font-weight="bold">所要：10〜15分</text>
+  <text x="710" y="155" font-size="10" fill="#2874a6">・サイド5回</text>
+  <text x="710" y="172" font-size="10" fill="#2874a6">・クロス5回</text>
+  <text x="710" y="189" font-size="10" fill="#2874a6">・前後5回</text>
+  <text x="710" y="232" font-size="9" fill="#566573" font-style="italic">→ 試合の流れ</text>
+  <text x="710" y="246" font-size="9" fill="#566573" font-style="italic">を体に染み込む</text>
+
+  <!-- ============ Panel 3 (bottom-left): コーンドリル ============ -->
+  <rect x="20" y="285" width="385" height="30" fill="#d68910" rx="4"/>
+  <text x="212" y="305" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③コーンドリル｜方向転換の練習</text>
+
+  <rect x="20" y="322" width="385" height="155" fill="#fdf6ec" rx="4"/>
+
+  <!-- Cones in M shape -->
+  <g>
+    <!-- Cone 1 -->
+    <polygon points="55,420 75,420 65,395" fill="#d68910" stroke="#9c640c" stroke-width="1.5"/>
+    <text x="65" y="438" text-anchor="middle" font-size="9" fill="#9c640c">①</text>
+    <!-- Cone 2 -->
+    <polygon points="125,375 145,375 135,350" fill="#d68910" stroke="#9c640c" stroke-width="1.5"/>
+    <text x="135" y="395" text-anchor="middle" font-size="9" fill="#9c640c">②</text>
+    <!-- Cone 3 -->
+    <polygon points="195,420 215,420 205,395" fill="#d68910" stroke="#9c640c" stroke-width="1.5"/>
+    <text x="205" y="438" text-anchor="middle" font-size="9" fill="#9c640c">③</text>
+    <!-- Cone 4 -->
+    <polygon points="265,375 285,375 275,350" fill="#d68910" stroke="#9c640c" stroke-width="1.5"/>
+    <text x="275" y="395" text-anchor="middle" font-size="9" fill="#9c640c">④</text>
+    <!-- Cone 5 -->
+    <polygon points="335,420 355,420 345,395" fill="#d68910" stroke="#9c640c" stroke-width="1.5"/>
+    <text x="345" y="438" text-anchor="middle" font-size="9" fill="#9c640c">⑤</text>
+  </g>
+
+  <!-- Path connecting cones -->
+  <path d="M 65 410 L 135 365 L 205 410 L 275 365 L 345 410" stroke="#c0392b" stroke-width="2.5" fill="none" stroke-dasharray="4,2" marker-end="url(#prArr)"/>
+
+  <text x="200" y="468" text-anchor="middle" font-size="10" fill="#9c640c" font-weight="bold">ジグザグに走る・各コーンでサイドステップ切替</text>
+
+  <!-- ============ Panel 4 (bottom-right): 階段ダッシュ ============ -->
+  <rect x="415" y="285" width="385" height="30" fill="#8e44ad" rx="4"/>
+  <text x="607" y="305" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">④階段ダッシュ｜地面を踏む力</text>
+
+  <rect x="415" y="322" width="385" height="155" fill="#f5eef8" rx="4"/>
+
+  <!-- Stairs -->
+  <g fill="#8e44ad" stroke="#6c3483" stroke-width="1.5">
+    <rect x="450" y="440" width="60" height="20"/>
+    <rect x="510" y="420" width="60" height="40"/>
+    <rect x="570" y="400" width="60" height="60"/>
+    <rect x="630" y="380" width="60" height="80"/>
+    <rect x="690" y="360" width="60" height="100"/>
+  </g>
+
+  <!-- Runner figure climbing -->
+  <g>
+    <circle cx="540" cy="395" r="8" fill="#fff" stroke="#6c3483" stroke-width="1.5"/>
+    <line x1="540" y1="403" x2="540" y2="425" stroke="#6c3483" stroke-width="2.5"/>
+    <line x1="540" y1="412" x2="528" y2="402" stroke="#6c3483" stroke-width="2"/>
+    <line x1="540" y1="412" x2="552" y2="402" stroke="#6c3483" stroke-width="2"/>
+    <line x1="540" y1="425" x2="535" y2="440" stroke="#6c3483" stroke-width="2.5"/>
+    <line x1="540" y1="425" x2="555" y2="418" stroke="#6c3483" stroke-width="2.5"/>
+  </g>
+
+  <!-- Up arrow -->
+  <line x1="600" y1="440" x2="700" y2="370" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="4,2" marker-end="url(#prArr)"/>
+
+  <text x="607" y="345" text-anchor="middle" font-size="11" fill="#6c3483" font-weight="bold">所要：5分でOK</text>
+  <text x="430" y="360" font-size="10" fill="#6c3483">・1段ずつ全力</text>
+  <text x="430" y="376" font-size="10" fill="#6c3483">・2段飛ばし</text>
+
+  <text x="607" y="475" text-anchor="middle" font-size="10" fill="#6c3483" font-style="italic">→ 踵を踏む感覚・下半身の瞬発力</text>
+
+  <text x="410" y="495" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 全部やる必要なし。週2〜3回、自分に効くやつを継続</text>
+</svg>
