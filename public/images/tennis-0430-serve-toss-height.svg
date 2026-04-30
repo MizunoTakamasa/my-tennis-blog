@@ -1,0 +1,100 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="テニスのサーブのトスの高さと球質の関係｜高め・標準・低めのトスの違いを示した図">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .stl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 16px; font-weight: 700; fill: #fff; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 600; fill: #333; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 12px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="800" height="540" fill="#f8fafa"/>
+  <text x="400" y="38" class="ttl" text-anchor="middle">トスの高さと球質の関係</text>
+  <text x="400" y="60" class="cap" text-anchor="middle">＊インパクトポイント（ラケット最高点）からの相対高さ</text>
+
+  <!-- Three figures side by side -->
+  <!-- Each figure has: body + arrow showing toss height + label -->
+
+  <!-- ============================ -->
+  <!-- LEFT: 高めのトス -->
+  <rect x="50" y="80" width="220" height="38" rx="6" fill="#3498db"/>
+  <text x="160" y="105" class="stl" text-anchor="middle">高めのトス</text>
+
+  <!-- Court -->
+  <line x1="60" y1="450" x2="260" y2="450" stroke="#27ae60" stroke-width="2"/>
+  <!-- Player -->
+  <circle cx="160" cy="350" r="14" fill="#fff" stroke="#3498db" stroke-width="2.5"/>
+  <line x1="160" y1="364" x2="160" y2="420" stroke="#3498db" stroke-width="2.5"/>
+  <line x1="160" y1="380" x2="160" y2="290" stroke="#3498db" stroke-width="2.5"/>
+  <line x1="160" y1="420" x2="145" y2="450" stroke="#3498db" stroke-width="2.5"/>
+  <line x1="160" y1="420" x2="175" y2="450" stroke="#3498db" stroke-width="2.5"/>
+  <!-- Racket peak (impact point) -->
+  <ellipse cx="160" cy="280" rx="10" ry="14" fill="none" stroke="#666" stroke-width="2"/>
+  <line x1="160" y1="266" x2="160" y2="240" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="180" y="248" class="note" text-anchor="start" fill="#666">ラケット最高点</text>
+
+  <!-- Ball at high position -->
+  <circle cx="160" cy="155" r="9" fill="#3498db"/>
+  <line x1="160" y1="170" x2="160" y2="280" stroke="#3498db" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  <text x="180" y="158" class="note" text-anchor="start" fill="#3498db" font-weight="700">60〜80cm 上</text>
+
+  <!-- Pros/cons -->
+  <rect x="50" y="465" width="220" height="60" rx="6" fill="#3498db" opacity="0.08" stroke="#3498db" stroke-width="1.5"/>
+  <text x="60" y="483" class="note" fill="#2980b9" font-weight="700">○ タイミング取りやすい</text>
+  <text x="60" y="499" class="note" fill="#2980b9" font-weight="700">○ 安定感あり（初心者向け）</text>
+  <text x="60" y="517" class="note" fill="#c0392b" font-weight="700">× 風の影響を受けやすい</text>
+
+  <!-- ============================ -->
+  <!-- MIDDLE: 標準のトス -->
+  <rect x="290" y="80" width="220" height="38" rx="6" fill="#27ae60"/>
+  <text x="400" y="105" class="stl" text-anchor="middle">標準のトス（推奨）</text>
+
+  <line x1="300" y1="450" x2="500" y2="450" stroke="#27ae60" stroke-width="2"/>
+  <circle cx="400" cy="350" r="14" fill="#fff" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="400" y1="364" x2="400" y2="420" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="400" y1="380" x2="400" y2="290" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="400" y1="420" x2="385" y2="450" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="400" y1="420" x2="415" y2="450" stroke="#27ae60" stroke-width="2.5"/>
+  <ellipse cx="400" cy="280" rx="10" ry="14" fill="none" stroke="#666" stroke-width="2"/>
+  <line x1="400" y1="266" x2="400" y2="240" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="420" y="248" class="note" text-anchor="start" fill="#666">ラケット最高点</text>
+
+  <!-- Ball at standard position -->
+  <circle cx="400" cy="220" r="9" fill="#27ae60"/>
+  <line x1="400" y1="235" x2="400" y2="280" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  <text x="420" y="223" class="note" text-anchor="start" fill="#27ae60" font-weight="700">20〜30cm 上</text>
+
+  <rect x="290" y="465" width="220" height="60" rx="6" fill="#27ae60" opacity="0.08" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="300" y="483" class="note" fill="#1e8449" font-weight="700">○ 球速・コントロール両立</text>
+  <text x="300" y="499" class="note" fill="#1e8449" font-weight="700">○ 風にも強い</text>
+  <text x="300" y="517" class="note" fill="#1e8449" font-weight="700">★ まずはここから</text>
+
+  <!-- ============================ -->
+  <!-- RIGHT: 低めのトス -->
+  <rect x="530" y="80" width="220" height="38" rx="6" fill="#e67e22"/>
+  <text x="640" y="105" class="stl" text-anchor="middle">低めのトス</text>
+
+  <line x1="540" y1="450" x2="740" y2="450" stroke="#27ae60" stroke-width="2"/>
+  <circle cx="640" cy="350" r="14" fill="#fff" stroke="#e67e22" stroke-width="2.5"/>
+  <line x1="640" y1="364" x2="640" y2="420" stroke="#e67e22" stroke-width="2.5"/>
+  <line x1="640" y1="380" x2="640" y2="290" stroke="#e67e22" stroke-width="2.5"/>
+  <line x1="640" y1="420" x2="625" y2="450" stroke="#e67e22" stroke-width="2.5"/>
+  <line x1="640" y1="420" x2="655" y2="450" stroke="#e67e22" stroke-width="2.5"/>
+  <ellipse cx="640" cy="280" rx="10" ry="14" fill="none" stroke="#666" stroke-width="2"/>
+  <line x1="640" y1="266" x2="640" y2="240" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="660" y="248" class="note" text-anchor="start" fill="#666">ラケット最高点</text>
+
+  <!-- Ball just above peak -->
+  <circle cx="640" cy="262" r="9" fill="#e67e22"/>
+  <text x="660" y="265" class="note" text-anchor="start" fill="#e67e22" font-weight="700">わずか上</text>
+
+  <rect x="530" y="465" width="220" height="60" rx="6" fill="#e67e22" opacity="0.08" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="540" y="483" class="note" fill="#d35400" font-weight="700">○ ボールが見やすい</text>
+  <text x="540" y="499" class="note" fill="#d35400" font-weight="700">○ プロ寄り（流れる動作）</text>
+  <text x="540" y="517" class="note" fill="#c0392b" font-weight="700">× タイミングがシビア</text>
+
+  <!-- bottom note -->
+  <rect x="60" y="430" width="680" height="22" rx="4" fill="none" stroke="none"/>
+  <!-- removed redundant -->
+</svg>

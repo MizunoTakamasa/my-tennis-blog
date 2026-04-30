@@ -1,0 +1,126 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="テニスのサーブ4球種のトス位置比較早見表｜フラット・スライス・スピン・キックの前後・左右・打ち方を一覧化した図">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .stl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 700; fill: #fff; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; font-weight: 600; fill: #333; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 11px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+    <marker id="arr-down" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="540" fill="#f8fafa"/>
+  <text x="400" y="35" class="ttl" text-anchor="middle">球種別トス位置 早見表</text>
+  <text x="400" y="55" class="cap" text-anchor="middle">＊フラット → キック の順に「前→後ろ」「右→左」へシフト</text>
+
+  <!-- Header row -->
+  <rect x="40" y="80" width="120" height="50" rx="4" fill="#2c3e50"/>
+  <text x="100" y="111" class="stl" text-anchor="middle">球種</text>
+
+  <rect x="170" y="80" width="140" height="50" rx="4" fill="#2c3e50"/>
+  <text x="240" y="103" class="stl" text-anchor="middle">トス位置</text>
+  <text x="240" y="121" class="note" text-anchor="middle" fill="#fff">（前後・左右）</text>
+
+  <rect x="320" y="80" width="100" height="50" rx="4" fill="#2c3e50"/>
+  <text x="370" y="111" class="stl" text-anchor="middle">高さ</text>
+
+  <rect x="430" y="80" width="160" height="50" rx="4" fill="#2c3e50"/>
+  <text x="510" y="111" class="stl" text-anchor="middle">スイングの特徴</text>
+
+  <rect x="600" y="80" width="160" height="50" rx="4" fill="#2c3e50"/>
+  <text x="680" y="111" class="stl" text-anchor="middle">主な球質</text>
+
+  <!-- Row 1: Flat -->
+  <rect x="40" y="140" width="120" height="80" rx="4" fill="#e74c3c"/>
+  <text x="100" y="170" class="stl" text-anchor="middle">フラット</text>
+  <text x="100" y="190" class="note" text-anchor="middle" fill="#fff">FLAT</text>
+  <text x="100" y="206" class="note" text-anchor="middle" fill="#fff">★初級〜</text>
+
+  <rect x="170" y="140" width="140" height="80" rx="4" fill="#fff" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="240" y="170" class="lbl" text-anchor="middle">前 × 真上〜やや右</text>
+  <text x="240" y="195" class="note" text-anchor="middle">体重を前へしっかり</text>
+
+  <rect x="320" y="140" width="100" height="80" rx="4" fill="#fff" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="370" y="180" class="lbl" text-anchor="middle">高め</text>
+  <text x="370" y="200" class="note" text-anchor="middle">（取りやすい）</text>
+
+  <rect x="430" y="140" width="160" height="80" rx="4" fill="#fff" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="510" y="170" class="note" text-anchor="middle">真上から真下に</text>
+  <text x="510" y="188" class="note" text-anchor="middle">ラケット振り抜き</text>
+  <text x="510" y="206" class="note" text-anchor="middle">ボール後面を叩く</text>
+
+  <rect x="600" y="140" width="160" height="80" rx="4" fill="#fff" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="680" y="172" class="lbl" text-anchor="middle">速い・直線</text>
+  <text x="680" y="195" class="note" text-anchor="middle">回転少なめ／エースを狙う</text>
+
+  <!-- Row 2: Slice -->
+  <rect x="40" y="225" width="120" height="80" rx="4" fill="#e67e22"/>
+  <text x="100" y="260" class="stl" text-anchor="middle">スライス</text>
+  <text x="100" y="280" class="note" text-anchor="middle" fill="#fff">SLICE</text>
+
+  <rect x="170" y="225" width="140" height="80" rx="4" fill="#fff" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="240" y="255" class="lbl" text-anchor="middle">前 × 利き手側</text>
+  <text x="240" y="280" class="note" text-anchor="middle">右に1足分寄せる</text>
+
+  <rect x="320" y="225" width="100" height="80" rx="4" fill="#fff" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="370" y="265" class="lbl" text-anchor="middle">中〜高</text>
+
+  <rect x="430" y="225" width="160" height="80" rx="4" fill="#fff" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="510" y="255" class="note" text-anchor="middle">ボールの右側 →</text>
+  <text x="510" y="273" class="note" text-anchor="middle">左側へスライド</text>
+  <text x="510" y="291" class="note" text-anchor="middle">外側を撫でる</text>
+
+  <rect x="600" y="225" width="160" height="80" rx="4" fill="#fff" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="680" y="257" class="lbl" text-anchor="middle">横回転で曲がる</text>
+  <text x="680" y="280" class="note" text-anchor="middle">伸びる・コーナー狙い</text>
+
+  <!-- Row 3: Spin -->
+  <rect x="40" y="310" width="120" height="80" rx="4" fill="#3498db"/>
+  <text x="100" y="345" class="stl" text-anchor="middle">スピン</text>
+  <text x="100" y="365" class="note" text-anchor="middle" fill="#fff">TOPSPIN</text>
+
+  <rect x="170" y="310" width="140" height="80" rx="4" fill="#fff" stroke="#3498db" stroke-width="1.5"/>
+  <text x="240" y="340" class="lbl" text-anchor="middle">真上〜やや後ろ × 真上</text>
+  <text x="240" y="365" class="note" text-anchor="middle">頭の上に近い</text>
+
+  <rect x="320" y="310" width="100" height="80" rx="4" fill="#fff" stroke="#3498db" stroke-width="1.5"/>
+  <text x="370" y="350" class="lbl" text-anchor="middle">中</text>
+
+  <rect x="430" y="310" width="160" height="80" rx="4" fill="#fff" stroke="#3498db" stroke-width="1.5"/>
+  <text x="510" y="338" class="note" text-anchor="middle">下から上へ</text>
+  <text x="510" y="356" class="note" text-anchor="middle">ボール後ろ下を擦る</text>
+  <text x="510" y="374" class="note" text-anchor="middle">体は反る</text>
+
+  <rect x="600" y="310" width="160" height="80" rx="4" fill="#fff" stroke="#3498db" stroke-width="1.5"/>
+  <text x="680" y="342" class="lbl" text-anchor="middle">縦回転で跳ねる</text>
+  <text x="680" y="365" class="note" text-anchor="middle">ネット越え高い・安定</text>
+
+  <!-- Row 4: Kick -->
+  <rect x="40" y="395" width="120" height="80" rx="4" fill="#9b59b6"/>
+  <text x="100" y="430" class="stl" text-anchor="middle">キック</text>
+  <text x="100" y="450" class="note" text-anchor="middle" fill="#fff">KICK</text>
+  <text x="100" y="465" class="note" text-anchor="middle" fill="#fff">★上級</text>
+
+  <rect x="170" y="395" width="140" height="80" rx="4" fill="#fff" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="240" y="425" class="lbl" text-anchor="middle">後ろ × 左寄り</text>
+  <text x="240" y="450" class="note" text-anchor="middle">頭の後方に置く</text>
+
+  <rect x="320" y="395" width="100" height="80" rx="4" fill="#fff" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="370" y="435" class="lbl" text-anchor="middle">中</text>
+
+  <rect x="430" y="395" width="160" height="80" rx="4" fill="#fff" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="510" y="423" class="note" text-anchor="middle">右下から左上へ</text>
+  <text x="510" y="441" class="note" text-anchor="middle">斜めに擦り上げる</text>
+  <text x="510" y="459" class="note" text-anchor="middle">縦＋横の合成回転</text>
+
+  <rect x="600" y="395" width="160" height="80" rx="4" fill="#fff" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="680" y="427" class="lbl" text-anchor="middle">バウンド後に跳ねる</text>
+  <text x="680" y="450" class="note" text-anchor="middle">セカンドサーブの王道</text>
+
+  <!-- Bottom transition arrow -->
+  <line x1="100" y1="490" x2="100" y2="510" stroke="#666" stroke-width="2" marker-end="url(#arr-down)"/>
+  <text x="400" y="510" class="note" text-anchor="middle" font-weight="700" fill="#333">トス位置を「前→後ろ」「右→左」へずらしていくと球種が変わる</text>
+</svg>

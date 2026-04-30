@@ -1,0 +1,115 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="テニスのサーブのトス位置を決める3つの軸（前後・左右・高さ）の概念図">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .stl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 16px; font-weight: 700; fill: #fff; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 600; fill: #333; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 12px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+    <marker id="arr-blue" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#3498db"/>
+    </marker>
+    <marker id="arr-orange" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#e67e22"/>
+    </marker>
+    <marker id="arr-green" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#27ae60"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="540" fill="#f8fafa"/>
+  <text x="400" y="38" class="ttl" text-anchor="middle">トス位置を決める3軸｜前後・左右・高さ</text>
+
+  <!-- LEFT: side view (前後・高さ) -->
+  <text x="200" y="78" class="lbl" text-anchor="middle">【真横から見た図】</text>
+  <text x="200" y="96" class="note" text-anchor="middle">前後の軸＋高さの軸</text>
+
+  <!-- Ground (court) -->
+  <line x1="50" y1="450" x2="350" y2="450" stroke="#27ae60" stroke-width="3"/>
+  <text x="350" y="465" class="note" text-anchor="end" fill="#27ae60">コート</text>
+  <!-- baseline (player) -->
+  <line x1="200" y1="448" x2="200" y2="453" stroke="#666" stroke-width="3"/>
+  <text x="200" y="475" class="note" text-anchor="middle">ベースライン</text>
+
+  <!-- Player stick figure -->
+  <circle cx="200" cy="280" r="14" fill="#fff" stroke="#3498db" stroke-width="2.5"/>
+  <line x1="200" y1="294" x2="200" y2="380" stroke="#3498db" stroke-width="2.5"/>
+  <!-- arm extended up -->
+  <line x1="200" y1="310" x2="195" y2="220" stroke="#3498db" stroke-width="2.5"/>
+  <!-- legs -->
+  <line x1="200" y1="380" x2="180" y2="445" stroke="#3498db" stroke-width="2.5"/>
+  <line x1="200" y1="380" x2="218" y2="445" stroke="#3498db" stroke-width="2.5"/>
+
+  <!-- Toss positions on side view -->
+  <!-- Back (behind head) -->
+  <circle cx="160" cy="195" r="9" fill="#9b59b6"/>
+  <text x="120" y="195" class="note" text-anchor="end" fill="#9b59b6" font-weight="700">後ろ</text>
+  <text x="120" y="210" class="note" text-anchor="end" fill="#9b59b6">スピン・キック</text>
+
+  <!-- Top (overhead) -->
+  <circle cx="195" cy="180" r="9" fill="#3498db"/>
+  <text x="195" y="160" class="note" text-anchor="middle" fill="#3498db" font-weight="700">真上</text>
+
+  <!-- Front (toward court) -->
+  <circle cx="240" cy="200" r="9" fill="#e67e22"/>
+  <text x="285" y="200" class="note" text-anchor="start" fill="#e67e22" font-weight="700">前</text>
+  <text x="285" y="216" class="note" text-anchor="start" fill="#e67e22">フラット・スライス</text>
+
+  <!-- Front-back arrow -->
+  <line x1="155" y1="240" x2="245" y2="240" stroke="#666" stroke-width="1.5" stroke-dasharray="3,3" marker-start="url(#arr-orange)" marker-end="url(#arr-orange)"/>
+  <text x="200" y="262" class="note" text-anchor="middle">← 後ろ　│　前 →</text>
+
+  <!-- Height arrow -->
+  <line x1="100" y1="180" x2="100" y2="380" stroke="#27ae60" stroke-width="2" stroke-dasharray="3,3" marker-start="url(#arr-green)" marker-end="url(#arr-green)"/>
+  <text x="80" y="280" class="note" text-anchor="end" fill="#27ae60" font-weight="700">高さ</text>
+  <text x="80" y="296" class="note" text-anchor="end" fill="#27ae60">の軸</text>
+
+  <!-- ============================================== -->
+  <!-- RIGHT: top-down view (前後・左右) -->
+  <text x="600" y="78" class="lbl" text-anchor="middle">【真上から見た図】</text>
+  <text x="600" y="96" class="note" text-anchor="middle">前後の軸＋左右の軸</text>
+
+  <!-- Net line (front of player) -->
+  <line x1="450" y1="180" x2="750" y2="180" stroke="#3498db" stroke-width="2"/>
+  <text x="450" y="172" class="note" text-anchor="start" fill="#3498db">↑ ネット側（前）</text>
+
+  <!-- Baseline -->
+  <line x1="450" y1="430" x2="750" y2="430" stroke="#27ae60" stroke-width="3"/>
+  <text x="450" y="450" class="note" text-anchor="start" fill="#27ae60">↓ ベースライン（後ろ）</text>
+
+  <!-- Player position (top-down view: small circle for head, two ovals for feet) -->
+  <circle cx="600" cy="380" r="14" fill="#fff" stroke="#3498db" stroke-width="2.5"/>
+  <text x="600" y="384" class="note" text-anchor="middle" fill="#3498db" font-weight="700">頭</text>
+  <ellipse cx="580" cy="420" rx="10" ry="6" fill="#fff" stroke="#3498db" stroke-width="2"/>
+  <ellipse cx="620" cy="420" rx="10" ry="6" fill="#fff" stroke="#3498db" stroke-width="2"/>
+
+  <!-- Toss positions on top view -->
+  <!-- Front + right (flat) -->
+  <circle cx="640" cy="290" r="9" fill="#e67e22"/>
+  <text x="660" y="285" class="note" text-anchor="start" fill="#e67e22" font-weight="700">前×やや右</text>
+  <text x="660" y="300" class="note" text-anchor="start" fill="#e67e22">フラット系</text>
+
+  <!-- Center top (above head) -->
+  <circle cx="600" cy="280" r="9" fill="#3498db"/>
+  <text x="540" y="275" class="note" text-anchor="end" fill="#3498db" font-weight="700">真上</text>
+  <text x="540" y="290" class="note" text-anchor="end" fill="#3498db">スピン</text>
+
+  <!-- Behind + left (kick) -->
+  <circle cx="565" cy="350" r="9" fill="#9b59b6"/>
+  <text x="490" y="350" class="note" text-anchor="end" fill="#9b59b6" font-weight="700">後ろ×左</text>
+  <text x="490" y="365" class="note" text-anchor="end" fill="#9b59b6">キック</text>
+
+  <!-- Right + slight front (slice) -->
+  <circle cx="660" cy="340" r="9" fill="#e74c3c"/>
+  <text x="700" y="340" class="note" text-anchor="start" fill="#e74c3c" font-weight="700">利き手側</text>
+  <text x="700" y="355" class="note" text-anchor="start" fill="#e74c3c">スライス</text>
+
+  <!-- L-R axis arrow -->
+  <line x1="475" y1="475" x2="725" y2="475" stroke="#666" stroke-width="1.5" stroke-dasharray="3,3" marker-start="url(#arr-blue)" marker-end="url(#arr-blue)"/>
+  <text x="600" y="495" class="note" text-anchor="middle">← 左　│　右 →（利き手側）</text>
+
+  <!-- Bottom note bar -->
+  <rect x="60" y="510" width="680" height="22" rx="4" fill="#3498db" opacity="0.1"/>
+  <text x="400" y="525" class="note" text-anchor="middle" fill="#2980b9" font-weight="700">★ 3軸の組み合わせで「球種」が決まる（次の図参照）</text>
+</svg>
