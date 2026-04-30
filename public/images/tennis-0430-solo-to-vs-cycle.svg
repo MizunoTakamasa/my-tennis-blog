@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="テニス上達のサイクル｜一人練習と対人練習の往復で成長していく仕組みを示した図">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .stl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 16px; font-weight: 700; fill: #fff; }
+      .role { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 700; fill: #333; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+    <marker id="arr-cycle" markerWidth="14" markerHeight="14" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 9 4, 0 8" fill="#3498db"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="480" fill="#f6f9fc"/>
+  <text x="400" y="40" class="ttl" text-anchor="middle">テニス上達のサイクル｜一人練習と対人練習の往復</text>
+
+  <!-- Solo practice node -->
+  <rect x="80" y="120" width="260" height="240" rx="12" fill="#27ae60"/>
+  <text x="210" y="155" class="stl" text-anchor="middle">一人練習</text>
+  <text x="210" y="178" class="stl" text-anchor="middle" font-size="13">壁打ち・球出し</text>
+  <line x1="100" y1="195" x2="320" y2="195" stroke="#fff" stroke-width="1" opacity="0.5"/>
+  <text x="100" y="220" class="role" fill="#fff">役割：</text>
+  <text x="100" y="240" class="note" fill="#fff">　動作を作り込む</text>
+  <line x1="100" y1="258" x2="320" y2="258" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <text x="100" y="280" class="role" fill="#fff">特徴：</text>
+  <text x="100" y="300" class="note" fill="#fff">・自分のペース</text>
+  <text x="100" y="318" class="note" fill="#fff">・反復ができる</text>
+  <text x="100" y="336" class="note" fill="#fff">・テーマを貫きやすい</text>
+
+  <!-- VS practice node -->
+  <rect x="460" y="120" width="260" height="240" rx="12" fill="#e67e22"/>
+  <text x="590" y="155" class="stl" text-anchor="middle">対人練習</text>
+  <text x="590" y="178" class="stl" text-anchor="middle" font-size="13">ラリー・試合形式</text>
+  <line x1="480" y1="195" x2="700" y2="195" stroke="#fff" stroke-width="1" opacity="0.5"/>
+  <text x="480" y="220" class="role" fill="#fff">役割：</text>
+  <text x="480" y="240" class="note" fill="#fff">　動く球で検証する</text>
+  <line x1="480" y1="258" x2="700" y2="258" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <text x="480" y="280" class="role" fill="#fff">特徴：</text>
+  <text x="480" y="300" class="note" fill="#fff">・相手のペース</text>
+  <text x="480" y="318" class="note" fill="#fff">・予測できない球</text>
+  <text x="480" y="336" class="note" fill="#fff">・本物のフォームが出る</text>
+
+  <!-- Top arrow: solo → VS -->
+  <path d="M 340 180 Q 400 90 460 180" fill="none" stroke="#3498db" stroke-width="3" marker-end="url(#arr-cycle)"/>
+  <rect x="320" y="80" width="160" height="22" rx="4" fill="#3498db"/>
+  <text x="400" y="97" class="role" text-anchor="middle" fill="#fff">作る → 検証する</text>
+
+  <!-- Bottom arrow: VS → solo -->
+  <path d="M 460 300 Q 400 390 340 300" fill="none" stroke="#3498db" stroke-width="3" marker-end="url(#arr-cycle)"/>
+  <rect x="320" y="380" width="160" height="22" rx="4" fill="#3498db"/>
+  <text x="400" y="397" class="role" text-anchor="middle" fill="#fff">検証 → 修正する</text>
+
+  <!-- Bottom note -->
+  <rect x="80" y="430" width="640" height="40" rx="6" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="1.5"/>
+  <text x="400" y="455" class="role" text-anchor="middle" fill="#2980b9">★ このループを早く回せる人が、上達も早い</text>
+</svg>
