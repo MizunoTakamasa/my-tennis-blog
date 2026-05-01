@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" font-family="'Hiragino Sans','Yu Gothic','Meiryo','Noto Sans JP',sans-serif">
+  <rect width="1200" height="620" fill="#ffffff"/>
+  <text x="600" y="50" text-anchor="middle" fill="#0f172a" font-size="28" font-weight="800">オープンスタンス・フォアハンド：「左の壁」を作る／崩す</text>
+  <text x="600" y="82" text-anchor="middle" fill="#64748b" font-size="16">右利きの場合（ボールはスイング方向の右奥から来る想定）</text>
+
+  <g transform="translate(0,110)">
+    <rect x="40" y="0" width="540" height="50" rx="8" fill="#fee2e2"/>
+    <text x="60" y="32" fill="#b91c1c" font-size="20" font-weight="800">✗  左足を「ついて」しまうフォアー</text>
+    <line x1="60" y1="420" x2="560" y2="420" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="200" y1="160" x2="200" y2="420" stroke="#ef4444" stroke-width="3" stroke-dasharray="8,6" opacity="0.7"/>
+    <text x="120" y="200" fill="#b91c1c" font-size="14" font-weight="700">想定の左壁</text>
+    <text x="120" y="220" fill="#b91c1c" font-size="14" font-weight="700">（崩れる）</text>
+    <g transform="translate(280,200)">
+      <circle cx="-30" cy="0" r="22" fill="#fde68a" stroke="#0f172a" stroke-width="2"/>
+      <line x1="-30" y1="22" x2="-50" y2="120" stroke="#0f172a" stroke-width="6"/>
+      <line x1="-40" y1="50" x2="40" y2="20" stroke="#0f172a" stroke-width="5"/>
+      <ellipse cx="55" cy="10" rx="22" ry="14" fill="none" stroke="#0f172a" stroke-width="3"/>
+      <line x1="40" y1="20" x2="50" y2="14" stroke="#0f172a" stroke-width="3"/>
+      <line x1="-40" y1="50" x2="-90" y2="100" stroke="#0f172a" stroke-width="5"/>
+      <line x1="-65" y1="120" x2="-30" y2="120" stroke="#0f172a" stroke-width="5"/>
+      <line x1="-65" y1="120" x2="-110" y2="220" stroke="#0f172a" stroke-width="6"/>
+      <line x1="-110" y1="220" x2="-130" y2="220" stroke="#0f172a" stroke-width="6"/>
+      <line x1="-30" y1="120" x2="40" y2="220" stroke="#0f172a" stroke-width="6"/>
+      <line x1="40" y1="220" x2="70" y2="220" stroke="#0f172a" stroke-width="6"/>
+    </g>
+    <g transform="translate(150,420)">
+      <ellipse cx="0" cy="0" rx="34" ry="10" fill="#ef4444" opacity="0.4"/>
+      <text x="0" y="-22" text-anchor="middle" fill="#b91c1c" font-size="13" font-weight="700">左足に体重ON</text>
+    </g>
+    <path d="M310,220 q-20,-30 -50,-10" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#redArrow)"/>
+    <text x="240" y="195" fill="#b91c1c" font-size="13" font-weight="700">上体が突っ込む</text>
+    <rect x="40" y="450" width="540" height="100" rx="8" fill="#fef2f2"/>
+    <text x="60" y="478" fill="#b91c1c" font-size="14" font-weight="700">この打ち方の症状：</text>
+    <text x="60" y="502" fill="#7f1d1d" font-size="13">・左足に体重が抜け、軸が左に流れる</text>
+    <text x="60" y="522" fill="#7f1d1d" font-size="13">・体が突っ込み、当たりが薄くなる／面ブレ</text>
+    <text x="60" y="542" fill="#7f1d1d" font-size="13">・回転で打てず腕で押すフォアになりがち</text>
+  </g>
+
+  <g transform="translate(620,110)">
+    <rect x="0" y="0" width="540" height="50" rx="8" fill="#dcfce7"/>
+    <text x="20" y="32" fill="#15803d" font-size="20" font-weight="800">○  左足を「つかずに」左の壁を作るフォアー</text>
+    <line x1="20" y1="420" x2="520" y2="420" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="180" y1="160" x2="180" y2="420" stroke="#16a34a" stroke-width="5"/>
+    <text x="100" y="200" fill="#15803d" font-size="14" font-weight="700">左の壁</text>
+    <text x="100" y="220" fill="#15803d" font-size="14" font-weight="700">（保たれる）</text>
+    <g transform="translate(260,200)">
+      <circle cx="0" cy="0" r="22" fill="#fde68a" stroke="#0f172a" stroke-width="2"/>
+      <line x1="0" y1="22" x2="0" y2="120" stroke="#0f172a" stroke-width="6"/>
+      <line x1="0" y1="50" x2="80" y2="40" stroke="#0f172a" stroke-width="5"/>
+      <ellipse cx="100" cy="38" rx="22" ry="14" fill="none" stroke="#0f172a" stroke-width="3"/>
+      <line x1="80" y1="40" x2="92" y2="38" stroke="#0f172a" stroke-width="3"/>
+      <line x1="0" y1="50" x2="-50" y2="55" stroke="#0f172a" stroke-width="5"/>
+      <line x1="-50" y1="55" x2="-50" y2="20" stroke="#0f172a" stroke-width="5"/>
+      <line x1="-30" y1="120" x2="30" y2="120" stroke="#0f172a" stroke-width="5"/>
+      <line x1="-30" y1="120" x2="-80" y2="220" stroke="#0f172a" stroke-width="4" stroke-dasharray="5,3"/>
+      <line x1="-80" y1="220" x2="-110" y2="218" stroke="#0f172a" stroke-width="4" stroke-dasharray="5,3"/>
+      <line x1="30" y1="120" x2="60" y2="220" stroke="#0f172a" stroke-width="7"/>
+      <line x1="60" y1="220" x2="100" y2="220" stroke="#0f172a" stroke-width="7"/>
+    </g>
+    <g transform="translate(360,420)">
+      <ellipse cx="0" cy="0" rx="44" ry="12" fill="#16a34a" opacity="0.45"/>
+      <text x="0" y="-22" text-anchor="middle" fill="#15803d" font-size="13" font-weight="700">右足に体重を残す</text>
+    </g>
+    <g transform="translate(170,420)">
+      <ellipse cx="0" cy="0" rx="32" ry="9" fill="#cbd5e1" opacity="0.7"/>
+      <text x="0" y="-22" text-anchor="middle" fill="#475569" font-size="12" font-weight="600">左足は軽く接地</text>
+    </g>
+    <path d="M230,260 a55,55 0 1,1 60,-30" stroke="#0ea5e9" stroke-width="3" fill="none" marker-end="url(#blueArrow)"/>
+    <text x="290" y="265" fill="#0369a1" font-size="13" font-weight="700">壁を支点に回旋</text>
+    <rect x="0" y="450" width="540" height="100" rx="8" fill="#f0fdf4"/>
+    <text x="20" y="478" fill="#15803d" font-size="14" font-weight="700">この打ち方の狙い：</text>
+    <text x="20" y="502" fill="#14532d" font-size="13">・体重を左に流さず、右足の上で回る感覚</text>
+    <text x="20" y="522" fill="#14532d" font-size="13">・左サイド（肩〜腰〜膝）が壁になり軸を保つ</text>
+    <text x="20" y="542" fill="#14532d" font-size="13">・腕ではなく回転で打てる／面が安定する</text>
+  </g>
+
+  <defs>
+    <marker id="redArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ef4444"/>
+    </marker>
+    <marker id="blueArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0ea5e9"/>
+    </marker>
+  </defs>
+</svg>
