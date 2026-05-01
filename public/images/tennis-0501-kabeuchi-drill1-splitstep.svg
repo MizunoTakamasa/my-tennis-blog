@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 460" width="1100" height="460" font-family="'Hiragino Sans','Yu Gothic','Meiryo','Noto Sans JP',sans-serif">
+  <rect width="1100" height="460" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="40" y="44" fill="#0f172a" font-size="22" font-weight="800">ドリル①  スプリットステップのタイミング合わせ</text>
+  <text x="40" y="70" fill="#64748b" font-size="14">壁にボールが「当たった瞬間」にスプリット → 着地と同時にラケットを引く</text>
+
+  <!-- wall -->
+  <rect x="60" y="120" width="40" height="280" fill="#94a3b8"/>
+  <text x="80" y="115" text-anchor="middle" fill="#475569" font-size="14" font-weight="700">壁</text>
+
+  <!-- ground line -->
+  <line x1="60" y1="400" x2="1060" y2="400" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- ball trajectories -->
+  <path d="M520,300 Q 280,180 100,260" stroke="#f59e0b" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+  <path d="M100,260 Q 320,160 580,290" stroke="#0ea5e9" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="260" r="9" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+  <text x="115" y="240" fill="#92400e" font-size="13" font-weight="700">★ 壁ヒット</text>
+  <text x="115" y="256" fill="#92400e" font-size="12">＝スプリット合図</text>
+
+  <!-- step 1 figure : 打った直後 -->
+  <g transform="translate(540,280)">
+    <text x="0" y="-150" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">A. 打った直後</text>
+    <circle cx="0" cy="-100" r="14" fill="#fde68a" stroke="#0f172a" stroke-width="2"/>
+    <line x1="0" y1="-86" x2="0" y2="-20" stroke="#0f172a" stroke-width="5"/>
+    <line x1="-15" y1="-20" x2="15" y2="-20" stroke="#0f172a" stroke-width="4"/>
+    <line x1="-15" y1="-20" x2="-25" y2="120" stroke="#0f172a" stroke-width="5"/>
+    <line x1="15" y1="-20" x2="25" y2="120" stroke="#0f172a" stroke-width="5"/>
+    <text x="0" y="140" text-anchor="middle" fill="#475569" font-size="12">構えに戻る</text>
+  </g>
+
+  <!-- step 2 figure : スプリット -->
+  <g transform="translate(760,280)">
+    <text x="0" y="-150" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="800">B. 壁ヒット＝スプリット</text>
+    <circle cx="0" cy="-110" r="14" fill="#fde68a" stroke="#0f172a" stroke-width="2"/>
+    <line x1="0" y1="-96" x2="0" y2="-30" stroke="#0f172a" stroke-width="5"/>
+    <line x1="-25" y1="-30" x2="25" y2="-30" stroke="#0f172a" stroke-width="4"/>
+    <!-- legs splayed (split stance) -->
+    <line x1="-25" y1="-30" x2="-50" y2="120" stroke="#16a34a" stroke-width="6"/>
+    <line x1="25" y1="-30" x2="50" y2="120" stroke="#16a34a" stroke-width="6"/>
+    <!-- jump arrow -->
+    <path d="M-65,90 Q-55,40 -45,90" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrowG)"/>
+    <path d="M65,90 Q55,40 45,90" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrowG)"/>
+    <text x="0" y="140" text-anchor="middle" fill="#15803d" font-size="12" font-weight="700">小さく跳んで両足着地</text>
+  </g>
+
+  <!-- step 3 figure : テイクバック -->
+  <g transform="translate(980,280)">
+    <text x="0" y="-150" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">C. 着地＝引き始め</text>
+    <circle cx="0" cy="-110" r="14" fill="#fde68a" stroke="#0f172a" stroke-width="2"/>
+    <line x1="0" y1="-96" x2="0" y2="-30" stroke="#0f172a" stroke-width="5"/>
+    <!-- right arm pulling racket back -->
+    <line x1="0" y1="-70" x2="40" y2="-50" stroke="#0f172a" stroke-width="4"/>
+    <ellipse cx="55" cy="-45" rx="14" ry="9" fill="none" stroke="#0f172a" stroke-width="2"/>
+    <line x1="-15" y1="-30" x2="15" y2="-30" stroke="#0f172a" stroke-width="4"/>
+    <line x1="-15" y1="-30" x2="-30" y2="120" stroke="#0f172a" stroke-width="5"/>
+    <line x1="15" y1="-30" x2="35" y2="120" stroke="#0f172a" stroke-width="5"/>
+    <text x="0" y="140" text-anchor="middle" fill="#475569" font-size="12">同時にラケットを引く</text>
+  </g>
+
+  <!-- arrows between steps -->
+  <path d="M580,280 L700,280" stroke="#0ea5e9" stroke-width="2" fill="none" marker-end="url(#arrowB)"/>
+  <path d="M810,280 L920,280" stroke="#0ea5e9" stroke-width="2" fill="none" marker-end="url(#arrowB)"/>
+
+  <!-- coaching tip box -->
+  <rect x="60" y="425" width="980" height="0" fill="none"/>
+
+  <defs>
+    <marker id="arrowB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0ea5e9"/>
+    </marker>
+    <marker id="arrowG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/>
+    </marker>
+  </defs>
+</svg>

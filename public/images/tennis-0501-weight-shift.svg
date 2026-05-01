@@ -50,7 +50,8 @@
     <line x1="15" y1="40" x2="35" y2="120" stroke="#0f172a" stroke-width="6"/>
     <ellipse cx="35" cy="120" rx="22" ry="6" fill="#475569" opacity="0.6"/>
     <line x1="-25" y1="40" x2="-55" y2="100" stroke="#0f172a" stroke-width="4"/>
-    <text x="0" y="155" text-anchor="middle" fill="#475569" font-size="12">左足は流さず</text>
+    <text x="0" y="155" text-anchor="middle" fill="#475569" font-size="12">左足は地面について</text>
+    <text x="0" y="172" text-anchor="middle" fill="#475569" font-size="12">なくてもOK</text>
   </g>
 
   <path d="M260,200 L370,200" stroke="#0ea5e9" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>

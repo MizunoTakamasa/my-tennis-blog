@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 460" width="1100" height="460" font-family="'Hiragino Sans','Yu Gothic','Meiryo','Noto Sans JP',sans-serif">
+  <rect width="1100" height="460" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="40" y="44" fill="#0f172a" font-size="22" font-weight="800">ドリル③  前後ドリル：深い球と浅い球の打ち分け</text>
+  <text x="40" y="70" fill="#64748b" font-size="14">壁との距離を毎ショット変える。下がって深く打つ ↔ 詰めて浅く打つ（横から見た図）</text>
+
+  <!-- wall -->
+  <rect x="60" y="120" width="40" height="280" fill="#94a3b8"/>
+  <text x="80" y="115" text-anchor="middle" fill="#475569" font-size="14" font-weight="700">壁</text>
+
+  <!-- ground line -->
+  <line x1="60" y1="400" x2="1060" y2="400" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- distance markers -->
+  <line x1="380" y1="395" x2="380" y2="410" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="700" y1="395" x2="700" y2="410" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="380" y="430" text-anchor="middle" fill="#475569" font-size="12">前ポジション（短いボール）</text>
+  <text x="700" y="430" text-anchor="middle" fill="#475569" font-size="12">後ろポジション（深いボール）</text>
+
+  <!-- forward player figure -->
+  <g transform="translate(380,330)">
+    <circle cx="0" cy="-30" r="14" fill="#fde68a" stroke="#0f172a" stroke-width="2"/>
+    <line x1="0" y1="-16" x2="0" y2="40" stroke="#0f172a" stroke-width="5"/>
+    <line x1="-15" y1="40" x2="15" y2="40" stroke="#0f172a" stroke-width="4"/>
+    <line x1="-15" y1="40" x2="-25" y2="70" stroke="#0f172a" stroke-width="5"/>
+    <line x1="15" y1="40" x2="25" y2="70" stroke="#0f172a" stroke-width="5"/>
+    <!-- racket extended low -->
+    <line x1="0" y1="0" x2="40" y2="20" stroke="#0f172a" stroke-width="3"/>
+    <ellipse cx="55" cy="25" rx="12" ry="8" fill="none" stroke="#0f172a" stroke-width="2"/>
+    <text x="0" y="-50" text-anchor="middle" fill="#0369a1" font-size="13" font-weight="700">B. 詰める</text>
+  </g>
+
+  <!-- back player figure -->
+  <g transform="translate(700,330)">
+    <circle cx="0" cy="-30" r="14" fill="#fde68a" stroke="#0f172a" stroke-width="2"/>
+    <line x1="0" y1="-16" x2="0" y2="40" stroke="#0f172a" stroke-width="5"/>
+    <line x1="-15" y1="40" x2="15" y2="40" stroke="#0f172a" stroke-width="4"/>
+    <line x1="-15" y1="40" x2="-30" y2="70" stroke="#0f172a" stroke-width="5"/>
+    <line x1="15" y1="40" x2="30" y2="70" stroke="#0f172a" stroke-width="5"/>
+    <!-- racket back high -->
+    <line x1="0" y1="0" x2="35" y2="-15" stroke="#0f172a" stroke-width="3"/>
+    <ellipse cx="50" cy="-20" rx="12" ry="8" fill="none" stroke="#0f172a" stroke-width="2"/>
+    <text x="0" y="-50" text-anchor="middle" fill="#0369a1" font-size="13" font-weight="700">A. 下がる</text>
+  </g>
+
+  <!-- ball trajectories -->
+  <!-- A: deep -->
+  <path d="M700,300 Q 420,140 100,250" stroke="#0ea5e9" stroke-width="3" fill="none"/>
+  <text x="380" y="170" fill="#0369a1" font-size="13" font-weight="700">深い・高い軌道</text>
+  <!-- B: short -->
+  <path d="M380,310 Q 240,260 100,300" stroke="#f59e0b" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+  <text x="200" y="295" fill="#92400e" font-size="13" font-weight="700">浅い・低めの軌道</text>
+
+  <!-- movement arrows -->
+  <path d="M700,360 Q 540,400 380,360" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrowG3)"/>
+  <text x="540" y="395" text-anchor="middle" fill="#15803d" font-size="13" font-weight="700">前へ詰める</text>
+
+  <path d="M380,395 Q 540,420 700,395" stroke="#ef4444" stroke-width="3" fill="none" marker-end="url(#arrowR3)"/>
+  <text x="540" y="445" text-anchor="middle" fill="#b91c1c" font-size="13" font-weight="700">下がる</text>
+
+  <defs>
+    <marker id="arrowG3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/>
+    </marker>
+    <marker id="arrowR3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ef4444"/>
+    </marker>
+  </defs>
+</svg>
