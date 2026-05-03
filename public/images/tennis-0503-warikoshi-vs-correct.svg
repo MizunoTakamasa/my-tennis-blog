@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif">
+  <rect width="800" height="500" fill="#fafafa"/>
+  <text x="400" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#222">「胸を張る」のNG例とOK例</text>
+  <line x1="400" y1="60" x2="400" y2="470" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- LEFT: NG (sway back) - mirrored: wall on viewer's RIGHT, body on LEFT -->
+  <text x="200" y="80" text-anchor="middle" font-size="18" font-weight="700" fill="#c0392b">NG：腰で反って胸を張る</text>
+
+  <!-- wall on viewer's RIGHT -->
+  <line x1="280" y1="110" x2="280" y2="450" stroke="#bbb" stroke-width="2"/>
+  <text x="295" y="105" text-anchor="middle" font-size="11" fill="#888">壁</text>
+
+  <!-- head -->
+  <circle cx="180" cy="135" r="22" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- spine: exaggerated curve at lumbar (mirrored) -->
+  <path d="M 180 157 C 185 200, 170 240, 185 280 C 205 310, 155 320, 170 360 L 165 410" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <!-- chest area (puffed up) -->
+  <path d="M 205 200 Q 225 230 200 260" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3,3"/>
+  <!-- pelvis tilted forward -->
+  <ellipse cx="168" cy="365" rx="22" ry="14" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- legs -->
+  <line x1="178" y1="378" x2="190" y2="450" stroke="#c0392b" stroke-width="3"/>
+  <line x1="160" y1="378" x2="155" y2="450" stroke="#c0392b" stroke-width="3"/>
+  <!-- arrow: belly going forward (now to viewer's LEFT) -->
+  <path d="M 150 290 L 120 290" stroke="#e67e22" stroke-width="2" marker-end="url(#arr1)"/>
+  <text x="105" y="294" text-anchor="end" font-size="12" fill="#e67e22">お腹が前に出る</text>
+  <!-- arrow: lumbar arch (now to viewer's RIGHT, near wall) -->
+  <path d="M 225 320 L 255 320" stroke="#e67e22" stroke-width="2" marker-end="url(#arr1)"/>
+  <text x="258" y="335" text-anchor="start" font-size="12" fill="#e67e22">腰だけ反る</text>
+
+  <!-- floor (extends from panel-left to wall) -->
+  <line x1="20" y1="450" x2="280" y2="450" stroke="#999" stroke-width="2"/>
+
+  <!-- RIGHT: OK (correct) - mirrored: wall on viewer's RIGHT, body on LEFT -->
+  <text x="600" y="80" text-anchor="middle" font-size="18" font-weight="700" fill="#1f8a4c">OK：胸椎で開いて胸を張る</text>
+
+  <!-- wall on viewer's RIGHT -->
+  <line x1="680" y1="110" x2="680" y2="450" stroke="#bbb" stroke-width="2"/>
+  <text x="695" y="105" text-anchor="middle" font-size="11" fill="#888">壁</text>
+
+  <!-- head -->
+  <circle cx="590" cy="135" r="22" fill="none" stroke="#1f8a4c" stroke-width="2.5"/>
+  <!-- spine: gentle natural curve (mirrored) -->
+  <path d="M 590 157 C 592 195, 600 230, 595 280 C 592 320, 590 355, 588 405" fill="none" stroke="#1f8a4c" stroke-width="3"/>
+  <!-- chest opened naturally (mirrored) -->
+  <path d="M 610 195 Q 620 235 605 270" fill="none" stroke="#1f8a4c" stroke-width="2" stroke-dasharray="3,3"/>
+  <!-- pelvis neutral -->
+  <ellipse cx="588" cy="408" rx="22" ry="14" fill="none" stroke="#1f8a4c" stroke-width="2.5"/>
+  <!-- legs -->
+  <line x1="597" y1="420" x2="605" y2="455" stroke="#1f8a4c" stroke-width="3"/>
+  <line x1="580" y1="420" x2="575" y2="455" stroke="#1f8a4c" stroke-width="3"/>
+  <!-- annotations: now on viewer's LEFT of body -->
+  <path d="M 562 230 L 530 230" stroke="#1f8a4c" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="522" y="234" text-anchor="end" font-size="12" fill="#1f8a4c">肋骨は締めたまま</text>
+  <path d="M 562 405 L 530 405" stroke="#1f8a4c" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="522" y="409" text-anchor="end" font-size="12" fill="#1f8a4c">骨盤はニュートラル</text>
+
+  <!-- floor -->
+  <line x1="420" y1="455" x2="680" y2="455" stroke="#999" stroke-width="2"/>
+
+  <defs>
+    <marker id="arr1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e67e22"/>
+    </marker>
+    <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f8a4c"/>
+    </marker>
+  </defs>
+</svg>

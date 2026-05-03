@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif">
+  <rect width="800" height="520" fill="#fafafa"/>
+  <text x="400" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#222">「肋骨を閉じる」と「肋骨が前に開く」の違い</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#666">正面から胸郭（ろっこつ）を見たイメージ ／ 指でみぞおちのフチをなぞる</text>
+  <line x1="400" y1="80" x2="400" y2="490" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ===== LEFT: OK ===== -->
+  <text x="200" y="100" text-anchor="middle" font-size="18" font-weight="700" fill="#1f8a4c">OK：肋骨が閉じている</text>
+
+  <!-- shoulders -->
+  <line x1="100" y1="135" x2="300" y2="135" stroke="#1f8a4c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- ribcage outline (closed cage) -->
+  <path d="M 130 145 C 105 220, 130 320, 175 350" fill="none" stroke="#1f8a4c" stroke-width="2.5"/>
+  <path d="M 270 145 C 295 220, 270 320, 225 350" fill="none" stroke="#1f8a4c" stroke-width="2.5"/>
+  <!-- horizontal ribs (closed, angled downward outside) -->
+  <path d="M 145 175 Q 200 195 255 175" fill="none" stroke="#1f8a4c" stroke-width="1.5"/>
+  <path d="M 138 210 Q 200 235 262 210" fill="none" stroke="#1f8a4c" stroke-width="1.5"/>
+  <path d="M 134 250 Q 200 280 266 250" fill="none" stroke="#1f8a4c" stroke-width="1.5"/>
+  <!-- costal arch (lower rib edge) - pointing DOWN and IN -->
+  <path d="M 175 350 Q 200 305 225 350" fill="none" stroke="#1f8a4c" stroke-width="3.5"/>
+  <!-- sternum line -->
+  <line x1="200" y1="150" x2="200" y2="305" stroke="#1f8a4c" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- belly continues smoothly down -->
+  <path d="M 175 350 Q 175 410 195 450" fill="none" stroke="#1f8a4c" stroke-width="2"/>
+  <path d="M 225 350 Q 225 410 205 450" fill="none" stroke="#1f8a4c" stroke-width="2"/>
+
+  <!-- finger indicators on costal arch, pointing downward/inward -->
+  <line x1="175" y1="350" x2="155" y2="380" stroke="#e67e22" stroke-width="3" stroke-linecap="round"/>
+  <line x1="225" y1="350" x2="245" y2="380" stroke="#e67e22" stroke-width="3" stroke-linecap="round"/>
+  <text x="200" y="395" text-anchor="middle" font-size="12" fill="#e67e22">指は内向き＆下向き</text>
+
+  <!-- arrow showing rib direction -->
+  <path d="M 80 320 L 110 305" stroke="#1f8a4c" stroke-width="2" marker-end="url(#arrG)"/>
+  <text x="75" y="325" text-anchor="end" font-size="12" fill="#1f8a4c">肋骨は</text>
+  <text x="75" y="340" text-anchor="end" font-size="12" fill="#1f8a4c">斜め下に閉じる</text>
+
+  <text x="200" y="475" text-anchor="middle" font-size="13" fill="#1f8a4c">→ 腹圧の「ふた」が閉まる</text>
+
+  <!-- ===== RIGHT: NG ===== -->
+  <text x="600" y="100" text-anchor="middle" font-size="18" font-weight="700" fill="#c0392b">NG：肋骨が前に開いている</text>
+
+  <!-- shoulders -->
+  <line x1="500" y1="135" x2="700" y2="135" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- ribcage outline (flared) -->
+  <path d="M 530 145 C 500 220, 510 310, 555 335" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <path d="M 670 145 C 700 220, 690 310, 645 335" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- ribs flared (lifted at bottom) -->
+  <path d="M 545 175 Q 600 195 655 175" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <path d="M 535 215 Q 600 235 665 215" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <path d="M 525 260 Q 600 270 675 260" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <!-- costal arch flared - pointing UP and OUT -->
+  <path d="M 555 335 Q 600 285 645 335" fill="none" stroke="#c0392b" stroke-width="3.5"/>
+  <!-- sternum, lifted -->
+  <line x1="600" y1="150" x2="600" y2="290" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- belly pushed out: gap between ribcage and waist -->
+  <path d="M 555 335 Q 540 380 575 410 Q 580 440 595 455" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <path d="M 645 335 Q 660 380 625 410 Q 620 440 605 455" fill="none" stroke="#c0392b" stroke-width="2"/>
+
+  <!-- finger indicators flared up/out -->
+  <line x1="555" y1="335" x2="525" y2="318" stroke="#e67e22" stroke-width="3" stroke-linecap="round"/>
+  <line x1="645" y1="335" x2="675" y2="318" stroke="#e67e22" stroke-width="3" stroke-linecap="round"/>
+  <text x="600" y="380" text-anchor="middle" font-size="12" fill="#e67e22">指が外向き＆上向きに</text>
+
+  <!-- arrow showing flare -->
+  <path d="M 480 295 L 510 305" stroke="#c0392b" stroke-width="2" marker-end="url(#arrR)"/>
+  <text x="475" y="295" text-anchor="end" font-size="12" fill="#c0392b">肋骨が前に</text>
+  <text x="475" y="310" text-anchor="end" font-size="12" fill="#c0392b">めくれ上がる</text>
+
+  <text x="600" y="475" text-anchor="middle" font-size="13" fill="#c0392b">→ 腹圧が抜けて腰で反る</text>
+
+  <defs>
+    <marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f8a4c"/>
+    </marker>
+    <marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+</svg>

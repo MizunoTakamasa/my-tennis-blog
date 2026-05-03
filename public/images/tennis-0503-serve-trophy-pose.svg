@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 610" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif">
+  <rect width="900" height="610" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#222">サーブ「トロフィーポーズ」の比較</text>
+  <line x1="450" y1="65" x2="450" y2="585" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Panel separators (light backgrounds) -->
+  <rect x="20" y="75" width="420" height="50" rx="6" fill="#fdecea" stroke="#f3c2ba"/>
+  <rect x="460" y="75" width="420" height="50" rx="6" fill="#e8f5ec" stroke="#bfe1c8"/>
+
+  <!-- Subtitles inside panels -->
+  <text x="230" y="107" text-anchor="middle" font-size="18" font-weight="700" fill="#c0392b">NG：腰で反るサーブ</text>
+  <text x="670" y="107" text-anchor="middle" font-size="18" font-weight="700" fill="#1f8a4c">OK：胸椎で反るサーブ</text>
+
+  <!-- ===== LEFT: NG figure (shifted +35) ===== -->
+  <line x1="50" y1="555" x2="430" y2="555" stroke="#999" stroke-width="2"/>
+
+  <circle cx="220" cy="250" r="20" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+
+  <line x1="210" y1="267" x2="175" y2="215" stroke="#c0392b" stroke-width="3"/>
+  <line x1="175" y1="215" x2="150" y2="175" stroke="#c0392b" stroke-width="3"/>
+  <ellipse cx="142" cy="163" rx="14" ry="20" fill="none" stroke="#c0392b" stroke-width="2.5" transform="rotate(-20 142 163)"/>
+
+  <line x1="230" y1="269" x2="265" y2="215" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="272" cy="195" r="8" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+
+  <path d="M 220 270 C 225 310, 205 350, 230 400 C 250 430, 200 450, 205 490" fill="none" stroke="#c0392b" stroke-width="3"/>
+
+  <ellipse cx="202" cy="495" rx="20" ry="13" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <line x1="212" y1="505" x2="225" y2="555" stroke="#c0392b" stroke-width="3"/>
+  <line x1="195" y1="505" x2="180" y2="550" stroke="#c0392b" stroke-width="3"/>
+
+  <path d="M 250 415 Q 278 390 255 365" fill="none" stroke="#e67e22" stroke-width="2"/>
+  <text x="320" y="393" text-anchor="start" font-size="13" fill="#e67e22">過剰な</text>
+  <text x="320" y="410" text-anchor="start" font-size="13" fill="#e67e22">腰の反り</text>
+
+  <text x="230" y="588" text-anchor="middle" font-size="13" fill="#c0392b">→ 腰痛・パワーロス</text>
+
+  <!-- ===== RIGHT: OK figure (shifted +35) ===== -->
+  <line x1="490" y1="555" x2="870" y2="555" stroke="#999" stroke-width="2"/>
+
+  <circle cx="660" cy="250" r="20" fill="none" stroke="#1f8a4c" stroke-width="2.5"/>
+
+  <line x1="650" y1="267" x2="610" y2="215" stroke="#1f8a4c" stroke-width="3"/>
+  <line x1="610" y1="215" x2="585" y2="170" stroke="#1f8a4c" stroke-width="3"/>
+  <ellipse cx="578" cy="158" rx="14" ry="20" fill="none" stroke="#1f8a4c" stroke-width="2.5" transform="rotate(-20 578 158)"/>
+
+  <line x1="670" y1="269" x2="710" y2="215" stroke="#1f8a4c" stroke-width="3"/>
+  <circle cx="717" cy="195" r="8" fill="none" stroke="#1f8a4c" stroke-width="2.5"/>
+
+  <path d="M 660 270 C 665 305, 678 340, 668 380 C 660 420, 652 460, 650 495" fill="none" stroke="#1f8a4c" stroke-width="3"/>
+
+  <ellipse cx="650" cy="500" rx="20" ry="13" fill="none" stroke="#1f8a4c" stroke-width="2.5"/>
+  <line x1="658" y1="510" x2="668" y2="555" stroke="#1f8a4c" stroke-width="3"/>
+  <line x1="642" y1="510" x2="632" y2="555" stroke="#1f8a4c" stroke-width="3"/>
+
+  <path d="M 690 330 Q 715 305 685 275" fill="none" stroke="#1f8a4c" stroke-width="2"/>
+  <text x="755" y="305" text-anchor="start" font-size="13" fill="#1f8a4c">胸椎で</text>
+  <text x="755" y="322" text-anchor="start" font-size="13" fill="#1f8a4c">しなる</text>
+
+  <path d="M 565 460 L 595 460" stroke="#1f8a4c" stroke-width="2" marker-end="url(#arr3)"/>
+  <text x="558" y="464" text-anchor="end" font-size="13" fill="#1f8a4c">腹圧で腰を守る</text>
+
+  <text x="670" y="588" text-anchor="middle" font-size="13" fill="#1f8a4c">→ パワーが伝わる・腰に優しい</text>
+
+  <defs>
+    <marker id="arr3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f8a4c"/>
+    </marker>
+  </defs>
+</svg>
