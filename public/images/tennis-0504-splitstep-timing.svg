@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="壁打ちで掴んだスプリットステップのタイミング図解">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#c8e6c9"/>
+    </linearGradient>
+    <linearGradient id="court" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1976d2"/>
+      <stop offset="100%" stop-color="#0d47a1"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="100%" stop-color="#cddc39"/>
+    </radialGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="30" width="1120" height="105" rx="14" fill="#1b5e20"/>
+    <text x="600" y="78" text-anchor="middle" font-size="34" font-weight="800" fill="#fff">壁打ちで掴んだ「スプリットステップのタイミング」</text>
+    <text x="600" y="115" text-anchor="middle" font-size="20" font-weight="500" fill="#c5e1a5">壁にボールが当たった瞬間 ＝ 相手が打った瞬間と考える</text>
+  </g>
+
+  <!-- LEFT panel: Wall practice -->
+  <g transform="translate(60,170)">
+    <rect x="0" y="0" width="500" height="380" rx="16" fill="#ffffff" stroke="#1b5e20" stroke-width="3"/>
+    <text x="250" y="40" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="22" font-weight="800" fill="#1b5e20">壁打ち練習</text>
+
+    <!-- Wall -->
+    <rect x="40" y="80" width="20" height="220" fill="#90a4ae"/>
+    <text x="50" y="320" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" fill="#455a64">壁</text>
+
+    <!-- Player silhouette (right side) -->
+    <g transform="translate(380,120)">
+      <circle cx="0" cy="0" r="14" fill="#ffd180"/>
+      <rect x="-12" y="14" width="24" height="60" rx="4" fill="#ef5350"/>
+      <line x1="-12" y1="74" x2="-18" y2="120" stroke="#1976d2" stroke-width="8" stroke-linecap="round"/>
+      <line x1="12" y1="74" x2="20" y2="120" stroke="#1976d2" stroke-width="8" stroke-linecap="round"/>
+      <line x1="14" y1="30" x2="40" y2="60" stroke="#ef5350" stroke-width="6" stroke-linecap="round"/>
+      <line x1="40" y1="60" x2="50" y2="100" stroke="#5d4037" stroke-width="3"/>
+      <ellipse cx="55" cy="115" rx="14" ry="20" fill="none" stroke="#5d4037" stroke-width="3"/>
+    </g>
+
+    <!-- Ball trajectory -->
+    <path d="M 60 180 Q 220 100 380 180" fill="none" stroke="#fdd835" stroke-width="3" stroke-dasharray="6 6"/>
+    <circle cx="60" cy="180" r="10" fill="url(#ball)" stroke="#827717" stroke-width="1"/>
+    <text x="60" y="225" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="800" fill="#c62828">壁にHIT！</text>
+    <text x="60" y="245" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" fill="#c62828">＝相手が打つ瞬間</text>
+
+    <!-- Split step icon -->
+    <g transform="translate(380,280)">
+      <text x="0" y="0" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="800" fill="#1b5e20">スプリットステップ</text>
+      <text x="0" y="20" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" fill="#1b5e20">で着地している</text>
+    </g>
+
+    <text x="250" y="360" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-style="italic" fill="#33691e">壁打ち＝相手の代わりにタイミングをくれる</text>
+  </g>
+
+  <!-- RIGHT panel: Chain of cause -->
+  <g transform="translate(640,170)">
+    <rect x="0" y="0" width="500" height="380" rx="16" fill="#ffffff" stroke="#1b5e20" stroke-width="3"/>
+    <text x="250" y="40" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="22" font-weight="800" fill="#1b5e20">なぜ追いつけなかったのか</text>
+
+    <!-- Flow chain -->
+    <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+      <!-- Step 1 -->
+      <rect x="40" y="80" width="420" height="50" rx="10" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+      <text x="60" y="113" font-size="18" font-weight="700" fill="#e65100">①スプリットステップが遅い</text>
+
+      <!-- Arrow -->
+      <polygon points="250,140 240,155 260,155" fill="#e65100"/>
+
+      <!-- Step 2 -->
+      <rect x="40" y="160" width="420" height="50" rx="10" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+      <text x="60" y="193" font-size="18" font-weight="700" fill="#e65100">②反応が遅れる</text>
+
+      <polygon points="250,220 240,235 260,235" fill="#e65100"/>
+
+      <!-- Step 3 -->
+      <rect x="40" y="240" width="420" height="50" rx="10" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+      <text x="60" y="273" font-size="18" font-weight="700" fill="#e65100">③ボールに追いつけない</text>
+
+      <polygon points="250,300 240,315 260,315" fill="#c62828"/>
+
+      <!-- Step 4 -->
+      <rect x="40" y="320" width="420" height="50" rx="10" fill="#ffebee" stroke="#c62828" stroke-width="3"/>
+      <text x="60" y="353" font-size="18" font-weight="800" fill="#c62828">④やりたいスイングができない</text>
+    </g>
+  </g>
+
+  <!-- Bottom callout -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="568" width="1120" height="50" rx="12" fill="#1b5e20"/>
+    <text x="600" y="600" text-anchor="middle" font-size="20" font-weight="800" fill="#fff">「打つ時間」を作るのがスプリットステップ</text>
+  </g>
+</svg>

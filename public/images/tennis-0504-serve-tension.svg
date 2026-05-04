@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="サーブの体の張りを使った打ち方の手順図">
+  <defs>
+    <linearGradient id="bgS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8e1"/>
+      <stop offset="100%" stop-color="#ffecb3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bgS)"/>
+
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <text x="600" y="55" text-anchor="middle" font-size="28" font-weight="800" fill="#bf360c">サーブで「体の張り」を使う4ステップ</text>
+    <text x="600" y="85" text-anchor="middle" font-size="16" font-weight="500" fill="#5d4037">捻転の力をラケットに伝える</text>
+
+    <!-- 4 steps cards -->
+    <!-- Step 1 -->
+    <g transform="translate(40,140)">
+      <rect width="270" height="220" rx="14" fill="#ffffff" stroke="#bf360c" stroke-width="3"/>
+      <circle cx="40" cy="40" r="22" fill="#bf360c"/>
+      <text x="40" y="48" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">①</text>
+      <text x="135" y="50" text-anchor="middle" font-size="20" font-weight="800" fill="#bf360c">腰の捻り</text>
+      <line x1="20" y1="80" x2="250" y2="80" stroke="#bf360c" stroke-width="1"/>
+      <text x="135" y="115" text-anchor="middle" font-size="15" fill="#3e2723">下半身を先に</text>
+      <text x="135" y="145" text-anchor="middle" font-size="15" fill="#3e2723">回し始める</text>
+      <text x="135" y="190" text-anchor="middle" font-size="13" fill="#5d4037" font-style="italic">パワーの源</text>
+    </g>
+
+    <!-- Step 2 -->
+    <g transform="translate(330,140)">
+      <rect width="270" height="220" rx="14" fill="#ffffff" stroke="#bf360c" stroke-width="3"/>
+      <circle cx="40" cy="40" r="22" fill="#bf360c"/>
+      <text x="40" y="48" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">②</text>
+      <text x="155" y="50" text-anchor="middle" font-size="20" font-weight="800" fill="#bf360c">左足体重</text>
+      <line x1="20" y1="80" x2="250" y2="80" stroke="#bf360c" stroke-width="1"/>
+      <text x="135" y="115" text-anchor="middle" font-size="15" fill="#3e2723">体重を左足へ</text>
+      <text x="135" y="145" text-anchor="middle" font-size="15" fill="#3e2723">乗せる</text>
+      <text x="135" y="190" text-anchor="middle" font-size="13" fill="#5d4037" font-style="italic">軸ができる</text>
+    </g>
+
+    <!-- Step 3 -->
+    <g transform="translate(620,140)">
+      <rect width="270" height="220" rx="14" fill="#ffffff" stroke="#bf360c" stroke-width="3"/>
+      <circle cx="40" cy="40" r="22" fill="#bf360c"/>
+      <text x="40" y="48" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">③</text>
+      <text x="170" y="50" text-anchor="middle" font-size="20" font-weight="800" fill="#bf360c">肩甲骨を寄せる</text>
+      <line x1="20" y1="80" x2="250" y2="80" stroke="#bf360c" stroke-width="1"/>
+      <text x="135" y="115" text-anchor="middle" font-size="15" fill="#3e2723">胸を張り</text>
+      <text x="135" y="145" text-anchor="middle" font-size="15" fill="#3e2723">弓のように張る</text>
+      <text x="135" y="190" text-anchor="middle" font-size="13" fill="#5d4037" font-style="italic">体に張りを蓄える</text>
+    </g>
+
+    <!-- Step 4 -->
+    <g transform="translate(910,140)">
+      <rect width="250" height="220" rx="14" fill="#bf360c"/>
+      <circle cx="40" cy="40" r="22" fill="#fff8e1"/>
+      <text x="40" y="48" text-anchor="middle" font-size="22" font-weight="800" fill="#bf360c">④</text>
+      <text x="155" y="50" text-anchor="middle" font-size="18" font-weight="800" fill="#fff8e1">ラケットへ伝える</text>
+      <line x1="20" y1="80" x2="230" y2="80" stroke="#fff8e1" stroke-width="1"/>
+      <text x="125" y="115" text-anchor="middle" font-size="15" fill="#fff8e1">蓄えた捻転を</text>
+      <text x="125" y="145" text-anchor="middle" font-size="15" fill="#fff8e1">一気に解放</text>
+      <text x="125" y="190" text-anchor="middle" font-size="13" fill="#fff59d" font-style="italic">力強いサーブ</text>
+    </g>
+
+    <!-- Reflection -->
+    <rect x="40" y="410" width="1120" height="80" rx="12" fill="#ffffff" stroke="#c62828" stroke-width="2"/>
+    <text x="60" y="445" font-size="16" font-weight="800" fill="#c62828">⚠ 反省点：</text>
+    <text x="60" y="475" font-size="16" fill="#3e2723">サーブを打った後の「スプリットステップ」を忘れがち。次のリターンに備えるため、必ず意識する。</text>
+
+    <!-- Bottom -->
+    <rect x="40" y="510" width="1120" height="60" rx="12" fill="#bf360c"/>
+    <text x="600" y="548" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">体の張りを使えば、力みなく速いサーブが打てる</text>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="準備が早い時の足の使い方の比較図">
+  <defs>
+    <linearGradient id="bgF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e3f2fd"/>
+      <stop offset="100%" stop-color="#bbdefb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bgF)"/>
+
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <text x="600" y="55" text-anchor="middle" font-size="28" font-weight="800" fill="#0d47a1">準備が早く完了した時の対処</text>
+    <text x="600" y="85" text-anchor="middle" font-size="16" font-weight="500" fill="#1565c0">そのまま止まると、リズムが死んでミスになる</text>
+
+    <!-- BAD side -->
+    <g transform="translate(60,130)">
+      <rect width="510" height="320" rx="16" fill="#ffebee" stroke="#c62828" stroke-width="3"/>
+      <rect width="510" height="50" rx="16" fill="#c62828"/>
+      <text x="255" y="34" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">✗ 足を止めて待つ</text>
+
+      <!-- player -->
+      <g transform="translate(180,130)">
+        <circle cx="0" cy="0" r="22" fill="#ffd180"/>
+        <rect x="-20" y="22" width="40" height="80" rx="6" fill="#ef5350"/>
+        <line x1="-20" y1="100" x2="-25" y2="170" stroke="#1976d2" stroke-width="10" stroke-linecap="round"/>
+        <line x1="20" y1="100" x2="25" y2="170" stroke="#1976d2" stroke-width="10" stroke-linecap="round"/>
+        <!-- Static foot lines (no movement) -->
+        <line x1="-50" y1="180" x2="0" y2="180" stroke="#c62828" stroke-width="3"/>
+        <line x1="0" y1="180" x2="50" y2="180" stroke="#c62828" stroke-width="3"/>
+        <text x="0" y="220" text-anchor="middle" font-size="18" font-weight="700" fill="#c62828">STOP</text>
+      </g>
+
+      <text x="255" y="290" text-anchor="middle" font-size="16" fill="#3e2723">→ リズムが死ぬ → ネットしやすい</text>
+    </g>
+
+    <!-- GOOD side -->
+    <g transform="translate(630,130)">
+      <rect width="510" height="320" rx="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3"/>
+      <rect width="510" height="50" rx="16" fill="#2e7d32"/>
+      <text x="255" y="34" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">✓ 足を小刻みに動かして待つ</text>
+
+      <!-- player -->
+      <g transform="translate(180,130)">
+        <circle cx="0" cy="0" r="22" fill="#ffd180"/>
+        <rect x="-20" y="22" width="40" height="80" rx="6" fill="#43a047"/>
+        <line x1="-20" y1="100" x2="-30" y2="165" stroke="#1976d2" stroke-width="10" stroke-linecap="round"/>
+        <line x1="20" y1="100" x2="30" y2="165" stroke="#1976d2" stroke-width="10" stroke-linecap="round"/>
+        <!-- Animated feet with motion lines -->
+        <ellipse cx="-30" cy="180" rx="18" ry="6" fill="#2e7d32"/>
+        <ellipse cx="30" cy="180" rx="18" ry="6" fill="#2e7d32"/>
+        <!-- motion arcs -->
+        <path d="M -55 175 Q -50 165 -45 175" fill="none" stroke="#2e7d32" stroke-width="2"/>
+        <path d="M 45 175 Q 50 165 55 175" fill="none" stroke="#2e7d32" stroke-width="2"/>
+        <path d="M -65 180 Q -55 170 -45 180" fill="none" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+        <path d="M 45 180 Q 55 170 65 180" fill="none" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+        <text x="0" y="220" text-anchor="middle" font-size="18" font-weight="700" fill="#2e7d32">MOVE</text>
+      </g>
+
+      <text x="255" y="290" text-anchor="middle" font-size="16" fill="#1b5e20">→ リズム維持 → スプリットへ繋がる</text>
+    </g>
+
+    <text x="600" y="475" text-anchor="middle" font-size="15" font-style="italic" fill="#0d47a1">構えが早すぎても、足を止めない。テニスは "動き続ける" が基本</text>
+  </g>
+</svg>
