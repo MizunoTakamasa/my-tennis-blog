@@ -6,9 +6,9 @@ pubDate: "2026-05-08"
 
 # テニスは『打つ→戻る→構える』までが1セット｜スプリットステップとバック側フットワークの弱点
 
-**昼休みのテニストレーニングを再開** しました。場所は近所の **公園** です。
+**昼休みのテニストレーニングを再開** しました。
 
-きっかけは単純で、 **今日は天気が気持ちよかったから** 。「ちょっと外に出ようかな」くらいの軽い気持ちで公園に行って **「打つ→戻る→構える」の流れと「フットワーク」** の練習に行きました。気づきがありましたので、忘れないうちに残しておきます。
+きっかけは単純で、 **今日は天気が気持ちよかったから** 。「ちょっと外に出ようかな」くらいの軽い気持ちで **「打つ→戻る→構える」の流れと「フットワーク」** の練習をしてきました。気づきがありましたので、忘れないうちに残しておきます。
 
 ![打つ→戻る→構えるの流れとスプリットステップ](/images/tennis-0508-recovery-cover.png)
 
@@ -16,7 +16,7 @@ pubDate: "2026-05-08"
 
 ## ① 今日の核：『打つ→戻る→構える』までが1セット
 
-公園での自主練だからこそ、 **打つフォームではなく「打ったあとの動き」に集中できた** のが大きな収穫でした。コートのレッスンや試合だと、どうしても球を打つことに気を取られて、フットワークまで意識が回らないからです。
+自主練だからこそ、 **打つフォームではなく「打ったあとの動き」に集中できた** のが大きな収穫でした。コートのレッスンや試合だと、どうしても球を打つことに気を取られて、フットワークまで意識が回らないからです。
 
 特に意識したのが **「打ったら終わり」ではなく、構えるところまでを1セット** にすること。
 
@@ -42,7 +42,7 @@ pubDate: "2026-05-08"
 
 スプリットステップ = 相手が打つ瞬間に、 **両足を軽く広げて、その場で小さくジャンプして着地** する動作。これを「構える」のタイミングに重ねる。
 
-公園での自主練だと、 **足の動きそのものに集中できる時間** が確保しやすい。レッスンや試合中は、どうしても打つことが優先になって、足の感覚に向き合う余裕がなくなりがちだからです。
+自主練だと、 **足の動きそのものに集中できる時間** が確保しやすい。レッスンや試合中は、どうしても打つことが優先になって、足の感覚に向き合う余裕がなくなりがちだからです。
 
 ![スプリットステップのタイミング](/images/tennis-0508-splitstep-timing.png)
 
@@ -54,11 +54,11 @@ pubDate: "2026-05-08"
 
 「打つ → 戻る → 構える（＝スプリットステップ）」が **1セット** になると、テニスのテンポが一気に整います。
 
-### 余談：公園トレは「シューズ」で大きく変わる
+### 余談：昼休みトレは「シューズ」で大きく変わる
 
-公園のサーフェスは **アスファルト・タイル・土・ゴムマット** などコートと違うので、 **テニスシューズの種類** が合っていないと、スプリットステップの着地で滑ったり、逆にグリップしすぎて足首に負担がかかったり。
+外で打つ場所のサーフェスは **アスファルト・タイル・土・ゴムマット** などコートと違うので、 **テニスシューズの種類** が合っていないと、スプリットステップの着地で滑ったり、逆にグリップしすぎて足首に負担がかかったり。
 
-普段使い兼テニス兼公園トレ、と1足で済ませたい人は、 **オールコート用のテニスシューズ** が便利です。グリップが横方向に強く、軽くて履き心地も良いので、 **散歩がてらの公園トレ** に1足あると習慣化が一気に楽になります。
+普段使い兼テニス兼昼休みトレ、と1足で済ませたい人は、 **オールコート用のテニスシューズ** が便利です。グリップが横方向に強く、軽くて履き心地も良いので、 **散歩がてらの昼休みトレ** に1足あると習慣化が一気に楽になります。
 
 <!-- ▼▼▼ 楽天アフィリエイト：テニスシューズ ▼▼▼ -->
 <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/539394aa.eca8a541.539394ab.3e3b0e5c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fprospo%2Fshtpa-784%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/539394aa.eca8a541.539394ab.3e3b0e5c/?me_id=1247081&item_id=10183818&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fprospo%2Fcabinet%2Fyonex-12%2Fshtpa-784-1.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/539394aa.eca8a541.539394ab.3e3b0e5c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fprospo%2Fshtpa-784%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">「最短当日出荷」ヨネックス YONEX テニスシューズ ユニセックス Pro-Move Classic パワークッション プロムーブ クラシック AC オールコート用 SHTPA-784「エントリーでシューレースプレゼント」</a><br><span >価格：6,770円（税込、送料無料)</span> <span style="color:#BBB">(2026/5/8時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/539394aa.eca8a541.539394ab.3e3b0e5c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fprospo%2Fshtpa-784%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/539394aa.eca8a541.539394ab.3e3b0e5c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fprospo%2Fshtpa-784%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
@@ -115,15 +115,15 @@ pubDate: "2026-05-08"
 
 - 試合中は **相手の球に反応するので精一杯**
 - レッスンは **打つフォームの修正** が中心
-- **戻り方そのもの** に集中できる時間は、 **昼休みの公園自主練くらい**
+- **戻り方そのもの** に集中できる時間は、 **昼休みの自主練くらい**
 
-逆に言えば、 **昼休みに公園に通えば、フットワークが伸びる** 。これは大きな結論でした。
+逆に言えば、 **昼休みに自主練を続ければ、フットワークが伸びる** 。これは大きな結論でした。
 
 ![昼休みトレを続けるメリット](/images/tennis-0508-noon-training.png)
 
-### 自宅・公園でフットワークを底上げ：アジリティラダー
+### 自宅でフットワークを底上げ：アジリティラダー
 
-クロスステップやサイドステップは、 **コートに立たなくても、自宅や公園で練習できる** のが嬉しいところ。私が使っているのが **アジリティラダー（はしご型のトレーニンググッズ）** 。畳1枚分のスペースで、 **公園に出かける前の5分** や **昼休み終わりの10分** に脚を起こす習慣を作るのに最適です。
+クロスステップやサイドステップは、 **コートに立たなくても、自宅で練習できる** のが嬉しいところ。私が使っているのが **アジリティラダー（はしご型のトレーニンググッズ）** 。畳1枚分のスペースで、 **出かける前の5分** や **昼休み終わりの10分** に脚を起こす習慣を作るのに最適です。
 
 クロスステップ・サイドステップ・スプリットステップを **ラダーの上で再現** すると、コートに立った瞬間から足が動きます。
 
@@ -145,9 +145,9 @@ pubDate: "2026-05-08"
 
 ## まとめ：昼休みを「テニスの時間」に変える
 
-**昼休みに、公園で自主練する** 
+**昼休みに、自主練する** 
 
-たとえ短時間でも、 **昼休みに公園で「打つ→戻る→構える」とスプリットステップを意識する** だけで、確実にテニスは伸びる。明日もまた、バック側の戻りを **クロスステップ→サイドステップ→スプリットステップ** の連鎖で練習してみたいと思います。
+たとえ短時間でも、 **昼休みに「打つ→戻る→構える」とスプリットステップを意識する** だけで、確実にテニスは伸びる。明日もまた、バック側の戻りを **クロスステップ→サイドステップ→スプリットステップ** の連鎖で練習してみたいと思います。
 
 ---
 
