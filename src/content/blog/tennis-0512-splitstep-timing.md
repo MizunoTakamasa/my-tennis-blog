@@ -7,7 +7,7 @@ pubDate: "2026-05-12"
 
 # テニス『構える瞬間』にスプリットステップが踏めない問題｜クロス＋サイドステップで早く動く昼トレ
 
-レッスンを受けるたびに指摘される、自分の中の **最大の課題** 。
+自分の中の **最大の課題** 。
 
 > **「構える瞬間に、スプリットステップが踏めていない」**
 
@@ -34,13 +34,21 @@ pubDate: "2026-05-12"
 
 ---
 
-## ② 今日の練習メニュー｜「打つ→戻る→構える」の徹底反復
+## ② 今日の練習メニュー｜「打つ→戻る→構える」とスペインドリル
 
 そこで今日の昼トレは、 **打つ→戻る→構える** までを **1セット** にする練習をひたすら反復しました。
 
 > **1. 打つ → 2. 戻る → 3. 構える（＋スプリットステップ）**
 
-このうち、自分が一番疎かにしているのが **3の「構える」** 。なので、ここを意識的に強調する練習にしました。
+ここで気づいたのが、 **3の「構える」** が抜け落ちて、戻ったところで止まってしまうこと。なので、ここを意識的に強調する練習にしました。
+
+さらに、 **打つ→戻る→構えるだけでなく、スペインドリルも併せて実施** 。スペインドリルは、左右に振られた球を **クロスステップで素早く戻りながら、次のショットの準備までを一気通貫で行う** ドリル。 **動きながら整える** という感覚が、構える瞬間のスプリットステップとセットでとても効きました。
+
+そして、打つ時には **フォアハンドで「体を止める」ことを意識** 。先日のレッスンで指摘された「腕が振れる位置に来るまで体を止める」を、フットワーク練習の中でも維持できるかをテーマにしました。
+
+> **足は動きながら、体は止める。**
+
+これが、今日の練習で見えてきた **動きと止めの両立** のテーマです。
 
 ![打つ→戻る→構えるの1セット](/images/tennis-0512-one-set.png)
 
@@ -85,7 +93,6 @@ pubDate: "2026-05-12"
 
 なぜ抜け落ちるのか、自分なりに整理すると、
 
-- **打つことに集中** すると、戻りと構えの意識が薄くなる
 - **戻り＝終わり** という古い癖が、まだ体に残っている
 - **スプリットステップ** という動作を「動作」として認識していて、 **流れの一部** として捉えられていない
 
@@ -161,10 +168,7 @@ pubDate: "2026-05-12"
 スプリットステップとフットワークは、 **アジリティラダーや縄跳び** で養うのが効率的です。畳1枚のスペースで、 **着地と同時に動き出す感覚** が毎日10分で体に染み込みます。
 
 <!-- ▼▼▼ 楽天アフィリエイト：アジリティラダー／フットワーク練習器具 ▼▼▼ -->
-<!-- 楽天アフィリエイト管理画面 https://affiliate.rakuten.co.jp/ で
-     「アジリティラダー」「テニス フットワーク 練習」
-     「ラダートレーニング」などを検索し、
-     商品の HTML 広告コードをここに貼り付けてください。 -->
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/53ba27d0.bf78d34e.53ba27d1.f9828901/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fonips-vision%2Frdr0047101%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/53ba27d0.bf78d34e.53ba27d1.f9828901/?me_id=1432852&item_id=10000055&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fonips-vision%2Fcabinet%2F11518453%2F11795041%2F12.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/53ba27d0.bf78d34e.53ba27d1.f9828901/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fonips-vision%2Frdr0047101%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">【ポイント5倍！】【プロ指導者監修】【楽天ランキング1位】 ラダー トレーニング トレーニングラダー 子供 サッカー 3m 5m 7m コーン セット フットサル バスケット 野球 陸上 テニス 小学生 練習 器具 マーカーコーン プレート スポーツ 敏捷性</a><br><span >価格：2,280円～（税込、送料無料)</span> <span style="color:#BBB">(2026/5/12時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/53ba27d0.bf78d34e.53ba27d1.f9828901/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fonips-vision%2Frdr0047101%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/53ba27d0.bf78d34e.53ba27d1.f9828901/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fonips-vision%2Frdr0047101%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
 <!-- ▲▲▲ 楽天アフィリエイト：アジリティラダー ▲▲▲ -->
 
 ### もう一段深く学びたい人へ：テニスフットワーク解説書
@@ -172,10 +176,7 @@ pubDate: "2026-05-12"
 「クロスステップ・サイドステップ・スプリットステップ」の運動連鎖を、 **理論と練習ドリルでもう一段深く** 学びたい人には、 **テニスのフットワーク専門書・DVD** がおすすめです。
 
 <!-- ▼▼▼ 楽天アフィリエイト：テニス フットワーク本／DVD ▼▼▼ -->
-<!-- 楽天アフィリエイト管理画面 https://affiliate.rakuten.co.jp/ で
-     「テニス フットワーク 本」「テニス フットワーク DVD」
-     「スプリットステップ 練習」などを検索し、
-     商品の HTML 広告コードをここに貼り付けてください。 -->
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ada7c0b.874533bc.3ada7c0c.598e75c9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakutenkobo-ebooks%2Fb31c3b71ca93302dbea5036a55cc5112%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/3ada7c0b.874533bc.3ada7c0c.598e75c9/?me_id=1278256&item_id=22362783&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Frakutenkobo-ebooks%2Fcabinet%2F2613%2F2000013082613.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ada7c0b.874533bc.3ada7c0c.598e75c9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakutenkobo-ebooks%2Fb31c3b71ca93302dbea5036a55cc5112%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">必ずうまくなるテニス 基本と練習法【電子書籍】[ 中本圭 ]</a><br><span >価格：1,650円</span> <span style="color:#BBB">(2026/5/12時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ada7c0b.874533bc.3ada7c0c.598e75c9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakutenkobo-ebooks%2Fb31c3b71ca93302dbea5036a55cc5112%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/3ada7c0b.874533bc.3ada7c0c.598e75c9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakutenkobo-ebooks%2Fb31c3b71ca93302dbea5036a55cc5112%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
 <!-- ▲▲▲ 楽天アフィリエイト：テニス フットワーク本／DVD ▲▲▲ -->
 
 ---
