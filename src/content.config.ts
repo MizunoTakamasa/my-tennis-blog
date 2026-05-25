@@ -16,6 +16,8 @@ const blog = defineCollection({
 			heroImage: z.optional(image()),
 			// 記事ヘッダー（タイトル部分）の背景画像（任意）
 			headerBgImage: z.string().optional(),
+			// 記事一覧カードの背景画像（任意）
+			cardBgImage: z.string().optional(),
 		}),
 });
 

@@ -458,6 +458,41 @@ const posts = (await getCollection('blog')).sort(
       }
       .bl-item:hover { background: #181818; }
 
+      /* 背景画像が指定されたカード */
+      .bl-item.bl-item-bg {
+        background-color: #111;
+        background-image: var(--bl-item-bg-image);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      /* 暗いオーバーレイ（文字読みやすさのため） */
+      .bl-item.bl-item-bg > a::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(10,10,10,0.55) 0%,
+          rgba(10,10,10,0.75) 100%
+        );
+        z-index: 0;
+        pointer-events: none;
+        transition: background 0.25s;
+      }
+      .bl-item.bl-item-bg:hover > a::before {
+        background: linear-gradient(
+          180deg,
+          rgba(10,10,10,0.40) 0%,
+          rgba(10,10,10,0.68) 100%
+        );
+      }
+      /* 文字を前面に */
+      .bl-item.bl-item-bg > a > * {
+        position: relative;
+        z-index: 1;
+      }
+
       /* ホバーで底辺に黄緑ライン */
       .bl-item::before {
         content: '';
@@ -653,7 +688,10 @@ const posts = (await getCollection('blog')).sort(
               <p class="bl-section-head-gray">All Articles</p>
               <ul class="bl-grid-list">
                 {posts.slice(1).map((post, i) => (
-                  <li class="bl-item">
+                  <li
+                    class={`bl-item${post.data.cardBgImage ? ' bl-item-bg' : ''}`}
+                    style={post.data.cardBgImage ? `--bl-item-bg-image: url('${post.data.cardBgImage}');` : undefined}
+                  >
                     <a href={`/blog/${post.id}/`}>
                       <span class="bl-item-num">#{String(i + 2).padStart(2, '0')}</span>
                       <h3 class="bl-item-title">{post.data.title}</h3>

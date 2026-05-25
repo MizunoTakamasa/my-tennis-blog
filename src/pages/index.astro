@@ -41,6 +41,25 @@ import Footer from '../components/Footer.astro';
         justify-content: center !important;
         overflow: hidden;
         padding: 5rem 1rem 4rem;
+        background-color: #0a0a0a;
+        background-image: url('/images/ChatGPT%20Image%202026%E5%B9%B45%E6%9C%8825%E6%97%A5%2022_31_04.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      /* 背景画像の上に暗いオーバーレイ（文字読みやすさのため） */
+      .t-hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(10,10,10,0.55) 0%,
+          rgba(10,10,10,0.65) 50%,
+          rgba(10,10,10,0.75) 100%
+        );
+        z-index: 1;
+        pointer-events: none;
       }
 
       .t-grid {
@@ -50,7 +69,7 @@ import Footer from '../components/Footer.astro';
           linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
           linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
         background-size: 60px 60px;
-        z-index: 0;
+        z-index: 2;
       }
 
       .t-netline {
@@ -61,14 +80,14 @@ import Footer from '../components/Footer.astro';
         height: 2px;
         background: #c8ff50;
         box-shadow: 0 0 20px rgba(200,255,80,0.6);
-        z-index: 1;
+        z-index: 3;
       }
 
       .t-ring {
         position: absolute;
         border-radius: 50%;
         pointer-events: none;
-        z-index: 0;
+        z-index: 2;
       }
       .t-ring-1 {
         width: 500px; height: 500px;
@@ -91,7 +110,7 @@ import Footer from '../components/Footer.astro';
         position: absolute;
         border-radius: 50%;
         background: radial-gradient(circle at 35% 32%, #e2ff5a, #9dc918);
-        z-index: 2;
+        z-index: 4;
         pointer-events: none;
       }
       .t-ball::after {
