@@ -197,34 +197,60 @@ const posts = (await getCollection('blog')).sort(
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 0;
-        background: #141414;
+        background-color: #141414;
+        background-image: url('/images/Two_boys_playing_tennis_202605252149.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         border: 1px solid rgba(200,255,80,0.2);
         border-radius: 4px;
         overflow: hidden;
         text-decoration: none;
         transition: border-color 0.3s, background 0.3s;
+        position: relative;
       }
-      .bl-featured-card:hover { border-color: rgba(200,255,80,0.55); background: #181818; }
+      /* 読みやすさのための暗いオーバーレイ */
+      .bl-featured-card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          rgba(10,10,10,0.55) 0%,
+          rgba(10,10,10,0.70) 50%,
+          rgba(10,10,10,0.85) 100%
+        );
+        z-index: 1;
+        pointer-events: none;
+      }
+      .bl-featured-card:hover { border-color: rgba(200,255,80,0.55); }
+      .bl-featured-card:hover::before {
+        background: linear-gradient(
+          90deg,
+          rgba(10,10,10,0.45) 0%,
+          rgba(10,10,10,0.60) 50%,
+          rgba(10,10,10,0.78) 100%
+        );
+      }
 
       @media (max-width: 640px) {
         .bl-featured-card { grid-template-columns: 1fr; }
       }
 
       .bl-feat-img {
-        background: #1c1c1c;
+        background: transparent;
         display: flex;
         align-items: center;
         justify-content: center;
         min-height: 260px;
         position: relative;
         overflow: hidden;
+        z-index: 2;
       }
-      .bl-feat-img::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(135deg, rgba(200,255,80,0.06) 0%, transparent 60%);
-      }
+      /* 背景画像を活かすため、ラケットアニメーションは非表示 */
+      .bl-feat-img .bl-racket,
+      .bl-feat-img .bl-anim-ball,
+      .bl-feat-img .bl-impact { display: none; }
 
       /* ラケット本体 */
       .bl-racket {
@@ -340,6 +366,8 @@ const posts = (await getCollection('blog')).sort(
         flex-direction: column;
         justify-content: center;
         gap: 1rem;
+        position: relative;
+        z-index: 2;
       }
 
       .bl-new-tag {

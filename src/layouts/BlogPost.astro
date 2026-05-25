@@ -8,7 +8,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, headerBgImage } = Astro.props;
 ---
 
 <html lang="ja">
@@ -51,6 +51,27 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         text-align: center;
         overflow: hidden;
         border-bottom: 1px solid rgba(200,255,80,0.15);
+      }
+
+      /* 背景画像が指定された記事のヘッダー */
+      .ap-header.ap-header-bg {
+        background-image: var(--ap-header-bg-image);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      /* 背景画像の上に暗いオーバーレイ（読みやすさのため） */
+      .ap-header.ap-header-bg > .ap-header-inner {
+        position: relative;
+        z-index: 3;
+      }
+      .ap-header.ap-header-bg::before {
+        background-image:
+          linear-gradient(rgba(10,10,10,0.65), rgba(10,10,10,0.78)),
+          linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+        background-size: 100% 100%, 60px 60px, 60px 60px;
+        z-index: 1;
       }
 
       /* 薄いグリッド */
@@ -413,7 +434,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
       <article>
 
         <!-- ヘッダー -->
-        <div class="ap-header">
+        <div
+          class={`ap-header${headerBgImage ? ' ap-header-bg' : ''}`}
+          style={headerBgImage ? `--ap-header-bg-image: url('${headerBgImage}');` : undefined}
+        >
           <div class="ap-ring ap-ring-1"></div>
           <div class="ap-ring ap-ring-2"></div>
           <div class="ap-corner"></div>

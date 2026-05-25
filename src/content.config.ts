@@ -14,6 +14,8 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			// 記事ヘッダー（タイトル部分）の背景画像（任意）
+			headerBgImage: z.string().optional(),
 		}),
 });
 
