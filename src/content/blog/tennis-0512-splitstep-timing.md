@@ -3,6 +3,8 @@ title: "テニス『構える瞬間』にスプリットステップが踏めな
 date: 2026-05-12
 description: "レッスンで毎回指摘される『構える瞬間のスプリットステップが踏めない』問題。今日の昼トレで『長くクロスステップで戻り、ギリギリでサイドステップ→構える瞬間にスプリットステップ』を反復した記録。1日では身につかない動きを、毎日継続するための上達ノート。"
 pubDate: "2026-05-12"
+cardBgImage: "/images/Teenage_boy_practicing_tennis_fo%E2%80%A6_202605272134.jpeg"
+headerBgImage: "/images/Teenage_boy_practicing_tennis_fo%E2%80%A6_202605272134.jpeg"
 ---
 
 # テニス『構える瞬間』にスプリットステップが踏めない問題｜クロス＋サイドステップで早く動く昼トレ
