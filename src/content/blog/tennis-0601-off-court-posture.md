@@ -2,8 +2,8 @@
 title: "テニス上達はコート外で決まる｜『浅く座る・骨盤を前に出す・顎を引く』毎日の姿勢で体幹が目覚める3つの習慣｜2026.06.01"
 description: "テニスがうまくならない原因は、練習量ではなく『普段の姿勢』かもしれない。椅子に浅く座る、反り腰にならないよう骨盤を前に出す、顎を引く——この3つをコート外で意識するだけで、体幹が立ち上がり、捻転・軸・バランスが変わる。今日から自宅やデスクでできる、ラケットを持たないテニス上達習慣をまとめた。"
 pubDate: "2026-06-01"
-cardBgImage: "/images/tennis-0601-posture-cover.png"
-headerBgImage: "/images/tennis-0601-posture-cover.png"
+cardBgImage: "/images/Man_sitting_anime_style_202606010203.jpeg"
+headerBgImage: "/images/Man_sitting_anime_style_202606010203.jpeg"
 ---
 
 # テニス上達はコート外で決まる｜『浅く座る・骨盤を前に出す・顎を引く』毎日の姿勢で体幹が目覚める3つの習慣
