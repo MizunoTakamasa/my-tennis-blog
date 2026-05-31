@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" font-family="'Noto Sans JP','Hiragino Sans',sans-serif">
+  <rect width="820" height="480" rx="18" fill="#0f1410"/>
+  <text x="410" y="48" text-anchor="middle" fill="#c8ff50" font-size="26" font-weight="900">骨盤を前に出す｜反り腰を消す</text>
+
+  <!-- LEFT: swayback -->
+  <g transform="translate(40,90)">
+    <rect x="0" y="0" width="340" height="340" rx="14" fill="#171c16" stroke="#3a2020"/>
+    <text x="170" y="36" text-anchor="middle" fill="#ff7676" font-size="20" font-weight="800">✗ 反り腰</text>
+    <!-- spine over-arched -->
+    <path d="M170 300 C 230 250 110 200 175 150 C 215 120 175 90 170 70" fill="none" stroke="#ff9a9a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="170" cy="55" r="18" fill="#ff9a9a"/>
+    <!-- pelvis tilt arrow -->
+    <path d="M150 295 q40 20 70 -5" fill="none" stroke="#ff7676" stroke-width="4" marker-end="url(#arR)"/>
+    <text x="170" y="325" text-anchor="middle" fill="#caa" font-size="13">腰が反り、お腹が前に出る</text>
+  </g>
+
+  <!-- RIGHT: neutral -->
+  <g transform="translate(440,90)">
+    <rect x="0" y="0" width="340" height="340" rx="14" fill="#16201a" stroke="#2c4422"/>
+    <text x="170" y="36" text-anchor="middle" fill="#c8ff50" font-size="20" font-weight="800">○ ニュートラル</text>
+    <!-- spine natural S -->
+    <path d="M170 300 C 195 250 150 210 172 160 C 188 125 165 95 170 70" fill="none" stroke="#c8ff50" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="170" cy="55" r="18" fill="#c8ff50"/>
+    <!-- pelvis forward arrow -->
+    <line x1="135" y1="295" x2="205" y2="295" stroke="#c8ff50" stroke-width="4" marker-end="url(#arG)"/>
+    <text x="205" y="285" text-anchor="start" fill="#c8ff50" font-size="13">前へ</text>
+    <text x="170" y="325" text-anchor="middle" fill="#bcd29a" font-size="13">骨盤を前に送り、下腹を軽く締める</text>
+  </g>
+
+  <defs>
+    <marker id="arR" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#ff7676"/></marker>
+    <marker id="arG" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#c8ff50"/></marker>
+  </defs>
+</svg>

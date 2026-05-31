@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" font-family="'Noto Sans JP','Hiragino Sans',sans-serif">
+  <rect width="820" height="480" rx="18" fill="#0f1410"/>
+  <text x="410" y="48" text-anchor="middle" fill="#c8ff50" font-size="26" font-weight="900">浅く座る｜骨盤を立てる座り方</text>
+
+  <!-- LEFT: bad -->
+  <g transform="translate(40,90)">
+    <rect x="0" y="0" width="340" height="340" rx="14" fill="#171c16" stroke="#3a2020"/>
+    <text x="170" y="36" text-anchor="middle" fill="#ff7676" font-size="20" font-weight="800">✗ 深く座る（後傾・猫背）</text>
+    <!-- chair -->
+    <rect x="80" y="120" width="180" height="20" fill="#444"/>
+    <rect x="80" y="120" width="16" height="170" fill="#444"/>
+    <rect x="244" y="120" width="16" height="170" fill="#444"/>
+    <rect x="244" y="70" width="16" height="70" fill="#666"/>
+    <!-- slumped body: pelvis back, spine curved -->
+    <path d="M250 115 q-40 -10 -55 -55 q-30 30 -15 70" fill="none" stroke="#ff9a9a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="183" cy="48" r="20" fill="#ff9a9a"/>
+    <!-- thigh -->
+    <line x1="180" y1="118" x2="95" y2="118" stroke="#ff9a9a" stroke-width="10" stroke-linecap="round"/>
+    <text x="170" y="320" text-anchor="middle" fill="#caa" font-size="13">背もたれに頼り、骨盤が後ろに倒れる</text>
+  </g>
+
+  <!-- RIGHT: good -->
+  <g transform="translate(440,90)">
+    <rect x="0" y="0" width="340" height="340" rx="14" fill="#16201a" stroke="#2c4422"/>
+    <text x="170" y="36" text-anchor="middle" fill="#c8ff50" font-size="20" font-weight="800">○ 浅く座る（骨盤を立てる）</text>
+    <!-- chair -->
+    <rect x="60" y="150" width="180" height="20" fill="#444"/>
+    <rect x="60" y="150" width="16" height="140" fill="#444"/>
+    <rect x="224" y="150" width="16" height="140" fill="#444"/>
+    <rect x="224" y="100" width="16" height="70" fill="#666"/>
+    <!-- upright body on front third -->
+    <line x1="110" y1="150" x2="110" y2="55" stroke="#c8ff50" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="110" cy="40" r="20" fill="#c8ff50"/>
+    <!-- thigh -->
+    <line x1="110" y1="150" x2="200" y2="150" stroke="#c8ff50" stroke-width="10" stroke-linecap="round"/>
+    <!-- seat front third marker -->
+    <rect x="80" y="148" width="60" height="6" fill="#fff" opacity="0.5"/>
+    <text x="170" y="320" text-anchor="middle" fill="#bcd29a" font-size="13">前1/3に坐骨で座り、背骨が伸びる</text>
+  </g>
+</svg>

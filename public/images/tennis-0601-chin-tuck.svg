@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" font-family="'Noto Sans JP','Hiragino Sans',sans-serif">
+  <rect width="820" height="480" rx="18" fill="#0f1410"/>
+  <text x="410" y="48" text-anchor="middle" fill="#c8ff50" font-size="26" font-weight="900">顎を引く｜頭を背骨の真上に乗せる</text>
+
+  <!-- LEFT: forward head -->
+  <g transform="translate(40,90)">
+    <rect x="0" y="0" width="340" height="340" rx="14" fill="#171c16" stroke="#3a2020"/>
+    <text x="170" y="36" text-anchor="middle" fill="#ff7676" font-size="20" font-weight="800">✗ 顎が上がる（前のめり）</text>
+    <!-- vertical reference -->
+    <line x1="150" y1="80" x2="150" y2="300" stroke="#555" stroke-width="2" stroke-dasharray="6 6"/>
+    <!-- spine -->
+    <line x1="150" y1="300" x2="150" y2="150" stroke="#ff9a9a" stroke-width="10" stroke-linecap="round"/>
+    <!-- neck forward -->
+    <line x1="150" y1="150" x2="210" y2="110" stroke="#ff9a9a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="225" cy="100" r="20" fill="#ff9a9a"/>
+    <text x="170" y="325" text-anchor="middle" fill="#caa" font-size="13">頭が前に出て、軸が折れる</text>
+  </g>
+
+  <!-- RIGHT: chin tuck -->
+  <g transform="translate(440,90)">
+    <rect x="0" y="0" width="340" height="340" rx="14" fill="#16201a" stroke="#2c4422"/>
+    <text x="170" y="36" text-anchor="middle" fill="#c8ff50" font-size="20" font-weight="800">○ 顎を引く（頭が軸上）</text>
+    <!-- vertical reference -->
+    <line x1="170" y1="70" x2="170" y2="300" stroke="#3a5a2a" stroke-width="2" stroke-dasharray="6 6"/>
+    <!-- spine straight -->
+    <line x1="170" y1="300" x2="170" y2="120" stroke="#c8ff50" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="170" cy="100" r="20" fill="#c8ff50"/>
+    <!-- string from ceiling -->
+    <line x1="170" y1="70" x2="170" y2="80" stroke="#fff" stroke-width="2"/>
+    <text x="170" y="64" text-anchor="middle" fill="#bcd29a" font-size="12">天井から吊られるイメージ</text>
+    <text x="170" y="325" text-anchor="middle" fill="#bcd29a" font-size="13">後頭部を上へ・顎を後ろへ</text>
+  </g>
+</svg>
