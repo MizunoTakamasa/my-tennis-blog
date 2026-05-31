@@ -3,7 +3,7 @@ title: "テニスのフォアハンド｜『腕・上半身・下半身』3種�
 description: "今日のレッスンの気づき。フォアハンドは『腕で打つ／上半身で打つ／下半身から打つ』の3種類で打ち分ける発想。両手フォア風バックスイングで体の捻れを感じ、踏み込みで体が捻じれる感覚を掴んだ。サーブは下半身の捻り戻し＋肩甲骨の開きと肩の入れ替えでラケットヘッドを走らせる。最後に『いないところに打つ』戦略でテニス脳を鍛える。"
 pubDate: "2026-05-30"
 cardBgImage: "/images/tennis-0530-forehand-cover.png"
-headerBgImage: "/images/tennis-0530-forehand-cover.png"
+headerBgImage: "/images/Tennis_players_demonstrating_for%E2%80%A6_202606010109.jpeg"
 ---
 
 # テニスのフォアハンド｜『腕・上半身・下半身』3種類のスイングと、サーブの捻り戻し・狙って打つテニス脳
