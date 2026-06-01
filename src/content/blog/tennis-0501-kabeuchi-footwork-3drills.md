@@ -2,6 +2,8 @@
 title: "テニス上達ノート｜壁打ちで使えるフットワークドリル3選"
 description: "壁打ちは球出しの代わりにもなる優秀な練習。スプリットステップ・左右ドリル・前後ドリルの3つを、自分用に整理してメモしておく。"
 pubDate: "2026-05-01"
+headerBgImage: "/images/Anime_tennis_player_wall_practice_202606012210.jpeg"
+cardBgImage: "/images/Anime_tennis_player_wall_practice_202606012210.jpeg"
 ---
 
 # テニス上達ノート｜壁打ちで使えるフットワークドリル3選

@@ -2,6 +2,8 @@
 title: "テニス上達ノート｜バックは腕が肩に上がるまで体を回転させない〜壁打ちの気づき"
 description: "今日の壁打ちで掴んだ3つの意識：ゆっくり振る・バックは腕が肩に上がるまで体を回転させない・呼吸を深くする。特にバックの「回転しない」意識はかなり効果的だった。ダイヤのAの投球シーンから感じたストローク・サーブへのヒントも。"
 pubDate: "2026-05-05"
+headerBgImage: "/images/Tennis_player_backhand_technique%E2%80%A6_202606012138.jpeg"
+cardBgImage: "/images/Tennis_player_backhand_technique%E2%80%A6_202606012138.jpeg"
 ---
 
 # テニス上達ノート｜バックは腕が肩に上がるまで体を回転させない〜壁打ちの気づき

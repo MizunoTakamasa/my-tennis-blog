@@ -2,6 +2,8 @@
 title: "テニス上達ノート｜サーブで「胸を張る」と反り腰になる？"
 description: "「胸を張れ」と言われて、腰が痛くなったり張ったりする人へ。胸椎で反るのと腰で反るのは別物。壁立ちセルフチェックと、自宅でできる改善ドリルまでまとめました。"
 pubDate: "2026-05-03"
+headerBgImage: "/images/Anime_tennis_serve_coaching_illu%E2%80%A6_202606012205.jpeg"
+cardBgImage: "/images/Anime_tennis_serve_coaching_illu%E2%80%A6_202606012205.jpeg"
 ---
 # 自分のサーブの現状
 
