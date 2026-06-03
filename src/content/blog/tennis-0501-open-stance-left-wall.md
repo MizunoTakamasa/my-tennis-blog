@@ -2,6 +2,8 @@
 title: "テニス上達ノート｜オープンスタンスのフォアーで「左足をつかずに」左の壁をつくる"
 description: "オープンスタンスのフォアハンドで左足に体重を流さず、左サイドを“壁”として残す感覚について。最近自分なりに気づいたことと、これから試したい練習方法をまとめる。"
 pubDate: "2026-05-01"
+headerBgImage: "/images/Anime_tennis_coaching_illustrati%E2%80%A6_202606032030.jpeg"
+cardBgImage: "/images/Anime_tennis_coaching_illustrati%E2%80%A6_202606032030.jpeg"
 ---
 
 # テニス上達ノート｜オープンスタンスのフォアーで「左足をつかずに」左の壁をつくる
