@@ -2,6 +2,8 @@
 title: "テニス サーブのトス位置で球質はどう変わるか｜フラット・スライス・スピン・キックの打ち分け完全ガイド"
 description: "テニスのサーブはトス位置で球質が決まる。前後・左右・高さの3軸で、フラットサーブ／スライスサーブ／スピンサーブ／キックサーブの打ち分けを完全解説。落下点でトス精度をチェックする方法とよくあるミスまで図解付きで初心者から中級者向けに。"
 pubDate: "2026-04-30"
+headerBgImage: "/images/Tennis_serve_toss_positions_diagram_202606042150.jpeg"
+cardBgImage: "/images/Tennis_serve_toss_positions_diagram_202606042150.jpeg"
 ---
 
 # テニス サーブのトス位置で球質はどう変わるか｜球種別の打ち分け完全ガイド
