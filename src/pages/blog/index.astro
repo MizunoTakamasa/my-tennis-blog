@@ -659,7 +659,7 @@ const posts = (await getCollection('blog')).sort(
           <!-- FEATURED：最新記事 -->
           <div class="bl-featured">
             <p class="bl-section-head">Latest Article</p>
-            <a href={`/blog/${posts[0].id}/`} class="bl-featured-card">
+            <a href={`/blog/${posts[0].id}/`} class="bl-featured-card" style={posts[0].data.cardBgImage ? `background-image: url('${posts[0].data.cardBgImage}')` : undefined}>
               <div class="bl-feat-img">
                 <div class="bl-anim-ball"></div>
                 <div class="bl-impact"></div>
