@@ -2,6 +2,8 @@
 title: "テニス上達ノート｜練習はスムーズなのに、試合でギクシャクするのはなぜ？"
 description: "練習ではスムーズに動けるのに、試合になるとギクシャクする。原因は体力でも技術でもなく「中で起きていること」。原因と対策（呼吸・ルーティン・プロセス意識・キーワード）をまとめた。"
 pubDate: "2026-04-28"
+headerBgImage: "/images/Tennis_footwork_fundamentals_exp%E2%80%A6_202606082038.jpeg"
+cardBgImage: "/images/Tennis_footwork_fundamentals_exp%E2%80%A6_202606082038.jpeg"
 ---
 
 # テニス上達ノート｜練習はスムーズなのに、試合でギクシャクするのはなぜ？

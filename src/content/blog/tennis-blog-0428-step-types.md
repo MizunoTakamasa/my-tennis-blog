@@ -2,6 +2,8 @@
 title: "テニスのステップの種類と練習方法｜一人でできるフットワーク練習【保存版】"
 description: "テニスで使うステップ5種類（スプリットステップ・サイドステップ・クロスステップ・ドロップステップ・リカバリーステップ）の使い分けと、一人でできる練習方法（ラダー・シャドー・コーン・階段ダッシュ）をまとめた完全ガイド。"
 pubDate: "2026-04-29"
+headerBgImage: "/images/Tennis_footwork_fundamentals_exp%E2%80%A6_202606071916.jpeg"
+cardBgImage: "/images/Tennis_footwork_fundamentals_exp%E2%80%A6_202606071916.jpeg"
 ---
 
 # テニスのステップの種類と練習方法｜一人でできるフットワーク練習
