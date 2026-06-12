@@ -2,6 +2,8 @@
 title: "テニス上達ノート｜サービスダッシュの足運び・軸足の使い分け・ダンスで鍛える"
 description: "サービスダッシュは左足で着地→右足で一歩前。フォアは右足軸／左足軸を状況で使い分ける。軸足を鍛えるには大腰筋トレーニングとダンスが効く。"
 pubDate: "2026-04-26"
+headerBgImage: "/images/Tennis_pivot_leg_use_explained_202606122223.jpeg"
+cardBgImage: "/images/Tennis_pivot_leg_use_explained_202606122223.jpeg"
 ---
 
 # テニス上達ノート｜サービスダッシュ・軸足・ダンス
