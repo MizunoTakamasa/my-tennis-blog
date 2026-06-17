@@ -1,7 +1,9 @@
 ---
-title: テニス練習
+title: テニス練習　サーブで、インパクト前に腰を打球方向に近づけること等を練習した日
 description: 高い打点は脇をあける。トスアップ後の右手の動きは大きくスペースを広げる。
 pubDate: 2026-04-16
+headerBgImage: "/images/ChatGPT%20Image%202026%E5%B9%B46%E6%9C%8817%E6%97%A5%2021_25_32.png"
+cardBgImage: "/images/ChatGPT%20Image%202026%E5%B9%B46%E6%9C%8817%E6%97%A5%2021_25_32.png"
 ---
 
 # テニス練習
