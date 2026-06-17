@@ -1,7 +1,9 @@
 ---
-title: テニス練習
+title: 腕は体の捻転に引き連れられて、自然に動く
 description: ストロークの本質は腕で引かない。そうすると体でボールが打てる。今までの練習が生きる。
 pubDate: 2026-04-18
+headerBgImage: "/images/Tennis_body_rotation_power_202606141445.jpeg"
+cardBgImage: "/images/Tennis_body_rotation_power_202606141445.jpeg"
 ---
 
 # ストロークの本質
