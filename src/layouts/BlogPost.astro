@@ -446,7 +446,7 @@ const { title, description, pubDate, updatedDate, heroImage, headerBgImage } = A
               <span class="ap-cat-dot"></span>
               Tennis Practice Notes
             </span>
-            <h1 class="ap-title">{title}</h1>
+            <h1 class="ap-title" set:html={title} />
             <div class="ap-meta">
               <span class="ap-date"><FormattedDate date={pubDate} /></span>
               {updatedDate && (

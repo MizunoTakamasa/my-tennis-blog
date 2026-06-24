@@ -670,7 +670,7 @@ const posts = (await getCollection('blog')).sort(
               </div>
               <div class="bl-feat-body">
                 <span class="bl-new-tag">New</span>
-                <h2 class="bl-feat-title">{posts[0].data.title}</h2>
+                <h2 class="bl-feat-title" set:html={posts[0].data.title} />
                 {posts[0].data.description && (
                   <p class="bl-feat-desc">{posts[0].data.description}</p>
                 )}
@@ -694,7 +694,7 @@ const posts = (await getCollection('blog')).sort(
                   >
                     <a href={`/blog/${post.id}/`}>
                       <span class="bl-item-num">#{String(i + 2).padStart(2, '0')}</span>
-                      <h3 class="bl-item-title">{post.data.title}</h3>
+                      <h3 class="bl-item-title" set:html={post.data.title} />
                       {post.data.description && (
                         <p class="bl-item-desc">{post.data.description}</p>
                       )}
