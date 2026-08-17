@@ -2,8 +2,8 @@
 title: 練習の成果は試合で出る？<br>サークル実践で見えたフォアの課題と3球目対策｜2026年8月15日
 description: サークルで初めて試合形式に挑戦。サーブは自信あり、バックは待てた。でもフォアは「ポヨーン」が2回。正直な現在地と次の目標、そして振動止め購入の話。
 pubDate: 2026-08-15
-headerBgImage: "/images/tennis-0815-circle-match-header.png"
-cardBgImage: "/images/tennis-0815-circle-match-header.png"
+headerBgImage: "/images/Tennis_player_executing_powerful…_202608152153.jpeg"
+cardBgImage: "/images/Tennis_player_executing_powerful…_202608152153.jpeg"
 ---
 
 # 8月15日サークル練習振り返り
