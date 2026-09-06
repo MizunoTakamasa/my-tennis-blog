@@ -19,6 +19,8 @@ cardBgImage: "/images/tennis-0906-circle-body-hit-weight-shift-relaxation-header
 
 壁打ちで意識してきた「肩を入れる」「体重移動する」「腕を脱力する」が、実際のラリーの中でつながってきた感覚がある。ボールの質も変わってきた実感があった。
 
+また、**リターンがうまく返せた**場面もあった。
+
 ---
 
 ## 意識できたこと
