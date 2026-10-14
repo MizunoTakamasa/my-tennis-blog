@@ -1,6 +1,6 @@
 ---
-title: "高い打点を打てたのに打たなかった：試合の消極性とサーブ崩れの記録、うまい人は格上をどう見るか調査｜2026年10月12日"
-description: "今日は何か楽しかった。でも試合で高い打点を見逃した消極性、靴忘れで練習量不足、サーブ崩れの3つの課題が残った。そして調査：テニスのうまい人は自分より強い相手をどう見ているのか。"
+title: "高い打点を打てたのに打たなかった：試合の消極性とレベルアップの決断、うまい人は格上をどう見るか調査｜2026年10月12日"
+description: "今日は何か楽しかった。でも試合で高い打点を見逃した消極性、靴忘れで練習量不足、サーブ崩れの課題が残った。ブロックリターン練習をきっかけに、レベルの高いグループへ移った。そして調査：テニスのうまい人は格上をどう見ているのか。"
 pubDate: 2026-10-12
 tags: ["テニス", "テニス上達", "試合", "サーブ", "メンタル", "調査", "テニス日記"]
 headerBgImage: "/images/tennis-1012-match-high-ball-serve-research-how-good-players-see-better-players-header.png"
@@ -41,6 +41,20 @@ cardBgImage: "/images/tennis-1012-match-high-ball-serve-research-how-good-player
 
 ---
 
+## ブロックリターン練習と、レベルを上げた理由
+
+今日はブロックリターンの練習もした。
+
+自分がサーブを打っていたとき、相手がネット前にいる場面で「ノーカウント」と言われた。緩いサーブだからいい、という理由だった。
+
+でも自分はそう思わなかった。緩くてもミスはミスだ。そう見たほうがいい。
+
+それに、このサークルには、1球1球を無駄にしないように打っている上級者の中学生がいることを知っていた。その姿勢を知っていながら、「緩いからいい」という感覚でいることは、試合ではマイナスになる。
+
+だから、もう一つ上のレベルの高いグループに移った。
+
+---
+
 ## 調査：テニスのうまい人は、格上をどう見ているのか
 
 今日、ひとつ調べた。テニスのうまい人は、自分よりうまい相手を見てどう感じるのか。テニスならではの感じ方がいくつかある。
@@ -76,15 +90,16 @@ cardBgImage: "/images/tennis-1012-match-high-ball-serve-research-how-good-player
 | 課題② | 靴忘れで練習量が少なかった |
 | 課題③ | 試合でサーブが崩れた |
 | サーブの意識 | ボールの上を打つ・打つ方向に体重を移動 |
+| 決断 | 緩くてもミスはミス。レベルの高いグループへ移った |
 | 調査 | うまい人は格上の球質・動き・圧力を体で感じている |
 
 ---
 
 ## 練習に役立つグッズ
 
-もっとテニスを科学したいと思って、下記の本を上げてみた。
+一人でも打ち返してくれる自主練グッズ。打ち込みの感覚を繰り返し練習したい方にぴったりです。
 
-<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17679362%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/3951bbcb.8602ee86.3951bbcc.857f66a1/?me_id=1213310&item_id=21103679&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F5535%2F9784583115535_1_4.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17679362%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">テニス丸ごと一冊戦略と戦術4 ドリル編 [ 堀内 昌一 ]</a><br><span >価格：1,980円（税込、送料無料)</span> <span style="color:#BBB">(2026/10/12時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17679362%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17679362%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/52e73fa6.b49a7fc0.52e73fa7.e72ff59a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftennis%2Fjotatsu_004_4%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/52e73fa6.b49a7fc0.52e73fa7.e72ff59a/?me_id=1197975&item_id=10005128&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Ftennis%2Fcabinet%2Fitempages%2Fimprovegoods%2F12-000124-main-18.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:136px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/52e73fa6.b49a7fc0.52e73fa7.e72ff59a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftennis%2Fjotatsu_004_4%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">テニスガイド2 ウィニングショット テニス 練習機 硬式テニス 練習ボール 素振り 硬式 グッズ トレーニング テニス練習 屋内 キッズ ジュニア ひとり 練習 器具 テニスガイド テニス小物 テニス用品 テニスグッズ プレゼント 上達 一人 上級者 室内 折り畳み 初心者</a><br><span >価格：39,600円（税込、送料無料)</span> <span style="color:#BBB">(2026/10/12時点)</span></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
 
 ---
 
