@@ -41,7 +41,7 @@ tags: ['テニス', 'ストローク', 'スタンス', '壁打ち', 'フォア�
 
 バックハンドは、打点の確認を忘れてしまっていた。でも、ボールの落ち際をとらえることはできた。
 
-落ち際という共通のタイミングで打つことで、フォアもバックも同じ感覚に近づいてきた気がする。
+落ち際という共通のタイミングで打つことで、フォアもバックも縦回転をかけられる感覚がつかめてきた。
 
 ### ストロークの疑問が解消した
 
@@ -71,10 +71,6 @@ tags: ['テニス', 'ストローク', 'スタンス', '壁打ち', 'フォア�
 
 ## テニスの上達に使っているもの
 
-{{< affiliate >}}
+テニスのストロークの練習でつかってみたいものを下記に示しました。
 
-<div style="margin:20px 0;">
-  <a href="https://hb.afl.rakuten.co.jp/ichiba/52e73fa6.b49a7fc0.52e73fa7.e72ff59a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftennis%2Fjotatsu_004_4%2F&link_type=text&ut=eyJ0eXBlIjoiYWZmaWxpYXRlIiwicGMiOiJodHRwczovL2l0ZW0ucmFrdXRlbi5jby5qcC90ZW5uaXMvam90YXRzdV8wMDRfNC8ifQ%3D%3D" target="_blank" rel="nofollow sponsored noopener">
-    【テニス上達DVD】テニスガイド2 ウィニングショット（2026/10/15時点）
-  </a>
-</div>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/52fc8361.a8329d8c.52fc8362.753ad555/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000831967%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/52fc8361.a8329d8c.52fc8362.753ad555/?me_id=1264309&item_id=10397562&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fhimaraya%2Fcabinet%2F0000000831e%2F0000000831967_r1_01.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/52fc8361.a8329d8c.52fc8362.753ad555/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000831967%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">カルフレックス テニス 練習器具 一般用硬式テニストレーナー TT-11 CALFLEX</a><br><span >価格：1,650円（税込、送料別)</span> <span style="color:#BBB">(2026/10/18時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/52fc8361.a8329d8c.52fc8362.753ad555/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000831967%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/52fc8361.a8329d8c.52fc8362.753ad555/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000831967%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
