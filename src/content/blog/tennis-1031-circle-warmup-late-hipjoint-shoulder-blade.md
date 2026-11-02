@@ -17,9 +17,9 @@ cardBgImage: "/images/tennis-1031-circle-warmup-late-hipjoint-shoulder-blade-hea
 
 アップ不足のまま本練習に入ることになった。
 
-**時間を守ることが、テニスのうまさに直結する。**
+**時間を守ることが、テニスのうまさに直結すると感じた。**
 
-当たり前のことかもしれないが、今日改めて体で感じた。次からは余裕を持って来て、ミニラリーからきちんと入る。それだけで違いが出るはずだ。
+当たり前のことかもしれないが、次からは時間通りに来るようにしようと思った。
 
 ---
 
@@ -37,13 +37,6 @@ cardBgImage: "/images/tennis-1031-circle-warmup-late-hipjoint-shoulder-blade-hea
 
 ---
 
-## サークルで花を咲かせたい
-
-今のサークルで花を咲かせたい。
-
-そのために今、練習を積み重ねている。楽しみながら、頑張っていこうと思う。
-
----
 
 ## 股関節と肩甲骨を使うために
 
@@ -55,13 +48,12 @@ cardBgImage: "/images/tennis-1031-circle-warmup-late-hipjoint-shoulder-blade-hea
 
 **肩甲骨のストレッチ**は、前後・上下に動かす。肩甲骨が動くと、腕の振りに体のしなりが加わる。
 
-**股関節のストレッチ**は、前・後ろ・横に伸ばす。股関節が柔らかくなると、フットワークの幅と打点の安定につながる。
+**股関節のストレッチ**は、前・後ろ・横に伸ばす。
+**アジリティ**は、足を小刻みに動かす。
 
-**アジリティ**は、足を小刻みに動かして、足の動き出しを速くする。
+これらをやったからといって、すぐに股関節や肩甲骨を使えるショットが打てるかはわからない。でも、股関節が動きやすくなると、股関節が使いやすくなるように感じた。
 
-これらをやったからといって、すぐに股関節や肩甲骨を使えるショットが打てるかはわからない。でも、体が柔らかくなることでショットに影響が出ると思っている。
-
-遅刻せず、練習前にやる。それが目標だ。
+遅刻せず、練習前にやります。
 
 ---
 
@@ -73,7 +65,6 @@ cardBgImage: "/images/tennis-1031-circle-warmup-late-hipjoint-shoulder-blade-hea
 | 気づき① | 時間を守ることがテニス上達につながる |
 | 取り組み | 上体の捻り→軸足→前足→体をぶつける |
 | 試合 | 風があり弱気になったが、練習通りを念じるといいと思った。 |
-| 目標 | 今のサークルで花を咲かせる |
 | 追加ルーティン | 肩甲骨（前後・上下）・股関節（前後横）・アジリティ |
 | タイミング | 遅刻せず、練習前に実施 |
 
@@ -81,9 +72,9 @@ cardBgImage: "/images/tennis-1031-circle-warmup-late-hipjoint-shoulder-blade-hea
 
 ## テニスの上達に使っているもの
 
-自主練に追加ってもいいかなと思うグッズです。
+メンタルは試合だけでなく、練習でも必要と感じ、今回はメンタル本にしてみました。
 
-<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/58ff090c.1c3028d6.58ff090d.3fe273a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-nexus%2Fcode068%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/58ff090c.1c3028d6.58ff090d.3fe273a3/?me_id=1409836&item_id=10000081&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fkurashi-nexus%2Fcabinet%2Fcode068%2Fcone_pylon_1_1.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/58ff090c.1c3028d6.58ff090d.3fe273a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-nexus%2Fcode068%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">＼楽天ランキング1位／【現役トレーナー監修】マーカーコーン 25枚 50枚 サッカー マーカー マーカー サッカー カラーコーン ミニ ミニコーン サッカー コーン カラーコーン フラットマーカー 三角コーン 三角コーン ミニカラーコーン トレーニング 耐久性 軽量 高め 高耐久</a><br><span >価格：1,580円～（税込、送料無料)</span> <span style="color:#BBB">(2026/10/31時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/58ff090c.1c3028d6.58ff090d.3fe273a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-nexus%2Fcode068%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/58ff090c.1c3028d6.58ff090d.3fe273a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-nexus%2Fcode068%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18097401%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/3951bbcb.8602ee86.3951bbcc.857f66a1/?me_id=1213310&item_id=21483884&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F1768%2F9784534061768_1_3.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18097401%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">科学的に脳と心を覚醒させる　最強のメンタルトレーニング [ 西田 一見 ]</a><br><span >価格：1,760円（税込、送料無料)</span> <span style="color:#BBB">(2026/11/2時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18097401%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18097401%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
 
 ---
 
