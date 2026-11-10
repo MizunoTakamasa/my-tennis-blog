@@ -20,7 +20,7 @@ tags: ['テニス', '打点', 'バックハンド', 'フォアハンド', 'サ�
 **フォアハンドは前で打つ。** ラケットを振り上げていく位置でとらえる。遅れると力が伝わらないし、ミートもぶれる。
 ## 家での素振り
 
-練習前に家でも素振りをした。意識したのは3つ。
+昼トレの後に、家でも素振りをした。意識したのは3つ。
 
 ひとつめは**下半身リード**。腕や肩から振るのではなく、下半身が先に動いて、そこに上半身がついてくる感覚を手に入れたい。
 
@@ -46,21 +46,20 @@ tags: ['テニス', '打点', 'バックハンド', 'フォアハンド', 'サ�
 
 ## ボレーのポイント
 
-ボレーでミスが多いと感じたので、今日は意識を変えた。
 
 **視線がしっかり入る位置でボールをとらえる。** ボールが視線に入っている位置で打つだけで、接触面がブレなくなる。
 
-**真っすぐ飛ばすには横向きをキープする。** 横向きのまま当てると、面はまっすぐ向くし、ボールが視線に入っている。
+**真っすぐ飛ばすには横向きをキープする。** 横向きのまま当てると、面はまっすぐ向くし、ボールが視線に入っているので、その前との説明と矛盾もない。
 
-## ストロークの基本に戻る
+## ストロークの基本
 
-今日のレッスンで改めて確認したのは、ストロークの基本的な動きだ。
+今日のレッスンで指導を受けたのは、ストロークの動きだ。
 
 **上体をひねった状態で実際に打つ地点に入り、そこから下半身リードで解放する。あとは、ボールと視線を近くするために、スタンスを広くとって、目線を下げる。**
 
 ## サーブの感覚
 
-サーブについては、先生から教わったことを頭に整理した。
+サーブについては、先生から教わったことを整理する。
 
 **地面から上に向かって力を流す。** 足で地面を踏んで、その力をそのまま上に向けて使う。**体をヒットするまで曲げない。視線はボールを見続ける。胸が上に向く。**
 
@@ -76,6 +75,6 @@ tags: ['テニス', '打点', 'バックハンド', 'フォアハンド', 'サ�
 
 ## テニスの上達に使っているもの
 
-本当は今のスクールの先生を紹介したいところです。昨日のレッスンで、4日連続になり、先生にうまくなった。中級に上がりなさいと言われた。でも、その先生は中級を担当していないので初中級に居続けるかも、見てくれるので大変感謝しています。うまくなって、感謝を示したいと思っています。
+本当は今のスクールの先生を紹介したいところです。昨日のレッスンで、4日連続になり、先生にうまくなった。中級に上がりなさいと言われた。でも、その先生は中級を担当していないので初中級に居続けるかもです。見てくれるので大変感謝しています。うまくなって、感謝を示したいと思っています。
 
 <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14494939%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/3951bbcb.8602ee86.3951bbcc.857f66a1/?me_id=1213310&item_id=18223210&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0399%2F4562474180399.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14494939%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">奇跡のレッスン～世界の最強コーチと子どもたち～ テニス編 ダビッド・サンズ・リバス [ (ドキュメンタリー) ]</a><br><span >価格：3,764円（税込、送料無料)</span> <span style="color:#BBB">(2026/10/14時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14494939%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14494939%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
