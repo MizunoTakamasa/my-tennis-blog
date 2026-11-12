@@ -9,7 +9,7 @@ cardBgImage: "/images/tennis-1012-match-high-ball-serve-research-how-good-player
 
 ## 今日のテニス
 
-何か楽しかった。
+今日はサークル　何か楽しかった。
 
 うまく説明できないけれど、コートにいること自体が楽しかった。それだけで今日は来た価値があった。ただ、課題がいくつか残った。
 
@@ -84,7 +84,7 @@ cardBgImage: "/images/tennis-1012-match-high-ball-serve-research-how-good-player
 
 | 項目 | 内容 |
 |------|------|
-| 全体 | 楽しかった |
+| 全体 | 今日はサークル、何か楽しかった |
 | 課題① | 高い打点を見逃した（打てたのに打たなかった） |
 | 課題② | 靴忘れで練習量が少なかった |
 | 課題③ | 試合でサーブが崩れた |
