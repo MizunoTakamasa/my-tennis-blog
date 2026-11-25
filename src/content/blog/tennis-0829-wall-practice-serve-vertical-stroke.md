@@ -27,7 +27,7 @@ cardBgImage: "/images/tennis-0829-wall-practice-serve-vertical-stroke-header.png
 
 **腕の力はなるべく抜く。動きで打つ。タイミングで打つ。**
 
-力任せに振るのではなく、スキージャンプの縦の動きを使って、体の動きがボールにそのまま伝わるように意識した。
+力任せに振るのではなく、スキージャンプの動き（股関節の曲げを延ばす）を使って、体の動きがボールにそのまま伝わるように意識した。
 
 腕に力が入りすぎると、動きがバラバラになる。脱力してタイミングで合わせることで、動きとボールが一致してくる感覚があった。
 
@@ -37,7 +37,7 @@ cardBgImage: "/images/tennis-0829-wall-practice-serve-vertical-stroke-header.png
 
 バックハンドも同じように手出しで練習してみたが、**手出しバックは中々難しい**と感じた。
 
-フォアと違い、バックは手出しの方向と打つ方向が複雑に絡み合う。今後も繰り返して感覚を磨いていきたい。
+バックは、まだ体で打てている感覚が取れていないからと感じた。
 
 ---
 
@@ -59,7 +59,7 @@ cardBgImage: "/images/tennis-0829-wall-practice-serve-vertical-stroke-header.png
 **④ トスは体で上げること**
 腕だけでトスを上げるのではなく、体全体を使ってトスを上げる意識を持った。
 
-4つを同時に意識するのは決して簡単ではないが、一つひとつ繰り返すことで少しずつ体に入ってくる感覚がある。
+4つを同時に意識するのは決して簡単ではないが、一つひとつ繰り返すことで少しずつ覚えていきたい。
 
 ---
 
@@ -79,9 +79,9 @@ cardBgImage: "/images/tennis-0829-wall-practice-serve-vertical-stroke-header.png
 
 ## 練習に役立つグッズ
 
-一人でも打ち返してくれる自主練グッズ。打ち込みの感覚を繰り返し練習したい方にぴったりです。
+やっぱり、真理をつかむには学習です。
 
-<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/52e73fa6.b49a7fc0.52e73fa7.e72ff59a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftennis%2Fjotatsu_004_4%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/52e73fa6.b49a7fc0.52e73fa7.e72ff59a/?me_id=1197975&item_id=10005128&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Ftennis%2Fcabinet%2Fitempages%2Fimprovegoods%2F12-000124-main-18.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:136px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/52e73fa6.b49a7fc0.52e73fa7.e72ff59a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftennis%2Fjotatsu_004_4%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">テニスガイド2 ウィニングショット テニス 練習機 硬式テニス 練習ボール 素振り 硬式 グッズ トレーニング テニス練習 屋内 キッズ ジュニア ひとり 練習 器具 テニスガイド テニス小物 テニス用品 テニスグッズ プレゼント 上達 一人 上級者 室内 折り畳み 初心者</a><br><span >価格：39,600円（税込、送料無料)</span> <span style="color:#BBB">(2026/8/29時点)</span></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14869271%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/3951bbcb.8602ee86.3951bbcc.857f66a1/?me_id=1213310&item_id=18539819&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F6409%2F9784408456409.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14869271%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">テニスの教え方、教えます！ （パーフェクトレッスンブック） [ 綿貫弘次 ]</a><br><span >価格：1,650円（税込、送料無料)</span> <span style="color:#BBB">(2026/11/25時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14869271%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/3951bbcb.8602ee86.3951bbcc.857f66a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14869271%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
 
 ---
 
